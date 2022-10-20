@@ -34,10 +34,14 @@ Coming soon!
 
 ### Adding or Modifying Attenuating Object Profiles
 
-With the Attenuating Objects tool activated, the Draw Attenuating Object pane will appear on the right. Click the **Add or Modify** button at the bottom.
+With the Attenuating Objects tool activated, the Attenuating Object pane will appear on the right. Click the **Add or Modify** button at the bottom.
 
-The Object Editor window will appear. From here, you can:
+The Attenuating Object Editor window will appear. From here, you can:
 
 * Edit existing objects (click on the profile to edit it)
 * Duplicate object profiles to create your own (click the **Duplicate** button in the object profile)
 * Create your own (click the Add a custom wall button)
+
+{% hint style="info" %}
+Editing objects only affect the profiles in the project. Your other projects (and any new projects that you create) will be completely unaffected.
+{% endhint %}
