@@ -24,8 +24,20 @@ With the left mouse button, click and drag from one corner of the object to the 
 While drawing attenuating objects, hold down the `space` bar and move the mouse to pan! Since this panning method doesn't require any mouse clicks, it works great during drawing.
 {% endhint %}
 
-## Measuring Attenuating Objects
+## Custom Attenuating Objects
+
+### Measuring Attenuating Objects
 
 {% hint style="info" %}
 Coming soon!
 {% endhint %}
+
+### Adding or Modifying Attenuating Object Profiles
+
+With the Attenuating Objects tool activated, the Draw Attenuating Object pane will appear on the right. Click the **Add or Modify** button at the bottom.
+
+The Object Editor window will appear. From here, you can:
+
+* Edit existing objects (click on the profile to edit it)
+* Duplicate object profiles to create your own (click the **Duplicate** button in the object profile)
+* Create your own (click the Add a custom wall button)
