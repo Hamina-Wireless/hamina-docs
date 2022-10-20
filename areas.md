@@ -4,9 +4,15 @@
 
 Hamina supports both in-scope and out-of-scope zones.
 
+{% hint style="info" %}
+More details coming soon!
+{% endhint %}
+
 ## Drawing Zones
 
-Coming soon.
+{% hint style="info" %}
+Coming soon!
+{% endhint %}
 
 ## Editing Zones
 
