@@ -5,7 +5,7 @@
 * [🏭 Managing Maps and Floors](managing-maps-and-floors.md)
 * [📏 Scaling Maps](scaling-maps.md)
 * [🏗 Walls](walls.md)
-* [📦 Attenuating Areas](attenuating-areas.md)
+* [📦 Attenuating Objects](attenuating-objects.md)
 * [🔥 Heatmaps](heatmaps.md)
 * [📍 Areas](areas.md)
 
