@@ -23,11 +23,15 @@ Access heatmap options by clicking on the Heatmap drop-down menu at the top of H
 
 ## 4G/5G
 
+{% hint style="info" %}
 Coming soon!
+{% endhint %}
 
 ## BLE
 
+{% hint style="info" %}
 Coming soon!
+{% endhint %}
 
 ## Adjusting Requirements
 
