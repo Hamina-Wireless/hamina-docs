@@ -20,6 +20,10 @@ With the left mouse button, click and drag from one corner of the object to the 
 2. **Left-click** to create each node.
 3. When the final node has been placed, **right-click** to stop drawing and complete the attenuating object.
 
+{% hint style="success" %}
+While drawing attenuating objects, hold down the `space` bar and move the mouse to pan! Since this panning method doesn't require any mouse clicks, it works great during drawing.
+{% endhint %}
+
 ## Measuring Attenuating Objects
 
 {% hint style="info" %}
