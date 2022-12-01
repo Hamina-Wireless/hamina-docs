@@ -10,7 +10,7 @@ If Hamina Network Planner is missing an access point or antenna, Hamina Wireless
 
 The process of adding an access point or antenna to Hamina is pretty technical, specifically requiring our development team to programmatically input the 2D antenna patterns and interpolate them to create 3D patterns for each frequency band.
 
-Unfortunately, this means that you can't add them yourself, but you can email us at **support@hamina.com** with our request.
+Unfortunately, this means that you can't add them yourself, but you can email us at **support@hamina.com** with your request.
 
 1. Email support@hamina.com with your request
 2. Hamina will contact the vendor to request antenna patterns and specifications
