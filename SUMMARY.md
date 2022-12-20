@@ -7,7 +7,7 @@
 * [🏗 Walls](walls.md)
 * [📦 Attenuating Objects](attenuating-areas.md)
 * [🔥 Heatmaps](heatmaps.md)
-* [📍 Scope Zones](scope-zones.md)
+* [📍 Scope Zones](areas.md)
 
 ## ⚡ Network Design
 
