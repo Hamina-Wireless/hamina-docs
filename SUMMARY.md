@@ -12,6 +12,7 @@
 ## ⚡ Network Design
 
 * [📶 Access Points](network-design/access-points.md)
+* [📺 Channel Planning](network-design/channel-planning.md)
 * [↔ Switches](network-design/switches.md)
 * [📞 Wired Clients](network-design/wired-clients.md)
 * [📱 Client View](network-design/client-view.md)
