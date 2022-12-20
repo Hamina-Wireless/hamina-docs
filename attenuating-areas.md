@@ -14,7 +14,7 @@ Use Attenuating Objects to model large obstacles. Don't worry about smaller obje
 
 With the left mouse button, click and drag from one corner of the object to the opposite corner, and release the mouse button.
 
-### Complex Shapes
+### Free-Form Attenuating Objects
 
 1. Much like drawing walls, **right-click** to begin drawing the attenuating object.
 2. **Left-click** to create each node.
