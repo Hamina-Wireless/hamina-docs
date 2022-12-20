@@ -41,12 +41,14 @@ To draw a rectangular scope zone:
 4. A rectangular Scope Zone and Scope Zone Toolbar will appear.
 
 {% hint style="success" %}
-With the **Scope Zone Toolbar**, you can manually switch between In Scope and Out of Scope Zones, and delete the zone.
+With the **Scope Zone Toolbar**, you can manually switch between In Scope and Out of Scope Zones.
 {% endhint %}
 
 ### Drawing Free-Form Scope Zones
 
-Drawing free-form scope zones allow you to create arbitrary shapes (which is especially useful for drawing the perimeter of a building). Free-form scope zones draw very similar to walls in Hamina. To draw a free-form scope zone:
+Drawing free-form scope zones allow you to create arbitrary shapes (which is especially useful for drawing the perimeter of a building). Free-form scope zones draw very similarly to walls in Hamina.&#x20;
+
+To draw a free-form scope zone:
 
 1. Select the **In/Out of Scope Zone** tool in the toolbar.
 2. Left-click on the map to place the first point
