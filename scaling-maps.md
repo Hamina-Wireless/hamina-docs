@@ -18,6 +18,10 @@ There are several ways to get the scale of a map.
 The key to a good scale is to use as long of an object as possible. Using short objects is dangerous, as being a few pixels off can cause exponential scale problems on large maps.
 {% endhint %}
 
+{% hint style="danger" %}
+Avoid using short distances like doorways! Using a short distance to set the scale can cause the scale to drift over larger distances. Hamina strongly recommends using longer objects like the length of the building, a long hallway, or a gymnasium-sized room to set the scale.
+{% endhint %}
+
 ### Using the Built-in Scale
 
 In some cases, image-based maps (such as JPEG's, PNG's, and PDF's) may have a scale marker built-in. If this is true on your map, then congratulations! You have won the network design lottery, and can easily [scale your map](https://app.gitbook.com/o/rTVfxjULR4EKN01QWb8X/s/zUQ3TfKTYBeb6nf9W8Hv/\~/changes/AFLrpuKEHkIHIvtepKsV/scaling-maps#setting-the-scale).
