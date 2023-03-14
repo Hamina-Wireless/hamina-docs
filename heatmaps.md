@@ -15,10 +15,10 @@ Access heatmap options by clicking on the Heatmap drop-down menu at the top of H
 ### Wi-Fi
 
 * **Coverage**: Shows signal strength from the loudest access point.
-* S**econdary coverage**: Shows signal strength from the second loudest access point, which helps ensure that there are always at least two access points above a certain signal strength threshold. Important for redundancy and smooth roaming performance.
+* **Secondary coverage**: Shows signal strength from the second loudest access point, which helps ensure that there are always at least two access points above a certain signal strength threshold. Important for redundancy and smooth roaming performance.
 * **Tertiary coverage**: Shows signal strength from the third loudest access point, which helps ensure that there are always at least three access points above a certain signal strength threshold. Primary used for Wi-Fi-based real-time location services.
 * **SNR**: The Signal-to-noise Ratio shows how much signal strength there is above the noise floor.
-* **Interference**: Shows how much co-channel interference is occurring.
+* **Interference**: Shows how many access points are audible on the same channel above -82 dBm, which is also the threshold that trips Carrier Sense when a radio is performing a Clear Channel Assessment. You can learn more about Clear Channel Assessments in [CWNP - 802.11 Arbitration (Page 9)](https://www.cwnp.com/uploads/802-11\_arbitration.pdf).
 * **Data rate**: Shows the theoretical maximum data rate available, based on on the SNR.
 
 ## 4G/5G

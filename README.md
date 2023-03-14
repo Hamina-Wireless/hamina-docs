@@ -44,10 +44,24 @@ If this is the first time you've logged into Hamina Network Planner, then you pr
 * Add project notes
 * Add floor plans
 * Set the scale
+* Create in/out of scope zones
 * Add map notes
+* Use the client view
+* Invite others to collaborate on your project
+
+If you don't have a subscription, you won't be able to:
+
+* Select the Edit tool
+* Draw walls or attenuating objects
+* Place or move access points
+* Place or move switches or PoE clients
+* Create new reports
+* Open previous reports
+* Retrieve existing online report sharing links
+* View or edit the Bill of Materials
 
 {% hint style="info" %}
-If you are a wireless network engineer or designer, then the "free mode" in Hamina probably isn't for you. That said, it will come in hand for sharing projects with your sales team, or customers who want a "read-only" view of your work in Hamina.
+If you are a wireless network engineer or designer, then the "free mode" in Hamina probably isn't for you. That said, it will come in handy for sharing projects with your sales team, or customers who want a "read-only" view of your work in Hamina.
 {% endhint %}
 
 To subscribe to Hamina Network Planner, click on the **Upgrade** button in the upper right, choose between **Hamina Network Planner** and **Hamina Network Planner Plus**, and click the **Buy** button. You will be taken to another page where you can complete your purchase.

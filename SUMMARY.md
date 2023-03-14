@@ -17,11 +17,14 @@
 * [📞 Wired Clients](network-design/wired-clients.md)
 * [📱 Client View](network-design/client-view.md)
 * [🌳 Outdoor Planning](network-design/outdoor-planning.md)
+* [📶 Private Cellular Planning](network-design/private-cellular-planning.md)
 
 ***
 
 * [🤝 Project Sharing](project-sharing.md)
 * [📓 Notes](notes.md)
 * [📒 Reporting](reporting.md)
-* [🔁 Importing and Exporting](importing-and-exporting.md)
+* [🔁 Importing and Exporting](importing-and-exporting/README.md)
+  * [Meraki integration](importing-and-exporting/meraki-integration.md)
 * [📡 Requesting AP's and Antennas](requesting-aps-and-antennas.md)
+* [🔑 Hamina Accounts and Licenses](hamina-accounts-and-licenses.md)
