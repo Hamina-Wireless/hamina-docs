@@ -8,7 +8,7 @@ description: >-
 
 ## Managing Heatmaps
 
-Access heatmap options by clicking on the Heatmap drop-down menu at the top of Hamina. You can choose the Technology, Heatmap, and Band (for Wi-Fi).
+Access heatmap options by clicking on the **Heatmap** drop-down menu at the top of Hamina. You can choose the **Technology**, **Heatmap**, and **Band** (for Wi-Fi).
 
 ## Heatmaps
 
@@ -23,15 +23,17 @@ Access heatmap options by clicking on the Heatmap drop-down menu at the top of H
 
 ## 4G/5G
 
-{% hint style="info" %}
-Coming soon!
-{% endhint %}
+* **Max RSRP**: Shows the signal strength from the loudest celllar base station, in RSRP (Reference Signal Received Power).
+* **Secondary RSRP**: Shows the signal strength from the second loudest base station.
+* **Tertiary RSRP**: Shows the signal strength from the third loudest base station.
+* **SINR**: Shows the signal quality in SINR (Signal to Interference & Noise Ratio).
+* **Downlink throughput**: Shows the expected throughput on the downlink, that is from the base station to the client device.
 
 ## BLE
 
-{% hint style="info" %}
-Coming soon!
-{% endhint %}
+* **Coverage**: Shows signal strength from the loudest BLE-enabled access point or BLE beacon.
+* **Secondary Coverage**: Shows signal strength from the second loudest BLE-enabled access point or BLE beacon.
+* **Tertiary Coverage**: Shows signal strength from the third loudest BLE-enabled access point or BLE beacon.
 
 ## Adjusting Requirements
 
