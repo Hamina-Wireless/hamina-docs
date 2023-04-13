@@ -42,25 +42,25 @@ If you can't easily get on site to take a measurement, then Google Earth is a gr
 
 1. Navigate to [https://earth.google.com/web/](https://earth.google.com/web/).
 2. Use the **Search** tool to locate the building.\
-   ![](.gitbook/assets/Search.jpeg)
+   ![](../.gitbook/assets/Search.jpeg)
 3. Use Google Earth's camera controls to center the building. Selecting **2D** in the lower right can be helpful.
 4. Select the **Measure distance and area** tool.\
-   ![](<.gitbook/assets/Google Earth Measure.jpeg>)
+   ![](<../.gitbook/assets/Google Earth Measure.jpeg>)
 5. On the building, choose two points that are opposite of each other to measure. It is always a good idea to use the longest part of the building to get the most accurate scale.
 6. Click on the first point, then the second point. The **Distance** measurement window will appear, showing the distance in meters.\
-   ![](<.gitbook/assets/Measurement Points.png>)
+   ![](<../.gitbook/assets/Measurement Points.png>)
 7. Click Done to capture the distance, It will remain on-screen in Google Earth until you take further action.
 8. You can now proceed to Setting the Scale in Hamina.
 
 ## Setting the Scale
 
 1. Click the **Scale** tool in the toolbar on the left\
-   ![](<.gitbook/assets/Scale tool.png>)
+   ![](<../.gitbook/assets/Scale tool.png>)
 2. Alternatively, click the blue **Add scale** button in the lower right.\
-   ![](<.gitbook/assets/Add Scale.png>)
+   ![](<../.gitbook/assets/Add Scale.png>)
 3. Left-click on the map, where the first point of the measurement was taken. A blue line will appear that follows the mouse pointer.
 4. Left-click on the map again, where the second point of the measurement was taken. The blue line will snap between the two points, and the length setting popup will appear.\
-   ![](<.gitbook/assets/Set Scale.gif>)
+   ![](<../.gitbook/assets/Set Scale.gif>)
 5. Press the **Enter** key, or click the **Set** button to set the scale.
 
 ## Measuring Distances in Hamina

@@ -1,32 +1,36 @@
-# Meraki integration
+---
+description: Learn how to configure Meraki and Hamina for importing and exporting designs.
+---
 
-This page provides information about integrating Meraki with our wireless planner tool. With this integration, you can import floor plans, access points, and radio details from your Meraki network into Hamina. You can also export access points and floor plans from Hamina back to your Meraki network.
+# 💬 Meraki
 
-To get started, you'll need to enable API access in your Meraki organization and create API keys. Once you've completed that step, our step-by-step instructions will guide you through the process of importing and exporting data between Hamina and Meraki.
+With the integration between Hamina and Meraki, you can import floor plans, access points, and radio details from your Meraki network into Hamina. You can also export access points and floor plans from Hamina back to the Meraki cloud.
 
-## Enabling API access
+To get started, you'll need to enable API access in your Meraki organization, and create API keys. Once API access is enabled, our step-by-step instructions will guide you through the process of importing and exporting data between Hamina and Meraki.
+
+## Enabling API Access
 
 In order to use Hamina integration with your Meraki organization, you have to make sure that API access is enabled in the organization. You can enable API access in Meraki Dashboard portal by navigating to **Organization > Settings > Dashboard API access**:
 
 <figure><img src="../.gitbook/assets/image (1).png" alt="enable organization API access"><figcaption></figcaption></figure>
 
-## Creating API key
+## Creating API Key
 
-Hamina integration uses Meraki Dashboard user's API key for communicating with Meraki API. The API key will inherit the same permissions as that account that created the API key.
+Hamina integration uses Meraki Dashboard user's API key for communicating with the Meraki API. The API key will inherit the same permissions as that account that created the API key.
 
-You can create a new API key from **my profile** page in Meraki Dashboard portal.
+You can create a new API key from **My Profile** page in Meraki dashboard.
 
 <figure><img src="../.gitbook/assets/image (3).png" alt="generate API key"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-**Note**: Your API key provides access to all organizations with the API enabled. Keep it safe to prevent unauthorized access and potential security breaches.
+**Note**: Your API key provides access to all organizations with the API enabled. Keep it secret, and keep it safe to prevent unauthorized access.
 {% endhint %}
 
 For more information, see [Meraki documentation about API access](https://documentation.meraki.com/General\_Administration/Other\_Topics/Cisco\_Meraki\_Dashboard\_API).
 
-## Importing floor plans
+## Importing Floor Plans
 
-To initiate the import process, start by clicking on the import button located under your project name in the left menu. This will open the import modal. From the vendor list, select Meraki and enter your API key. You can also specify the region you want to connect to. Once you have entered the connection credentials, click on the continue button.
+To initiate the import process, start by clicking on the import button located under your project name in the left menu. This will open the import modal. From the vendor list, select **Meraki** and enter your API key. You can also specify the region you want to connect to. Once you have entered the connection credentials, click the **Continue** button.
 
 <figure><img src="../.gitbook/assets/image (2).png" alt="input Meraki Dasboard API key"><figcaption></figcaption></figure>
 
@@ -36,4 +40,4 @@ Next, select the floor plans you want to import. Any floor plans that you have n
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Once you have made your selections, click on the import button to start the import operation.
+Once you have made your selections, click on the **Import** button to start the import operation.

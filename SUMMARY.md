@@ -1,30 +1,38 @@
 # Table of contents
 
+## 🖱 Basics
+
 * [🚀 Getting Started](README.md)
-* [🗺 Panning and Zooming Maps](panning-and-zooming-maps.md)
-* [🏭 Managing Maps and Floors](managing-maps-and-floors.md)
-* [📏 Scaling Maps](scaling-maps.md)
-* [🏗 Walls](walls.md)
-* [📦 Attenuating Objects](attenuating-areas.md)
-* [🔥 Heatmaps](heatmaps.md)
-* [📍 Scope Zones](areas.md)
+* [🗺 Panning and Zooming Maps](basics/panning-zooming.md)
+* [🏭 Managing Maps and Floors](basics/maps-floors.md)
+* [📏 Scaling Maps](basics/scaling-maps.md)
+* [🏗 Walls](basics/walls.md)
+* [📦 Attenuating Objects](basics/attenuating-objects.md)
+* [🔥 Heatmaps](basics/heatmaps.md)
+* [📍 Scope Zones](basics/scope-zones.md)
 
-## ⚡ Network Design
+## ⚡ Design
 
-* [📶 Access Points](network-design/access-points.md)
-* [📺 Channel Planning](network-design/channel-planning.md)
-* [↔ Switches](network-design/switches.md)
-* [📞 Wired Clients](network-design/wired-clients.md)
-* [📱 Client View](network-design/client-view.md)
-* [🌳 Outdoor Planning](network-design/outdoor-planning.md)
-* [📶 Private Cellular Planning](network-design/private-cellular-planning.md)
+* [📶 Access Points](design/access-points.md)
+* [📺 Channel Planning](design/channel-planning.md)
+* [📞 Wired Clients](design/wired-clients.md)
+* [📱 Client View](design/client-view.md)
+* [🌳 Outdoor Planning](design/outdoor-planning.md)
+* [↔ Switches](design/switches.md)
+* [📶 Private Cellular Planning](design/cellular-planning.md)
+
+## 📄 Reporting and Sharing <a href="#reporting-sharing" id="reporting-sharing"></a>
+
+* [🤝 Project Sharing](reporting-sharing/project-sharing.md)
+* [📓 Notes](reporting-sharing/notes.md)
+* [📒 Reporting](reporting-sharing/reporting.md)
+
+## 📥 Importing and Exporting <a href="#import-export" id="import-export"></a>
+
+* [🔁 Introduction](import-export/introduction.md)
+* [💬 Meraki](import-export/meraki.md)
 
 ***
 
-* [🤝 Project Sharing](project-sharing.md)
-* [📓 Notes](notes.md)
-* [📒 Reporting](reporting.md)
-* [🔁 Importing and Exporting](importing-and-exporting/README.md)
-  * [Meraki integration](importing-and-exporting/meraki-integration.md)
-* [📡 Requesting AP's and Antennas](requesting-aps-and-antennas.md)
-* [🔑 Hamina Accounts and Licenses](hamina-accounts-and-licenses.md)
+* [📡 Requesting AP's and Antennas](requesting-aps.md)
+* [🔑 Accounts and Licenses](accounts-licenses.md)

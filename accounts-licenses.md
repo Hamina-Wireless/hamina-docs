@@ -1,0 +1,52 @@
+---
+description: Learn about managing accounts and licenses in Hamina.
+---
+
+# 🔑 Accounts and Licenses
+
+## Volume License Keys
+
+If you have a team of two or more users, you can purchase multiple licenses from a single account. This is often useful for simplifying billing.
+
+### Retrieving the License Key
+
+If you purchase multiple licenses, you'll need to retrieve the license key from Hamina, and share it with anyone that you'd like to add to your Hamina organization.
+
+1. Click on the **Account Menu** in the upper right.
+
+<figure><img src=".gitbook/assets/account_menu (1).png" alt=""><figcaption></figcaption></figure>
+
+2. In the drop-down menu, click **Subscription**.
+3. In the Subscriptions table, click on the **... menu** (**elipsis menu**) on the right, and click **Copy License Key.**
+
+<figure><img src=".gitbook/assets/copy_license_key.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+By default, your individual Hamina account is not activated. You can either activate it with your key, or you can leave it unactivated.
+{% endhint %}
+
+### Activating the License Key
+
+1. Create an account at [https://app.hamina.com](https://app.hamina.com). _Note: Be very careful to select the instance that your team uses!_
+2. Sign into your Hamina account.
+3. Name and create your first project.
+4. Click on the Account Menu in the upper right.
+
+<figure><img src=".gitbook/assets/account_menu (1).png" alt=""><figcaption></figcaption></figure>
+
+
+
+5. In the drop-down menu, click **Subscription**.
+6. Click the blue **Activate** button in the upper right.
+
+## Cancelling a Subscription
+
+Done with wireless projects, and ready to take a break from Hamina? No problem! It's super easy to unsubscribe.
+
+* Click on the **Account Menu** in the upper right.
+* In the drop-down menu, click **Subscription**.
+* At the bottom of the page, click on the red **Unsubscribe** button.
+
+{% hint style="info" %}
+Note: After unsubscribing, your license(s) will be valid until the end of the subscription period.
+{% endhint %}

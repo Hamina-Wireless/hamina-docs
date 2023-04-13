@@ -13,7 +13,7 @@ Use the Draw Walls tool only for drawing walls. For warehouse shelves, large mac
 {% endhint %}
 
 1. Click on **Draw Walls** > **Draw Walls** in the toolbar.\
-   ![](<.gitbook/assets/Draw Walls.jpg>)
+   ![](<../.gitbook/assets/Draw Walls.jpg>)
 2. **Left-click** once to start drawing a wall segment.
 3. **Left-click** again to place the wall segment.
 4. Continue **left-clicking** to chain multiple wall segments together.
@@ -44,7 +44,7 @@ We recommend identifying the 3 to 5 most common types of walls in the building, 
 
 With the Draw Walls tool activated, the Draw Walls pane will appear on the right. Click on the **Add or Modify** button at the bottom.
 
-![](<.gitbook/assets/Add or Modify.png>)
+![](<../.gitbook/assets/Add or Modify.png>)
 
 The Wall Editor window will appear. From here, you can:
 
@@ -52,7 +52,7 @@ The Wall Editor window will appear. From here, you can:
 * Duplicate wall profiles to create your own (click the **Duplicate** button in the wall profile)
 * Create your own (click the **Add a custom wall** button)
 
-![](<.gitbook/assets/Wall Editor.png>)
+![](<../.gitbook/assets/Wall Editor.png>)
 
 {% hint style="info" %}
 Editing walls only affect the profiles in the project. Your other projects (and any new projects that you create) will be completely unaffected.
