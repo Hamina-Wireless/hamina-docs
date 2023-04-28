@@ -59,8 +59,8 @@ To draw a free-form scope zone:
 
 To edit a scope zone:
 
-1. Select the Edit tool from the toolbar.
+1. Select the **Edit** tool from the toolbar.
 2. Click on the border of the Scope Zone that you want to edit.
-3. The Scope Zone Toolbar will appear
-4. Click and drag points on the Scope Zone to move them. Note: Scope Zone points will have small squares around them.
+3. The **Scope Zone Toolbar** will appear
+4. Click and drag points on the Scope Zone to move them. _Note: Scope Zone points will have small squares around them._
 5. Click away from the Scope Zone to finish editing it.
