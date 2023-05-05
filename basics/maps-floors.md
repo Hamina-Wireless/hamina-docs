@@ -67,4 +67,4 @@ Floor alignment is accomplished by dragging the yellow map until it aligns with 
 
 Align the floors by identifying common features between floors, such as elevators and stairwells.
 
-<figure><img src="../.gitbook/assets/drag_floors_to_align.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/drag_floors_to_align (1).gif" alt="" width="525"><figcaption></figcaption></figure>
