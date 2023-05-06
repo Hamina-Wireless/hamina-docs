@@ -68,3 +68,11 @@ Floor alignment is accomplished by dragging the yellow map until it aligns with 
 Align the floors by identifying common features between floors, such as elevators and stairwells.
 
 <figure><img src="../.gitbook/assets/drag_floors_to_align (1).gif" alt="" width="525"><figcaption></figcaption></figure>
+
+### Resizing Floors
+
+In addition to clicking and dragging the yellow map around, you can also use the corner handles to resize the map. The <mark style="color:yellow;">**yellow map**</mark> scale will change, respecting the scale of the **black map**.
+
+{% hint style="danger" %}
+It's a good idea to set the known scale on an "anchor" floor, select it in the **Floor** dropdown, and use that as the source of truth for scaling in the project.
+{% endhint %}
