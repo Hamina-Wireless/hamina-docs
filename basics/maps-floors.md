@@ -76,3 +76,23 @@ In addition to clicking and dragging the yellow map around, you can also use the
 {% hint style="danger" %}
 It's a good idea to set the known scale on an "anchor" floor, select it in the **Floor** dropdown, and use that as the source of truth for scaling in the project.
 {% endhint %}
+
+### Floor Height and Attenuation
+
+The height of each floor and the attenuation of each floor is editable. The attenuation value is for the current floor and the floor below.
+
+Hamina Network Planner models a static floor thickness of 0.5 meters, and calculates loss on a per-meter basis as the RF travels through the floor.
+
+The input value is the total loss for a vertical RF path through the floor, in other words, the shortest possible path through the floor.
+
+The more oblique (slanted) the RF path through the floor is, the longer a distance the RF must travel to get through the floor, and the more loss the signal will experience.
+
+{% hint style="info" %}
+**Why doesn't Hamina Network Planner offer floor thickness and loss per meter controls?**
+
+While some tools do offer the ability to configure the exact floor thickness, and to input how many dB of loss per meter the floor has, getting those measurements from a real building is very challenging. The network designer must be able to measure the floor thickness, calculate how much dB of loss there is from floor to floor, and understand how far the RF had to travel to get through the floor (if at an angle) to be able to calculate how many dB of loss per meter there is in the floor.
+
+Hamina decided to take a more practical approach, and accept a simple vertical RF loss value.
+{% endhint %}
+
+&#x20;
