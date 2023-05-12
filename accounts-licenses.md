@@ -4,6 +4,14 @@ description: Learn about managing accounts and licenses in Hamina.
 
 # 🔑 Accounts and Licenses
 
+## Users
+
+In Hamina Wireless products, a user is defined as an individual person. Each user needs to have their own subscription. Subscriptions for teams can be provided through a volume license key.
+
+{% hint style="info" %}
+Hamina Network Planner works best when everyone has their own account. Additionally, shared accounts are not allowed per our Terms of Service.
+{% endhint %}
+
 ## Volume License Keys
 
 If you have a team of two or more users, you can purchase multiple licenses from a single account. This is often useful for simplifying billing.
@@ -14,12 +22,20 @@ If you purchase multiple licenses, you'll need to retrieve the license key from 
 
 1. Click on the **Account Menu** in the upper right.
 
+<div align="left">
+
 <figure><img src=".gitbook/assets/account_menu (1).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 2. In the drop-down menu, click **Subscription**.
 3. In the Subscriptions table, click on the **... menu** (**elipsis menu**) on the right, and click **Copy License Key.**
 
+<div align="left">
+
 <figure><img src=".gitbook/assets/copy_license_key.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 {% hint style="info" %}
 By default, your individual Hamina account is not activated. You can either activate it with your key, or you can leave it unactivated.
