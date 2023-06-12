@@ -12,7 +12,11 @@ To get started, you'll need to enable API access in your Meraki organization, an
 
 In order to use Hamina integration with your Meraki organization, you have to make sure that API access is enabled in the organization. You can enable API access in Meraki Dashboard portal by navigating to **Organization > Settings > Dashboard API access**:
 
+<div align="left">
+
 <figure><img src="../.gitbook/assets/image (1).png" alt="enable organization API access"><figcaption></figcaption></figure>
+
+</div>
 
 ## Creating API Key
 
@@ -32,7 +36,11 @@ For more information, see [Meraki documentation about API access](https://docume
 
 To initiate the import process, start by clicking on the import button located under your project name in the left menu. This will open the import modal. From the vendor list, select **Meraki** and enter your API key. You can also specify the region you want to connect to. Once you have entered the connection credentials, click the **Continue** button.
 
+<div align="left">
+
 <figure><img src="../.gitbook/assets/image (2).png" alt="input Meraki Dasboard API key"><figcaption></figcaption></figure>
+
+</div>
 
 If the connection is successful, you will be presented with a list of organizations and networks that you have access to. Choose the organization and network from which you wish to import floor plans. You can also import access points from Meraki inventory or from the selected network.
 

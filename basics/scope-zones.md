@@ -55,6 +55,17 @@ To draw a free-form scope zone:
 3. Left-click elsewhere on the map to place subsequent points
 4. After placing the final point, right-click to stop drawing and finalize the amount of points in the free-form scope zone.
 
+### Changing the Scope Zone Type
+
+Depending on the size of the zone, Hamina Network Planner will automatically select an In Scope Zone, or Out of Scope Zone. If you'd like to manually change the Scope Zone type:
+
+1. Select the **Edit** tool from the toolbar
+2. Right-click the edge of the Scope Zone
+3. The Scope Zone pop-up menu will appear
+4. Choose between **In Scope Zone** and **Out of Scope Zone** in the pop-up menu
+
+{% embed url="https://youtu.be/j_pZ469_deE" %}
+
 ### Editing Scope Zones
 
 To edit a scope zone:
