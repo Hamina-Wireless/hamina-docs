@@ -14,7 +14,7 @@ The **Add Network Infrastructure pane** will open on the right.&#x20;
 
 Select the applicable **Type** of network equipment from the drop down.
 
-<figure><img src="../.gitbook/assets/image (4).png" alt="" width="287"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt="" width="287"><figcaption></figcaption></figure>
 
 **Optional:** Customize the name, number of ports, and power budget for the device.
 

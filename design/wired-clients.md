@@ -22,7 +22,7 @@ Click on the map at the desired location to place the selected wired device.
 Optionally: Customize device **Name** and **Power allocation**
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (2).png" alt="" width="281"><figcaption><p>Device Name</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt="" width="281"><figcaption><p>Device Name</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (7).png" alt="" width="277"><figcaption><p>Power Allocation</p></figcaption></figure>
 
