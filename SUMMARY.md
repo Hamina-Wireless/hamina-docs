@@ -18,7 +18,7 @@
 * [📞 Wired Clients](design/wired-clients.md)
 * [📱 Client View](design/client-view.md)
 * [🌳 Outdoor Planning](design/outdoor-planning.md)
-* [↔ Switches](design/switches.md)
+* [↔ Switches, Routers, IDF/MDF and More](design/switches-routers-idf-mdf-and-more.md)
 * [📶 Private Cellular Planning](design/cellular-planning.md)
 
 ## 📄 Reporting and Sharing <a href="#reporting-sharing" id="reporting-sharing"></a>

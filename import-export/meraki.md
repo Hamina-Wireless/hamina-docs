@@ -14,7 +14,7 @@ In order to use Hamina integration with your Meraki organization, you have to ma
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="enable organization API access"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt="enable organization API access"><figcaption></figcaption></figure>
 
 </div>
 
@@ -38,7 +38,7 @@ To initiate the import process, start by clicking on the import button located u
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (2).png" alt="input Meraki Dasboard API key"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt="input Meraki Dasboard API key"><figcaption></figcaption></figure>
 
 </div>
 
@@ -46,6 +46,6 @@ If the connection is successful, you will be presented with a list of organizati
 
 Next, select the floor plans you want to import. Any floor plans that you have not yet imported will have `NEW` label next to their name. If a floor plan has already been imported, it will be updated. In addition to the floor plan image, you can choose to import access points along with their locations, current transmit power, and current channel and channel width.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
 Once you have made your selections, click on the **Import** button to start the import operation.
