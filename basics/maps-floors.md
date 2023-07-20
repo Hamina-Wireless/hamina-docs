@@ -79,7 +79,7 @@ It's a good idea to set the known scale on an "anchor" floor, select it in the *
 
 ### Floor Height and Attenuation
 
-The height of each floor and the attenuation of each floor is editable. The attenuation value is for the current floor and the floor below.
+The height of each floor and the attenuation of each floor is editable. The attenuation value is for the the space between the current floor and the ceiling of the floor below.
 
 Hamina Network Planner models a static floor thickness of 0.5 meters, and calculates loss on a per-meter basis as the RF travels through the floor.
 
