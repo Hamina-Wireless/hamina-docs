@@ -15,6 +15,7 @@
 
 * [📶 Access Points](design/access-points.md)
 * [📺 Channel Planning](design/channel-planning.md)
+* [Capacity Planning](design/capacity-planning.md)
 * [📞 Wired Clients](design/wired-clients.md)
 * [📱 Client View](design/client-view.md)
 * [🌳 Outdoor Planning](design/outdoor-planning.md)
