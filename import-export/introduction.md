@@ -6,7 +6,3 @@ With this feature, you can easily import existing floor plans into Hamina, enabl
 
 This documentation will guide you through the process of using the Import/Export feature with supported vendors step-by-step, so you can take full advantage of this powerful feature.
 
-
-
-Import
-
