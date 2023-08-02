@@ -2,7 +2,7 @@
 description: Learn how to create capacity plans in Hamina Network Planner.
 ---
 
-# Capacity Planning
+# 🚚 Capacity Planning
 
 In Hamina Network Planner, Capacity Zones are used to add groups of clients to the map, so you can predict how many clients will associate to nearby access point radios, and ensure that no AP radio becomes overloaded.
 
@@ -31,18 +31,18 @@ To edit a Capacity Zone:
 
 1. Select the **Edit** tool from the toolbar.
 2. Right-click one of the edges of the Capacity Zone (not necessarily a corner).
-3. The **Edit Capacity Zone** pane will appear
+3. The **Edit Capacity Zone** pane will appear. Any edits that you make are saved automatically.
 
 ## Viewing Capacity Results
 
 When a Capacity Zone is placed on the current map, two additional indicators appear:
 
-* **Per-Radio Capacity Indicators** underneath each access point.
-* **Per-Map Capacity Pane** in the lower left, either in place of, or next to the **Legend.**
+* **Capacity Indicators** underneath each access point.
+* **Capacity Statistics Pane** in the lower left, either in place of, or next to the **Legend.**
 
-<figure><img src="../.gitbook/assets/capacity_indicators.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/capacity_indicators (2).png" alt=""><figcaption></figcaption></figure>
 
-### Per-Radio Capacity
+### Per-Radio Capacity Indicators
 
 When a Capacity Zone has been placed near an access point, Hamina Network Planner will use the client roaming algorithm to determine how many clients are expected to associate to each radio.
 
@@ -54,7 +54,7 @@ A number will appear underneath each radio channel number, indicating how many c
 Access points running in dual 5 GHz mode will show two 5 GHz radios. Access points sure can be complicated these days!
 {% endhint %}
 
-#### Configuring Per-Radio Capacity Thresholds
+#### Configuring Capacity Thresholds
 
 To configure the per-radio client capacity threshold, click on the **Capacity Statistics Pane** in the lower right. The **Requirements for Capacity Pane** will appear on the left, where you can set thresholds for radios in each frequency band.
 
@@ -68,4 +68,4 @@ When a Capacity Zone is placed on the current map, the **Capacity Statistics Pan
 * **Clients** - Shows the distribution of all clients on the map, across all of the Wi-Fi frequency bands and all cellular clients.
 * **Limits** - Shows the configured Per-Radio Capacity Thresholds, per Wi-Fi band and all cellular.
 
-<figure><img src="../.gitbook/assets/capacity_statistics.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/capacity_statistics (1).png" alt=""><figcaption></figcaption></figure>
