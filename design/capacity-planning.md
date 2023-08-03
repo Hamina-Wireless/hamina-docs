@@ -6,10 +6,10 @@ description: Learn how to create capacity plans in Hamina Network Planner.
 
 In Hamina Network Planner, Capacity Zones are used to add groups of clients to the map, so you can predict how many clients will associate to nearby access point radios, and ensure that no AP radio becomes overloaded.
 
-Capacity Zones use the same client roaming algorithm as the Client View to determine which AP radios clients will associate to. When a Capacity Area is drawn on the map, the client types and amount of each client type is evenly distributed throughout the area, and then Hamina Network Planner simulates each client to determine which AP radio it will be the most likely to associate to. The client roaming algorithm also uses an initial distribution method to spread clients to separate frequency bands (such as 2.4 and 5 GHz).
+Capacity Zones use the same client roaming algorithm as the Client View to determine which AP radios clients will associate to. When a Capacity Area is drawn on the map, the client types and amount of each client type is evenly distributed throughout the area, and then Hamina Network Planner simulates each client to determine which AP radio it will be the most likely to associate to. The client roaming algorithm also uses initial distribution to spread clients to separate frequency bands (such as 2.4 and 5 GHz).
 
 {% hint style="success" %}
-Samples of client band distribution were taken from several very large wireless networks, which are operated by Hamina Wireless customers.
+To inform the initial distribution, samples of client band distribution were taken from several very large wireless networks, which are operated by Hamina Wireless customers.
 {% endhint %}
 
 ## Creating and Drawing Capacity Areas
