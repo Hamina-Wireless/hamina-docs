@@ -10,7 +10,7 @@ With this feature, you can easily import existing floor plans into Hamina, enabl
 
 ## Export Workflow
 
-1. If the new site is created in Hamina, it will create a new site on infrastructure.
+1. If the new site is created in Hamina, it will create a new site on the infrastructure.
 2. If a matching floorplan doesn't exist, Hamina will export maps from Hamina to the infrastructure site.
 3. If the user has planned APs that are MAC-matched in Hamina, it will assign them to the site and place them on the map.
 4. For APs that have been placed on map in Hamina but have not been MAC-matched:
