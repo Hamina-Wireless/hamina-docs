@@ -9,4 +9,4 @@
 * When sharing a project with another Hamina Network Planner user, you can now type in their address and hit Enter (without having to click on the Share button).
 * The scale marker in the lower left wasn’t working correctly with feet, although it was fine in meters. We beat feet and got it fixed. 🏃
 
-<figure><img src=".gitbook/assets/Wall Drawing.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Wall Drawing (1).png" alt=""><figcaption><p>Comparison of the old automatic wall drawing and the new automatic wall drawing on the same CAD-sourced PDF file.</p></figcaption></figure>
