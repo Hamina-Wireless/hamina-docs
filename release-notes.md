@@ -2,7 +2,7 @@
 
 ### 2023/09/08
 
-* Wait. _Another_ production push? There was a sneaky surprise in yesterday's push: single-hop mesh support! We did a mini-production push today to enable it. Now, **Connected via Ethernet** is set to `Not Connected (Mesh)`, mesh options appear.
+* Wait. _Another_ production push? There was a sneaky surprise in yesterday's push: single-hop mesh support! We did a mini-production push today to enable it. Now, **Connected via Ethernet** is set to `Not Connected (Mesh)`, mesh options appear. Check out our [Mesh Planning knowledgebase article](https://docs.hamina.com/kb/design/mesh-planning) to learn more.
 * In addition to the new mesh feature, we also added generic `Home Wi-Fi` gear. Now, new users can create an account, and design their home Wi-Fi network for free. If you're a consumer router/access point/mesh system vendor, and want us to include your gear, let us know and we can get it added for you. 😃
 
 ### 2023/09/07
