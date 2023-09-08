@@ -19,7 +19,6 @@
 * [🔗 Mesh Planning](design/mesh-planning.md)
 * [📞 Wired Clients](design/wired-clients.md)
 * [📱 Client View](design/client-view.md)
-* [🌳 Outdoor Planning](design/outdoor-planning.md)
 * [↔ Switches, Routers, IDF/MDF and More](design/switches-routers-idf-mdf-and-more.md)
 * [📶 Private Cellular Planning](design/cellular-planning.md)
 
