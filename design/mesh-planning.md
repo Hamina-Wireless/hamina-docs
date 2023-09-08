@@ -36,14 +36,18 @@ When single-hop mesh mode is enabled, a dashed line appears showing the mesh lin
 
 <figure><img src="../.gitbook/assets/link_quality_arrow.png" alt=""><figcaption></figcaption></figure>
 
-### Link Quality Arrows
+### Connection Quality Arrows
 
-Depending on the signal strength of the link, the Link Quality Arrows will change colors depending on the Primary Signal Strength heatmap settings. In other words, they use the same thresholds and colors as the Signal Strength heatmap.
+Depending on the signal strength of the link, the Connection Quality Arrows will change colors depending on the Primary Signal Strength heatmap settings. In other words, they use the same thresholds and colors as the Signal Strength heatmap.
 
 <figure><img src="../.gitbook/assets/link_quality.png" alt=""><figcaption><p>Example of a link with poor quality. The signal strength is so low that it is below the red threshold, which is -82 dBm by default.</p></figcaption></figure>
+
+### Connection Quality Arrows
 
 To view the details about the quality of the mesh link, click on one of the arrows.
 
 The arrow pointing towards the Upstream Mesh AP (non-root node) shows how well it is receiving on the link. In other words, it is showing the receive signal strength and data rate from the Downstream Mesh AP (root node/gateway).
+
+<figure><img src="../.gitbook/assets/upstream_details.png" alt=""><figcaption><p>The arrow pointing towards the Upstream Mesh AP is selected, so it is showing the Upstream Mesh APs perspective on the link. The Upstream Mesh AP is hearing the other AP at -72 dBm.</p></figcaption></figure>
 
 Conversely, the arrow pointing towards the Downstream Mesh AP (root node/gateway) shows how well it is receiving on the link. It is showing the receive signal strength and data rate from the Upstream Mesh AP (non-root node).
