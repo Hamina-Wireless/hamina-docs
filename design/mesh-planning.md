@@ -6,7 +6,7 @@ description: Learn how to plan for mesh links with Hamina Network Planner.
 
 By default, the **Connect via Ethernet** setting in Hamina is set to `Nearest Device`, which will cause the access point to be cabled to the nearest network switch. By changing **Connected via Ethernet** setting to `Not connected (mesh)`, Hamina will enable mesh mode for the selected AP, at which point the mesh link can be visualized.
 
-Mesh Terminology in Hamina Network Planner:
+Mesh terminology in Hamina Network Planner:
 
 * **Upstream Mesh AP** - The root node/mesh gateway.
 * **Downstream Mesh AP** - The non-root node of the mesh.
