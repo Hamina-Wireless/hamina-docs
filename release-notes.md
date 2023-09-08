@@ -10,6 +10,7 @@
 * Added the Airspan Velocity 1901
 * Added the Arista O-235E
 * Added the CIG WF-660A
+* Added the Meter MW05 and MW09
 
 <figure><img src=".gitbook/assets/Cell.png" alt=""><figcaption><p>Check out the latest amazing Hamina innovation: new cellular radio unit icons! Whoa!</p></figcaption></figure>
 
