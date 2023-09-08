@@ -42,7 +42,7 @@ Depending on the signal strength of the link, the Connection Quality Arrows will
 
 <figure><img src="../.gitbook/assets/link_quality.png" alt=""><figcaption><p>Example of a link with poor quality. The signal strength is so low that it is below the red threshold, which is -82 dBm by default.</p></figcaption></figure>
 
-### Connection Quality Arrows
+### Connection Quality Details
 
 To view the details about the quality of the mesh link, click on one of the arrows.
 
