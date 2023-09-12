@@ -1,5 +1,10 @@
 # 🗒 Release Notes
 
+### 2023/09/12
+
+* In Safari, heatmaps weren't updating. We fixed it, and they're updating now!
+* We fixed a little bug that was causing duplicate users to show up in our payment processing service.
+
 ### 2023/09/08
 
 * Wait. _Another_ production push? There was a sneaky surprise in yesterday's push: single-hop mesh support! We did a mini-production push today to enable it. Now, **Connected via Ethernet** is set to `Not Connected (Mesh)`, mesh options appear. Check out our [Mesh Planning knowledgebase article](design/mesh-planning.md) to learn more.
