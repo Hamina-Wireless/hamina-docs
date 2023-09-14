@@ -32,7 +32,7 @@ When placing additional access points, Hamina Network Planner will reuse all of 
 
 ### Reorganize AP Numbers
 
-Sometimes after adding and removing APs the AP numbers will be out of sequential order. The following will reset the numbering so all devices will be sequential in order.
+After adding and removing APs the AP numbers will be out of sequential order. The following will reset the numbering so all devices will be sequential in order.
 
 1. Access Project Settings by clicking on the ⚙️
 2. Select **Reorganize numbers**
