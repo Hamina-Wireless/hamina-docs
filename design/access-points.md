@@ -27,3 +27,14 @@ When placing additional access points, Hamina Network Planner will reuse all of 
 3. Click in an empty place on the map to de-select the access point
 4. The **Add Access Point** pane will appear on the left, along with the add access point cursor
 5. Click on the map to place additional access points
+
+
+
+### Reorganize AP Numbers
+
+Sometimes after adding and removing APs the AP numbers will be out of sequential order. The following will reset the numbering so all devices will be sequential in order.
+
+1. Access Project Settings by clicking on the ⚙️
+2. Select **Reorganize numbers**
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-09-14 at 12.24.28 PM.png" alt=""><figcaption></figcaption></figure>
