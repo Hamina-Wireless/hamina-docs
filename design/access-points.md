@@ -22,19 +22,30 @@ The transmit power of the access point radio is configured as _Conducted Power_,
 
 When placing additional access points, Hamina Network Planner will reuse all of the settings from the last selected access point.
 
-1. Select the **Access point** tool
-2. Click on the access point that you would like to duplicate
-3. Click in an empty place on the map to de-select the access point
-4. The **Add Access Point** pane will appear on the left, along with the add access point cursor
-5. Click on the map to place additional access points
+1. Select the **Access point** tool.
+2. Click on the access point that you would like to duplicate.
+3. Click in an empty place on the map to de-select the access point.
+4. The **Add Access Point** pane will appear on the left, along with the add access point cursor.
+5. Click on the map to place additional access points.
 
+## Renumbering Access Points
 
+The access point number is incremented every time a new access point is added to the design. If the user removes some access points, there might be gaps in the numbers.
 
-### Reorganize Numbers
+<figure><img src="../.gitbook/assets/Before.png" alt=""><figcaption></figcaption></figure>
 
-After adding and removing APs the AP numbers may get out of sequential order. To reset the numbering follow the steps below.
+The **Reorganize numbers** option will reset the numbering of all access points, switches, and wired clients in a left to right, top to bottom pattern. This will also remove any gaps in the numbers.
 
-1. Access Project Settings by clicking on the ⚙️
-2. Select **Reorganize numbers**
+To renumber the access points, switches, and wired clients:
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-09-14 at 12.24.28 PM.png" alt=""><figcaption></figcaption></figure>
+1. Underneath the Project Selector menu, click on the **Project Settings** button (which has a gear ⚙️ icon).\
+   ![](<../.gitbook/assets/project\_settings (1).png>)
+2. Click the **Reorganize numbers** button.\
+   ![](../.gitbook/assets/reorganize\_numbers.png)
+3. Hamina Network Planner will confirm that the access points, wired clients, and switches have been renumbered.\
+   ![](../.gitbook/assets/renumbered.png)
+
+The access point, wired client, and switch renumbering is from left to right, and top to bottom.
+
+<figure><img src="../.gitbook/assets/After.png" alt=""><figcaption></figcaption></figure>
+
