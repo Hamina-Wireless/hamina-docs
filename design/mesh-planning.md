@@ -30,6 +30,12 @@ To enable single-hop mesh mode in Hamina:
 The Upstream Mesh AP's mesh radio receives a channel assignment from the automatic channel planner. The Downstream Mesh AP mesh radio will use the same channel.
 {% endhint %}
 
+### Configuring the Mesh Link
+
+To configure additional options, click on the **Show more** expander. This will reveal options to select specific Upstream Mesh APs, and which specific radio should be used for mesh backhaul.
+
+<figure><img src="../.gitbook/assets/mesh_details.png" alt=""><figcaption></figcaption></figure>
+
 ## Viewing the Mesh Link
 
 When single-hop mesh mode is enabled, a dashed line appears showing the mesh link and Link Quality Arrows. The Downstream Mesh AP (non-root node) uses a different icon to differentiate it from Upstream Mesh APs (root nodes).
