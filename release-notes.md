@@ -1,5 +1,25 @@
 # 🗒 Release Notes
 
+## 2023/09/25
+
+* We used to have an option to “Dowload” a PDF. We decided to depreciate that feature, and offer a new “Download” PDF option instead. 🤪
+* There was a bug where you couldn’t add Interference thresholds after you removed them. We’ve removed the Interference removal bug, which removed the ability to safely remove Interference thresholds.
+* We fixed a minor bug that would cause the tooltip to stop updating.
+* We added some access points and antennas:
+  * Fortinet 221-C
+  * Cambium XV3-8
+  * Airspan 1900/2900
+  * Celona AP 21
+  * Celona AP 22
+  * Ventev M6060060MO1D3607O
+  * Fortinet FANT-06ABGN-0606-O-N
+* We also changed some access points and antennas:
+  * The Calix u10xe now defaults to a table mount.
+  * We updated the Celona external antennas to use the same part numbers that appear on the Celona data sheets.
+  * Since the Meter MW05 and MW09 use external antenna connectors, we split them out into two variants: Default, which includes the stock antennas, and custom, so you can select whatever antenna you’d like to use.
+  * The gain on all of the generic home Wi-Fi access points seem a bit high, so we decreased it a little bit.
+  * BLE Gateways now connect back to switches by default.
+
 ### 2023/09/12
 
 * In Safari, heatmaps weren't updating. We fixed it, and they're updating now!
