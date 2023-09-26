@@ -37,7 +37,7 @@ Supported image types:
 * TIFF&#x20;
 * WEBP
 
-Hamina supports a maximum image size of 7680 x 4320 (8K).
+Hamina supports a maximum image size of 8000 x 8000.
 
 ## Subscribe to Hamina Network Planner
 
