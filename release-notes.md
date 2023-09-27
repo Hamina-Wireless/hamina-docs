@@ -5,7 +5,7 @@
 * We used to have an option to “Dowload” a PDF. We decided to depreciate that feature, and offer a new “Download” PDF option instead. 🤪
 * There was a bug where you couldn’t add Interference thresholds after you removed them. We’ve removed the Interference removal bug, which removed the ability to safely remove Interference thresholds.
 * In online reports, it wasn't possible to select a cellular client in the Client View. That's been fixed!
-* We fixed a minor bug that would cause the tooltip to stop updating.
+* We fixed a minor bug that would cause the mouseover inspector in the legendy to stop updating.
 * We added some access points and antennas:
   * Fortinet 221-C
   * Cambium XV3-8
