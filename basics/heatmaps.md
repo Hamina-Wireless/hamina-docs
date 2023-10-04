@@ -38,3 +38,15 @@ Access heatmap options by clicking on the **Heatmap** drop-down menu at the top 
 ## Adjusting Requirements
 
 With any Technology and Heatmap selected, click the **Adjust requirements** link to modify heatmap thresholds and map opacity.
+
+### Full Building Propagation (Beta)
+
+In a multi-floor building, by default, Hamina Network Planner calculates signal propagation on the floor below and the floor above the current flow. This usually provides a good balance of speed and accuracy, as most buildings don't see significant signal propagation beyond two floors in either vertical direction.
+
+However, some buildings with multi-floor atriums, theaters, or stadiums might have significant signal propagation across all floors, due to the holes in all of the floors.
+
+The **Full building propagation (Beta)** option enables signal to propagate across all floors in the building. It also causes **Adjacent floor AP** icons to appear for all floors, not just the floors above and below the current floor.
+
+{% hint style="warning" %}
+In some environments, enabling Full building propagation may cause significant performance problems. Enable it with care, and disable if needed.
+{% endhint %}
