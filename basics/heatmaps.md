@@ -6,7 +6,7 @@ description: >-
 
 # 🔥 Heatmaps
 
-## Managing Heatmaps
+Managing Heatmaps
 
 Access heatmap options by clicking on the **Heatmap** drop-down menu at the top of Hamina. You can choose the **Technology**, **Heatmap**, and **Band** (for Wi-Fi).
 
@@ -50,3 +50,5 @@ The **Full building propagation (Beta)** option enables signal to propagate acro
 {% hint style="warning" %}
 In some environments, enabling Full building propagation may cause significant performance problems. Enable it with care, and disable if needed.
 {% endhint %}
+
+<figure><img src="../.gitbook/assets/full_building_propagation (2).png" alt=""><figcaption></figcaption></figure>
