@@ -41,7 +41,7 @@ With any Technology and Heatmap selected, click the **Adjust requirements** link
 
 ### Full Building Propagation (Beta)
 
-In a multi-floor building, by default, Hamina Network Planner calculates signal propagation on the floor below and the floor above the current flow. This usually provides a good balance of speed and accuracy, as most buildings don't see significant signal propagation beyond two floors in either vertical direction.
+In a multi-floor building, by default, Hamina Network Planner calculates signal propagation on the floor below and the floor above the current flow. This usually provides a good balance of speed and accuracy, as most buildings don't see significant signal propagation beyond one floor in either vertical direction.
 
 However, some buildings with multi-floor atriums, theaters, or stadiums might have significant signal propagation across all floors, due to the holes in all of the floors.
 
