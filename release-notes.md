@@ -1,6 +1,14 @@
 # 🗒 Release Notes
 
-## 2023/09/25
+### 2023/10/03
+
+* This release adds the AP Radio Details page to the PDF output. Now, the PDF report should include everything that the online report does, except for the Client View, which requires interactivity that only a browser can provide. 😉
+* We've also added an option to enable Full Building Propagation. By default, Hamina shows propagation from the floor above and the floor below the currently selected floor. This helps keep performance pretty fast without sacrificing any accuracy in most environments, but can be limiting in multi-floor environments with lots of floor holes, such as stadiums and arenas.
+* **Feature preview**: Export to Cisco DNA Center! This feature isn't done yet, but we wanted to show you our progress. It probably won't work at all, but feel free to give it a try.
+* There was a bug that would cause the automatic channel planner to use 40, 80, and 160 MHz channels that don't exist. For example, the channel planner would create a 160 MHz channel in UNII-3, with channel 149 as the primary 20 MHz channel. Now, in addition to checking the regulatory domain and what channels the user has allowed, it now understands which 40, 80, and 160 MHz channels are valid.
+* The signaling rate in the Client View was incorrectly labeled MBps (megabytes per second), instead of the correct Mbps (megabits per second). The label now correctly says Mbps. Sometimes, it's the small things. 🎸
+
+### 2023/09/25
 
 * We used to have an option to “Dowload” a PDF. We decided to depreciate that feature, and offer a new “Download” PDF option instead. 🤪
 * There was a bug where you couldn’t add Interference thresholds after you removed them. We’ve removed the Interference removal bug, which removed the ability to safely remove Interference thresholds.
