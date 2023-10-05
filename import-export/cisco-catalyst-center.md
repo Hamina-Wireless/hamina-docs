@@ -22,9 +22,13 @@ Since Cisco Catalyst Center Export is only available as a <mark style="color:red
 ## Exporting From Hamina Network Planner
 
 1. Click the **Export Project** button.\
-   ![](<../.gitbook/assets/Export Project (1).png>)
-2. Select **Cisco DNA Center** from the list, and click the **Continue** button.
-3. Follow the prompts to complete the export.
+   ![](<../.gitbook/assets/Export Project (1).png>)\
+
+2. Select **Cisco DNA Center** from the list, and click the **Continue** button.\
+   ![](../.gitbook/assets/choose\_dna.png)\
+
+3. Choose the desired floors and click **Export**. A progress indicator will appear at the top of the screen.\
+   ![](../.gitbook/assets/export\_dna.png)
 
 ## Importing to Cisco Catalyst Center
 
