@@ -32,7 +32,7 @@
 
 * [🔁 Introduction](import-export/introduction.md)
 * [💬 Meraki](import-export/meraki.md)
-* [🧬 Cisco DNA Center](import-export/cisco-dna-center.md)
+* [🧬 Cisco Catalyst Center](import-export/cisco-catalyst-center.md)
 
 ***
 
