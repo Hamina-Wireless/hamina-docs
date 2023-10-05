@@ -25,3 +25,5 @@ Since Cisco DNA Center Export is only available as a <mark style="color:red;">**
    ![](<../.gitbook/assets/Export Project (1).png>)
 2. Select **Cisco DNA Center** from the list, and click the **Continue** button.
 3. Follow the prompts to complete the export.
+
+Importing to Catalyst Center
