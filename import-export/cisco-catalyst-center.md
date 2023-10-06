@@ -47,9 +47,8 @@ Since Cisco Catalyst Center Export is only available as a <mark style="color:red
 5. Next to the new building in the hierarchy, click the **ellipsis menu**, and then **Add Floor**.\
    ![](<../.gitbook/assets/5\_elipsis\_add\_floor (1).png>)\
 
-6. In the **Add Floor** window, enter `dnac` in the **Floor Name** field.\
+6. In the **Add Floor** window, and enter the name of the floor you want to import in the **Floor Name** field. In our example, the floor name is "dnac".\
    ![](../.gitbook/assets/6\_add\_floor.png)\
-   _Note: For now, this specific name is required, but should be fixed before the Feature Preview concludes._\
 
 7. Proceed without an image.\
    ![](../.gitbook/assets/7\_without\_image.png)\
