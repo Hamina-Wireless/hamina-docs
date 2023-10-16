@@ -1,6 +1,6 @@
 # 🗒 Release Notes
 
-### 2023/10/16
+### 2023/10/13
 
 There's so much stuff in this one that we're going to split out the release notes into **Features and Changes**, **Bugs**, and **New APs and Antennas**. Let's gooooooo!
 
