@@ -6,7 +6,6 @@ There's so much stuff in this one that we're going to split out the release note
 
 **Features and Changes**
 
-* The automatic channel planner will now automatically set the channel width, network wide. As you add access points, and co-channel interference gets worse, the channel planner will notify you that the channel width has been changed via notification at the top. This is on by default to help novice users, but of course can be disabled in **Channel settings**.&#x20;
 * Map/floor ordering in PDF reports didn't have a specific order, so we added sorting to it.
 * We renamed "Cisco DNAC" to "Cisco Catalyst (DNA) Center", which we think is both correct and universally recognizable. _Note: this feature is still in a Feature Preview state, and isn't considered production-ready yet._
 * In sample projects, we now automatically select a heatmap for the user when they open it for the first time.
