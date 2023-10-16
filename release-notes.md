@@ -1,5 +1,68 @@
 # 🗒 Release Notes
 
+### 2023/10/16
+
+There's so much stuff in this one that we're going to split out the release notes into **Features and Changes**, **Bugs**, and **New APs and Antennas**. Let's gooooooo!
+
+**Features and Changes**
+
+* The automatic channel planner will now automatically set the channel width, network wide. As you add access points, and co-channel interference gets worse, the channel planner will notify you that the channel width has been changed via notification at the top. This is on by default to help novice users, but of course can be disabled in **Channel settings**.&#x20;
+* Map/floor ordering in PDF reports didn't have a specific order, so we added sorting to it.
+* We renamed "Cisco DNAC" to "Cisco Catalyst (DNA) Center", which we think is both correct and universally recognizable.
+* In sample projects, we now automatically select a heatmap for the user when they open it for the first time.
+* In the Client View, there is now an option to make the iPhone 6E capable of Wi-Fi 6E, so you can simulate the iPhone 15 Pro in 6 GHz.
+* In a previous release, we introduced the new mesh feature, which automatically meshed any access points that were configured to **Not connected** via Ethernet. This broke a few corner cases (such as our current lack of connecting to a switch/IDF on another floor), so we brought back the normal "Not connected" option, and gave mesh it's own option, simply called "Mesh".
+
+**Bugs**
+
+* In our last production push, we accidentally introduced some slowdown in the heatmap rendering. Basically, we were constantly recalculating a bunch of stuff that we didn't need to. That's fixed now, so the heatmaps should feel smooth again.
+* Note images were broken, due to some data isolation issues. The images have been... uh... un-isolated.
+
+**New APs and Antennas**
+
+* Renamed "Home Wi-Fi" to "Acme Technology", which fits the list better.&#x20;
+* Alcatel Lucent
+  * OAW-AP1411 2.4/5
+  * OAW-AP1411 2.4/6
+  * OAW-AP1411 5/6
+  * OAW-AP1431
+* Ubiquiti U6 Plus
+* Arista C-330
+* Huawei
+  * AirEngine5760-51
+  * AirEngine 5760-51 2.4/5/5
+  * AirEngine 5761-11
+  * AirEngine 5761-11W
+  * AirEngine 5761-12W
+  * AirEngine 5762-10
+  * AirEngine 5762-12SW
+  * AirEngine 5762-15HW
+  * AirEngine 5762-17W
+  * AirEngine 6760-X1
+  * AirEngine 6760-X1E
+  * AirEngine 6761-21 (Omni)
+  * AirEngine 6761-21 (HD)
+  * AirEngine 6761-21E
+  * AirEngine 6761-21T
+  * AirEngine 8760-x1-PRO
+  * AirEngine 8760-x1-PRO 2.4/5/5
+  * AirEngine 8761-X1
+  * AP7060
+* Celona
+  * AP 20 4G
+  * AP 20 5G
+* Meraki
+  * 9166D1-MR 2.4/5/6
+  * 9166D1-MR 2.4/5/5
+  * _Note: these were already available in the Cisco group, but have just been copied here for completeness._
+* Alpha Wireless
+  * AW3161
+  * AW3711
+  * AW3939
+* Ventev
+  * Terrawave M6060060D4D3602FP
+  * Terrawave 58070MP13620P2
+
 ### 2023/10/03
 
 * This release adds the AP Radio Details page to the PDF output. Now, the PDF report should include everything that the online report does, except for the Client View, which requires interactivity that only a browser can provide. 😉
