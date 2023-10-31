@@ -24,23 +24,23 @@ In the Channel Settings window, you can configure:
 
 Hamina supports the following bands:
 
-* Band 73 TDD
-* Band 28 FDD
-* Band 20 FDD
-* Band 5 FDD
-* Band 3 FDD
-* Band 2 FDD
-* Band 39 TDD
-* Band 1 FDD
-* Band 7 FDD
-* Band 40 TDD
-* Band 38 TDD
-* Band B42 TDD
-* Band 48 TDD
-* Band B43 TDD
-* Band n78 TDD
-* Band n77 TDD
-* Band 46 TDD
+* 450-465 MHz (Band 73 TDD)
+* 703-803 MHz (Band 28 FDD)
+* 791-862 MHz (Band 20 FDD)
+* 824-894 MHz (Band 5 FDD)
+* 1.71-188 GHz (Band 3 FDD)
+* 1.85-1.99 GHz (Band 2 FDD)
+* 1.88-19.2 GHz (Band 39 TDD)
+* 1.92-2.17 GHz (Band 1 FDD)
+* 2.5-2.68 GHz (Band 7 FDD)
+* 2.3-2.4 GHz (Band 40 TDD)
+* 2.57-2.62 GHz (Band 38 TDD)
+* 3.4-3.6 GHz (Band B42 TDD)
+* 3.55-3.7 GHz (Band 48 TDD)
+* 3.6-3.8 GHz (Band B43 TDD)
+* 3.3-3.8 GHz (Band n78 TDD)
+* 3.3-4.2 GHz (Band n77 TDD)
+* 5.15-5.925 GHz (Band 46 TDD)
 
 {% hint style="info" %}
 Check the data sheet for your desired base station hardware for band support specifications. Hamina does not factor in base station band support specifications.
