@@ -19,7 +19,7 @@
 * [🔗 Mesh Planning](design/mesh-planning.md)
 * [📞 Wired Clients](design/wired-clients.md)
 * [📱 Client View](design/client-view.md)
-* [↔ Switches, Routers, IDF/MDF and More](design/switches-routers-idf-mdf-and-more.md)
+* [↔ Switching and Cabling](design/switching-and-cabling.md)
 * [📶 Private Cellular Planning](design/cellular-planning.md)
 
 ## 📄 Reporting and Sharing <a href="#reporting-sharing" id="reporting-sharing"></a>
