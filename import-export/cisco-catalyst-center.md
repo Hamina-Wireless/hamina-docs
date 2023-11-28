@@ -15,7 +15,7 @@ This feature is currently in development, and is only available in Hamina Networ
 Since Cisco Catalyst Center Export is only available as a <mark style="color:red;">**Feature Preview**</mark>, it must be manually enabled before it will appear in the Export menu.
 
 1. Click on the **Account** menu in the upper right corner, and select **Edit Account** from the list.\
-   ![](<../.gitbook/assets/settings (1).png>)\
+   ![](<../.gitbook/assets/settings (1) (1).png>)\
 
 2. Click the **Feature preview** tab, and enable **Cisco DNA center integration**.\
    ![](../.gitbook/assets/enable\_dna.png)
