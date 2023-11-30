@@ -32,6 +32,7 @@
 
 * [🔁 Introduction](import-export/introduction.md)
 * [💬 Meraki](import-export/meraki.md)
+* [🌲 Juniper Mist](import-export/juniper-mist.md)
 * [🧬 Cisco Catalyst Center](import-export/cisco-catalyst-center.md)
 
 ***
