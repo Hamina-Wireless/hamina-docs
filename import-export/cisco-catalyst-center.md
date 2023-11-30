@@ -14,57 +14,147 @@ This feature is currently in development, and is only available in Hamina Networ
 
 Since Cisco Catalyst Center Export is only available as a <mark style="color:red;">**Feature Preview**</mark>, it must be manually enabled before it will appear in the Export menu.
 
-1. Click on the **Account** menu in the upper right corner, and select **Edit Account** from the list.\
-   ![](<../.gitbook/assets/settings (1) (1).png>)\
+1.  Click on the **Account** menu in the upper right corner, and select **Edit Account** from the list.\
+    \
 
-2. Click the **Feature preview** tab, and enable **Cisco DNA center integration**.\
-   ![](../.gitbook/assets/enable\_dna.png)
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/settings (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+
+    </div>
+2.  Click the **Feature preview** tab, and enable **Cisco DNA center integration**.\
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/enable_dna.png" alt="" width="375"><figcaption></figcaption></figure>
+
+    </div>
 
 ## Exporting From Hamina Network Planner
 
-1. Click the **Export Project** button.\
-   ![](<../.gitbook/assets/Export Project (1).png>)\
+1.  Click the **Export Project** button.\
+    \
 
-2. Select **Cisco DNA Center** from the list, and click the **Continue** button.\
-   ![](../.gitbook/assets/choose\_dna.png)\
 
-3. Choose the desired floors and click **Export**. A progress indicator will appear at the top of the screen.\
-   ![](../.gitbook/assets/export\_dna.png)
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/Export Project (1).png" alt="" width="373"><figcaption></figcaption></figure>
+
+    </div>
+2.  Select **Cisco DNA Center** from the list, and click the **Continue** button.\
+    \
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/choose_dna.png" alt="" width="375"><figcaption></figcaption></figure>
+
+    </div>
+3.  Choose the desired floors and click **Export**. A progress indicator will appear at the top of the screen.\
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/export_dna.png" alt="" width="375"><figcaption></figcaption></figure>
+
+    </div>
 
 ## Importing to Cisco Catalyst Center
 
-1. Log into Cisco Catalyst Center/Cisco DNA Center, open the hamburger 🍔 in the upper left.\
-   <img src="../.gitbook/assets/1_menu (1).png" alt="" data-size="original">\
+1.  Log into Cisco Catalyst Center/Cisco DNA Center, open the hamburger 🍔 in the upper left.\
+    \
 
-2. Click **Design**, and then **Network Hierarchy**.\
-   ![](../.gitbook/assets/2\_design\_network\_heirarchy.png)\
 
-3. Next to the root of the hierarchy, click the **ellipsis menu**, and then **Add Building**.![](../.gitbook/assets/3\_elipsis\_add\_building.png)\
+    <div align="left">
 
-4. In the **Add Building** window, enter `Project name` in the **Building Name** field.  Set the latitude and longitude of the site, and click the **Add** button.\
-   ![](../.gitbook/assets/4\_project\_name.png)\
-   _Note: For now, this specific name is required, but should be fixed before the Feature Preview concludes._\
+    <figure><img src="../.gitbook/assets/1_menu (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
-5. Next to the new building in the hierarchy, click the **ellipsis menu**, and then **Add Floor**.\
-   ![](<../.gitbook/assets/5\_elipsis\_add\_floor (1).png>)\
+    </div>
+2.  Click **Design**, and then **Network Hierarchy**.\
+    \
 
-6. In the **Add Floor** window, and enter the name of the floor you want to import in the **Floor Name** field. In our example, the floor name is "dnac".\
-   ![](../.gitbook/assets/6\_add\_floor.png)\
 
-7. Proceed without an image.\
-   ![](../.gitbook/assets/7\_without\_image.png)\
+    <div align="left">
 
+    <figure><img src="../.gitbook/assets/2_design_network_heirarchy.png" alt="" width="375"><figcaption></figcaption></figure>
+
+    </div>
+3.  Next to the root of the hierarchy, click the **ellipsis menu**, and then **Add Building**.\
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/3_elipsis_add_building.png" alt="" width="375"><figcaption></figcaption></figure>
+
+    </div>
+4.  In the **Add Building** window, enter `Project name` in the **Building Name** field.  Set the latitude and longitude of the site, and click the **Add** button.\
+    \
+    _Note: For now, this specific name is required, but should be fixed before the Feature Preview concludes._\
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/4_project_name.png" alt="" width="375"><figcaption></figcaption></figure>
+
+    </div>
+5.  Next to the new building in the hierarchy, click the **ellipsis menu**, and then **Add Floor**.\
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/5_elipsis_add_floor (1).png" alt="" width="375"><figcaption></figcaption></figure>
+
+    </div>
+6.  In the **Add Floor** window, and enter the name of the floor you want to import in the **Floor Name** field. In our example, the floor name is "dnac".\
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/6_add_floor.png" alt="" width="375"><figcaption></figcaption></figure>
+
+    </div>
+7.  Proceed without an image.\
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/7_without_image.png" alt="" width="375"><figcaption></figcaption></figure>
+
+    </div>
 8. In the toolbar along the top of the map, click **Import**, then click **Import Maps**.\
    ![](../.gitbook/assets/8\_import\_maps.png)\
 
-9. Choose the `tar.gz` file that was generated in Hamina Network Planner, and click the **Import** button.\
-   ![](<../.gitbook/assets/9\_select\_map (1).png>)\
+9.  Choose the `tar.gz` file that was generated in Hamina Network Planner, and click the **Import** button.\
 
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/9_select_map (1).png" alt="" width="375"><figcaption></figcaption></figure>
+
+    </div>
 10. Success! 🎉\
-    ![](../.gitbook/assets/10\_success.png)\
 
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/10_success.png" alt="" width="375"><figcaption></figcaption></figure>
+
+    </div>
 11. Choose the map in the hierarchy.\
-    ![](../.gitbook/assets/11\_select.png)\
 
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/11_select.png" alt="" width="375"><figcaption></figcaption></figure>
+
+    </div>
 12. The floor plan and access points should now be visible. _Note: For now, you will need to manually match AP models._\
-    ![](<../.gitbook/assets/12\_view (1).png>)\
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/12_view (1).png" alt="" width="375"><figcaption></figcaption></figure>
+
+    </div>
