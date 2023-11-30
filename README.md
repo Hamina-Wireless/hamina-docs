@@ -21,7 +21,11 @@ The EU and US instances of Hamina are completely separate. Your user account, su
 
 The first time you launch Hamina, it will prompt you to name and save a project.
 
-![](<.gitbook/assets/Create Project.png>)
+<div align="left">
+
+<figure><img src=".gitbook/assets/Create Project.png" alt="" width="375"><figcaption></figcaption></figure>
+
+</div>
 
 ## Upload a Floor Plan
 
@@ -68,6 +72,10 @@ If you are a wireless network engineer or designer, then the "free mode" in Hami
 
 To subscribe to Hamina Network Planner, click on the **Upgrade** button in the upper right, choose between **Hamina Network Planner** and **Hamina Network Planner Plus**, and click the **Buy** button. You will be taken to another page where you can complete your purchase.
 
-![](<.gitbook/assets/Upgrade (1).png>)
+<div align="left">
+
+<figure><img src=".gitbook/assets/Upgrade (1).png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
 
 To learn about the differences between Hamina Network Planner and Hamina Network Planner Plus, visit the [Hamina Pricing page](https://www.hamina.com/pricing).
