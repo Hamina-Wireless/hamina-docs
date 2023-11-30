@@ -16,7 +16,11 @@ Until floors are added to a building, maps don't have any relationship with each
 
 To rename a map, click on the **Floor** drop-down, point to the floor, and click **Rename**.
 
+<div align="left">
+
 <figure><img src="../.gitbook/assets/rename_map (1).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ### Map Sorting
 
@@ -37,7 +41,11 @@ Note: Only one multi-floor building is supported per project. If you need to des
 
 When floors are added to a building, they are sorted in the map dropdown based on their order in the building, which can override the default map sorting.
 
+<div align="left">
+
 <figure><img src="../.gitbook/assets/floor_reorder.png" alt=""><figcaption><p>Floor 1 is erroneously placed above Floor 2, to illustrate how buildings override default map sorting.</p></figcaption></figure>
+
+</div>
 
 ## Creating a Building
 
@@ -54,7 +62,11 @@ To add floors to the building for alignment:
 3. In the **Floor alignment** pane on the left, drag any desired floors into the build area at the top.
 4. Drag the floors into the correct order within the building, with the lower floors on the bottom of the list.
 
+<div align="left">
+
 <figure><img src="../.gitbook/assets/add_floors.gif" alt="" width="360"><figcaption></figcaption></figure>
+
+</div>
 
 ## Aligning Floors
 
@@ -63,7 +75,11 @@ Floor alignment is accomplished by dragging the yellow map until it aligns with 
 * The **black map** is the the current floor, e.g. the map that is selected with the **Floor** menu on the top.
 * The <mark style="color:yellow;">**yellow map**</mark> is the floor that is currently being moved and resized. The position and scale of the yellow map is changed in relation to the position and scale of the black map. You can change which map you want to move and resize by clicking on other maps in the **Floor alignment** pane.
 
+<div align="left">
+
 <figure><img src="../.gitbook/assets/alignment_colors.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 Align the floors by identifying common features between floors, such as elevators and stairwells.
 
