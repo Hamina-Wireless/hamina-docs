@@ -15,7 +15,6 @@ This feature is currently in development, and is only available in Hamina Networ
 Since Cisco Catalyst Center Export is only available as a <mark style="color:red;">**Feature Preview**</mark>, it must be manually enabled before it will appear in the Export menu.
 
 1.  Click on the **Account** menu in the upper right corner, and select **Edit Account** from the list.\
-    \
 
 
     <div align="left">
@@ -35,7 +34,6 @@ Since Cisco Catalyst Center Export is only available as a <mark style="color:red
 ## Exporting From Hamina Network Planner
 
 1.  Click the **Export Project** button.\
-    \
 
 
     <div align="left">
@@ -44,7 +42,6 @@ Since Cisco Catalyst Center Export is only available as a <mark style="color:red
 
     </div>
 2.  Select **Cisco DNA Center** from the list, and click the **Continue** button.\
-    \
 
 
     <div align="left">
@@ -64,7 +61,6 @@ Since Cisco Catalyst Center Export is only available as a <mark style="color:red
 ## Importing to Cisco Catalyst Center
 
 1.  Log into Cisco Catalyst Center/Cisco DNA Center, open the hamburger 🍔 in the upper left.\
-    \
 
 
     <div align="left">
@@ -73,7 +69,6 @@ Since Cisco Catalyst Center Export is only available as a <mark style="color:red
 
     </div>
 2.  Click **Design**, and then **Network Hierarchy**.\
-    \
 
 
     <div align="left">
