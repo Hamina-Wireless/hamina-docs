@@ -48,7 +48,7 @@ The **Export** function rapidly deploys a new site, or updates an existing site 
 
     <div align="left">
 
-    <figure><img src="../.gitbook/assets/import_export.png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/Import.png" alt="" width="563"><figcaption></figcaption></figure>
 
     </div>
 2.  Select your Region, paste in the key, and click the **Continue** button.\
