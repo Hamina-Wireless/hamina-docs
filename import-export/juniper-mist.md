@@ -71,3 +71,12 @@ The **Export** function rapidly deploys a new site, or updates an existing site 
 
     <figure><img src="../.gitbook/assets/mist_design.png" alt=""><figcaption></figcaption></figure>
 
+## Exporting from Hamina to Juniper Mist
+
+Using the Export function in Hamina, you can deploy a network to Juniper Mist including the backgroud map and AP locations.
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/Export.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
