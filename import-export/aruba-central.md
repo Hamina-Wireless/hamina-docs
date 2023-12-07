@@ -10,7 +10,7 @@ Hamina Network Planner includes integration with Aruba Central, which can be use
 Exporting to Aruba Central is not yet supported due to limitations of Aruba Central API. You can [track the status of the issue on the Hamina feedback page](https://feedback.hamina.com/suggestions/341313/export-from-hamina-to-aruba-central-capability).
 {% endhint %}
 
-## Creating API Access Token
+## Creating an API Access Token
 
 1. Log in into Aruba Central and select **Organization** from the side menu.
 
