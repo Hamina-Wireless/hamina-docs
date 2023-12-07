@@ -4,9 +4,7 @@ description: Learn how to import maps and access points from Aruba Central.
 
 # 🟠 Aruba Central
 
-Hamina Network Planner includes integration with Aruba Central, which can be used to Import maps and access points from Aruba Central.
-
-The Import function will bring the map and access points (including model, name, MAC, serial) into Hamina Network Planner. Then, you can add walls, attenuating objects, and scope zones to simulate the current network configuration in a predictive model.
+Hamina Network Planner includes integration with Aruba Central, which can be used to import maps and access points (including model, name, MAC, serial) into Hamina Network Planner. Then, you can add walls, attenuating objects, and scope zones to simulate the current network configuration in a predictive model.
 
 {% hint style="info" %}
 Exporting to Aruba Central is not yet supported due to limitations in Aruba Central API. You can follow the status of this feature here: [Export from Hamina to Aruba Central capability](https://feedback.hamina.com/suggestions/341313/export-from-hamina-to-aruba-central-capability)
@@ -14,7 +12,7 @@ Exporting to Aruba Central is not yet supported due to limitations in Aruba Cent
 
 ## Creating API Access Token
 
-Login into Aruba Central and select _Organization_ from the side menu:
+1. Login into Aruba Central and select **Organization** from the side menu.
 
 <div align="left">
 
@@ -22,7 +20,7 @@ Login into Aruba Central and select _Organization_ from the side menu:
 
 </div>
 
-Select _Platform Integration_ from the top menu:
+2. Select the Platform Integration tab.
 
 <div align="left">
 
@@ -30,7 +28,7 @@ Select _Platform Integration_ from the top menu:
 
 </div>
 
-Click _REST API_ under _API Gateway_ section:
+3. Under the **API Gateway** section, select **Rest API.**
 
 <div align="left">
 
@@ -38,7 +36,7 @@ Click _REST API_ under _API Gateway_ section:
 
 </div>
 
-Select _My Apps & Tokens_ tab.
+4. Select the **My Apps & Tokens** tab.
 
 <div align="left">
 
@@ -46,7 +44,7 @@ Select _My Apps & Tokens_ tab.
 
 </div>
 
-Click _Add Apps & Tokens_.
+5. Select **Add Apps & Tokens**.
 
 <div align="left">
 
@@ -54,7 +52,7 @@ Click _Add Apps & Tokens_.
 
 </div>
 
-Click _Generate_ button to confirm creating a new token.
+6. Click the **Generate** button to confirm creating a new token.
 
 <div align="left">
 
@@ -62,7 +60,7 @@ Click _Generate_ button to confirm creating a new token.
 
 </div>
 
-Find the token you created in _Token List_ and click _Download Token._
+6. Find the token you created in the **Token List**, and click the **Download Token** link.
 
 <div align="left">
 
@@ -70,7 +68,7 @@ Find the token you created in _Token List_ and click _Download Token._
 
 </div>
 
-From the window that opens, copy the value of the "_access\_token_" field. This is the value needed in Hamina. For example, in the the access token downloaded token information below, the access token would be `1uA87rI5QgI4otIlGh9sqUt8CMACb6A4`.
+7. From the window that opens, copy the value of the `access_token` field. In the example below, the access token is `1uA87rI5QgI4otIlGh9sqUt8CMACb6A4`.
 
 ```json
 {
@@ -87,7 +85,7 @@ From the window that opens, copy the value of the "_access\_token_" field. This 
 }
 ```
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Due to a limitation in Aruba Central, the access token is only valid for two hours. A new access token needs to be generated after the token expires.
 {% endhint %}
 
