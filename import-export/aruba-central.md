@@ -7,12 +7,12 @@ description: Learn how to import maps and access points from Aruba Central.
 Hamina Network Planner includes integration with Aruba Central, which can be used to import maps and access points (including model, name, MAC, serial) into Hamina Network Planner. Then, you can add walls, attenuating objects, and scope zones to simulate the current network configuration in a predictive model.
 
 {% hint style="info" %}
-Exporting to Aruba Central is not yet supported due to limitations in Aruba Central API. You can follow the status of this feature here: [Export from Hamina to Aruba Central capability](https://feedback.hamina.com/suggestions/341313/export-from-hamina-to-aruba-central-capability)
+Exporting to Aruba Central is not yet supported due to limitations of Aruba Central API. You can [track the status of the issue on the Hamina feedback page](https://feedback.hamina.com/suggestions/341313/export-from-hamina-to-aruba-central-capability).
 {% endhint %}
 
 ## Creating API Access Token
 
-1. Login into Aruba Central and select **Organization** from the side menu.
+1. Log in into Aruba Central and select **Organization** from the side menu.
 
 <div align="left">
 
@@ -20,7 +20,7 @@ Exporting to Aruba Central is not yet supported due to limitations in Aruba Cent
 
 </div>
 
-2. Select the Platform Integration tab.
+2. Select the **Platform Integration** tab.
 
 <div align="left">
 
