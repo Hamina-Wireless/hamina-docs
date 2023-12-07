@@ -31,6 +31,7 @@
 ## 📥 Importing and Exporting <a href="#import-export" id="import-export"></a>
 
 * [🔁 Introduction](import-export/introduction.md)
+* [📥 Importing access points](import-export/importing-access-points.md)
 * [🟠 Aruba Central](import-export/aruba-central.md)
 * [🧬 Cisco Catalyst Center](import-export/cisco-catalyst-center.md)
 * [🌲 Juniper Mist](import-export/juniper-mist.md)
