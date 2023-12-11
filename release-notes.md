@@ -1,4 +1,117 @@
+---
+description: Learn about new features, changes, and bug fixes in Hamina Network Planner.
+---
+
 # 🗒 Release Notes
+
+### 2023/12/11
+
+*   Added support for an innovative new input method for computer mice: **scroll wheels**! The camera controls toolbar on the right now has a **Switch to mouse/trackpad mode** button, which changes the behavior of the "scroll wheel". Trackpad mode optimizes for two-finger scrolling and pinch-to-zoom, and mouse mode optimizes for zooming in and out with the scroll wheel. We put the button right there in the toolbar, so if you switch back and forth instantly. 🐭\
+
+
+    <div align="left">
+
+    <figure><img src=".gitbook/assets/mouse.png" alt="" width="191"><figcaption></figcaption></figure>
+
+    </div>
+*   While we typically don't want it to happen, clients do occasionally roam to APs on different floors! The problem is that the Client View only paid attention to the current floor, but we fixed that. Now, the client can roam to APs on the floors above and below. Enable **Full Building propagation** and the client can potentially roam to any AP on any floor! The association area turns red, too.\
+
+
+    <div align="left">
+
+    <figure><img src=".gitbook/assets/wrong_floor.png" alt="" width="375"><figcaption></figcaption></figure>
+
+    </div>
+*   Speaking of the Client View, it's all-new to make room for **Client capacity**! Now, when a Capacity zone is drawn, and clients are associated to the current associated AP, the Client view will now show the capacity of the current radio from a client association perspective.\
+
+
+    <div align="left">
+
+    <figure><img src=".gitbook/assets/client_capacity.png" alt="" width="375"><figcaption></figcaption></figure>
+
+    </div>
+* In addition to Client capacity, the Client View can now show **Downlink**, **Uplink**, and... you're gunna love this one, we made it all up on our own: **Worstlink**®! It shows you, uh... the worst of the two.
+* In the Client View, enabling **Show association area** now automagically disables the current heatmap.
+* Cisco Catalyst (DNA) Center Export now includes the project, floor, and radio! It's still in beta though, so be careful.
+*   The **x** button in the Share menu is now a trash can. Am I getting paid per bullet point? No...? Why do you ask?
+
+    <div align="left">
+
+    <figure><img src=".gitbook/assets/Screenshot 2023-12-11 at 7.17.58 PM.png" alt="" width="374"><figcaption></figcaption></figure>
+
+    </div>
+* Previously, entering 3D mode would cause the map to slowly rotate, which looked pretty cool. Unfortunately, changing the zoom or rotation would stop it. Now, you can right-click the Switch to 2D button in the camera controls toolbar to restart rotation. Ok, this is mostly for us to demo things and sell more Hamina subscriptions, but maybe you'll find some use for it too.
+
+#### Bugs
+
+* The Channel Width column in the AP Radio Details table had a decimal place for no reason. It will now, for example, say "20 MHz" instead of "20.0 MHz".
+* In PDF reports, the Legend in the lower left was all red, but only in Preview on macOS. In other PDF viewers, it was fine, but we changed how we draw the legend in the PDF so it would look right in Preview.
+* The title for the "table mount" was wrong in the BOM, so we fixed it.
+
+### 2023/11/23
+
+* Behind-the-scenes work for Hamina Onsite. 😮
+
+#### Bugs
+
+* In some cases, the tops of overlapping walls might flicker, so we applied a temporary fix. We'll do a permanent fix soon, along with some big 3D improvements that are on the horizon. 🤩
+
+### 2023/11/21
+
+* Added the MikroTik cAP ax
+* Added the MikroTik hAP-ac3 and hAP-ax3 that uses an HGO-52 antenna.
+* Added the Huawei 8760-X1E.
+* Added the Juniper Mist AP41E.
+* Added the Alcatel Licent AP1301 and AP1311.
+* Added the an AirSpeed 1900/2900 external antenna variant. You're all variants!
+* Behind-the-scenes work for Hamina Onsite. 🤫
+
+#### Bugs
+
+* There was an issue where users without a subscription (the "free tier" users) couldn't create reports. That wasn't intentional, and it's fixed now!
+* PDF report generation was sometimes failing. We figured it why, and fixed. it.
+* We accidentally added the Extreme AP3000 as a tri-radio AP. In reality, it is a dual-band AP with a band-selectable radio, so we fixed it. There is now a 2.4/5 GHz version, and a 5/6 GHz version.
+* The EnGenius ECW215 and ECW230 had the wrong Wi-Fi generation assigned. Now, they're Wi-Fi 6, as they should be.
+
+### 2023/11/01
+
+* We added multi-radio support for cellular APs (or "eNodeBs" as the cool kids say), which means support for different antennas per radio and selecting radios individually (both for heatmaps and azimuth controls).
+* We added an Upcoming AP models flag to the APs/antennas database, and a **Preview upcoming AP models** checkbox, so vendors can see their APs and antennas in Hamina ahead of their official release.
+* Added the Zyxel WBE660S.
+* You guessed it, more behind-the-scenes work for Hamina Onsite! 🤫
+
+#### Bugs
+
+* Just one bugfix this time: switching between cellular and Wi-Fi APs could have broken the external antenna switcher. It doesn't break anymore!
+
+### 2023/10/25
+
+* Implemented the new Planner layout to prepare for Hamina Onsite.
+* We added the resolved AP number to the Copy function, which some of our users needed for doing automation and stuff.
+* Added channel width indicators to the Access point pane, so you could quickly see what channel width the Automatic channel width feature is using.
+* Added the Ruckus R770.
+* Behind-the-scenes work for Hamina Onsite. 🤫
+
+#### Bugs
+
+* Fixed a bug where the channel settings wouldn't save if you opened them through the access point pane. 🐛
+* Fixed a bug where a project wouldn't save to the folder you specified, if you assigned it to  a folder during creation. 🪲
+* Here's a weird one: if you uploaded some maps, and quickly switched to a different project, you'd get map upload notifications for the previous project.
+* Fixed an issue where the Extreme AP3000 didn't default to a ceiling mount. Whoops. 🤪
+* Fixed an issue where the Automatic channel width would get stuck. I tell you what, we hit it with some WD-40. It doesn't get stuck no more.
+
+### 2023/10/19
+
+*   Added Co-channel interference tooltips! Now, with the **Interference** heatmap enabled, mousing over any interference will show which APs are causing the interference down in the Legend.\
+
+
+    <div align="left">
+
+    <figure><img src=".gitbook/assets/interference.png" alt="" width="372"><figcaption></figcaption></figure>
+
+    </div>
+* Added **Automatic channel width**! Now, Hamina Network Planner can automagically optimize the channel width, based on how much co-channel interference you have. For now, you'll need to visit the **Channel settings** to enable it for each band, but someday, we'll probably make it on by default. Once it's enabled, as you add APs, you'll see &#x20;
+* Behind-the-scenes work for Hamina Onsite. 😮
 
 ### 2023/10/13
 
