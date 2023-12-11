@@ -62,7 +62,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 * Added the MikroTik hAP-ac3 and hAP-ax3 that uses an HGO-52 antenna.
 * Added the Huawei 8760-X1E.
 * Added the Juniper Mist AP41E.
-* Added the Alcatel Licent AP1301 and AP1311.
+* Added the Alcatel Lucent AP1301 and AP1311.
 * Added the an AirSpeed 1900/2900 external antenna variant. You're all variants!
 * Behind-the-scenes work for Hamina Onsite. 🤫
 
