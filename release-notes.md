@@ -32,7 +32,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
     </div>
 * In addition to Client capacity, the Client View can now show **Downlink**, **Uplink**, and... you're gunna love this one, we made it all up on our own: **Worstlink**®! It shows you, uh... the worst of the two.
 * In the Client View, enabling **Show association area** now automagically disables the current heatmap.
-* Cisco Catalyst (DNA) Center Export now includes the project, floor, and radio! It's still in beta though, so be careful.
+* Cisco Catalyst (DNA) Center Export now includes the building, floor, and radio details! The **Building** is populated from the **Hamina project name**, and the **Floor** is derived from the multi-floor feature. The radios now include azimuth, elevation (from the AP height), and radio type. It's all still in beta though, so be careful!
 *   The **x** button in the Share menu is now a trash can. Am I getting paid per bullet point? No...? Why do you ask?
 
     <div align="left">
