@@ -2,7 +2,7 @@
 description: Learn how to export designs from Hamina for import to Cisco Catalyst Center.
 ---
 
-# 🧬 Cisco Catalyst Center
+# 🧬 Cisco Catalyst (DNA) Center
 
 Hamina Network Planner can export the network design as a file that can be imported to Cisco DNA Center (formerly known as Cisco DNA Center or "DNAC").
 
@@ -33,20 +33,20 @@ Since Cisco Catalyst Center Export is only available as a <mark style="color:red
 
 ## Exporting From Hamina Network Planner
 
-1.  Click the **Export Project** button.\
+1.  In the Project menu, select **Export Project**.\
 
 
     <div align="left">
 
-    <figure><img src="../.gitbook/assets/Export Project (1).png" alt="" width="373"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/Export (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
     </div>
-2.  Select **Cisco DNA Center** from the list, and click the **Continue** button.\
+2.  Select **Cisco Catalyst (DNA) Center** from the list, and click the **Continue** button.\
 
 
     <div align="left">
 
-    <figure><img src="../.gitbook/assets/choose_dna.png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/cisco_dna_export.png" alt="" width="563"><figcaption></figcaption></figure>
 
     </div>
 3.  Choose the desired floors and click **Export**. A progress indicator will appear at the top of the screen.\
@@ -54,13 +54,13 @@ Since Cisco Catalyst Center Export is only available as a <mark style="color:red
 
     <div align="left">
 
-    <figure><img src="../.gitbook/assets/export_dna.png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/export_to_dna.png" alt=""><figcaption></figcaption></figure>
 
     </div>
 
-## Importing to Cisco Catalyst Center
+## Importing to Cisco Catalyst (DNA) Center
 
-1.  Log into Cisco Catalyst Center/Cisco DNA Center, open the hamburger 🍔 in the upper left.\
+1.  Log into Cisco Catalyst (DNA) Center, open the hamburger menu 🍔 in the upper left.\
 
 
     <div align="left">
@@ -84,9 +84,7 @@ Since Cisco Catalyst Center Export is only available as a <mark style="color:red
     <figure><img src="../.gitbook/assets/3_elipsis_add_building.png" alt="" width="375"><figcaption></figcaption></figure>
 
     </div>
-4.  In the **Add Building** window, enter `Project name` in the **Building Name** field.  Set the latitude and longitude of the site, and click the **Add** button.\
-    \
-    _Note: For now, this specific name is required, but should be fixed before the Feature Preview concludes._\
+4.  In the **Add Building** window, enter the name of the Hamina project in the **Building Name** field.  For example, if the Hamina project is called `Hospital`, then enter `Hospital` in the Building Name field. Set the latitude and longitude of the site, and click the **Add** button.\
 
 
     <div align="left">
