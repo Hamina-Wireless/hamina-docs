@@ -19,7 +19,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
     <div align="left">
 
-    <figure><img src=".gitbook/assets/wrong_floor.png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/wrong_floor (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
     </div>
 *   Speaking of the Client View, it's all-new to make room for **Client capacity**! Now, when a Capacity zone is drawn, and clients are associated to the current associated AP, the Client view will now show the capacity of the current radio from a client association perspective.\
