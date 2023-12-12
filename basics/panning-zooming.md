@@ -1,7 +1,7 @@
 ---
 description: >-
   Learn how to quickly and efficiently navigate and manipulate maps in Hamina
-  Network Planner
+  Network Planner.
 ---
 
 # 🗺 Panning and Zooming Maps
