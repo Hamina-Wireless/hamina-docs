@@ -101,7 +101,7 @@ The Client Experience pane on the right has additional settings:
     <figure><img src="../.gitbook/assets/wrong_floor.png" alt="" width="375"><figcaption></figcaption></figure>
 
     </div>
-* **Link direction**
+* **Link direction** (only with **Hamina Network Planner Plus**)
   * **Downlink**: Displays simulated values as received and measured by the client.
   * **Uplink**: Displays simulated values as received and measured by the AP.
   * **Worstlink**: Displays either downlink or uplink, whichever has the worst signal (RSSI for Wi-Fi, or RSRP for Cellular). Worstlink is the default setting.
