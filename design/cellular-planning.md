@@ -83,5 +83,7 @@ For SINR only, the **Cell average load %** is also adjustable.
 
 ![](../.gitbook/assets/sinr\_requirements.png)
 
+### Per-Frequency Signal Propagation
 
+When planning private cellular networks, Hamina Network Planner Plus models RF propagation on a per-frequency basis. In other words, it models the propogation based on the selected frequency of each radio unit. A radio unit using a lower frequency in the band will propagate better than a radio unit using a higher frequency in the band.
 
