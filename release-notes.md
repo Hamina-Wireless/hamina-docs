@@ -13,7 +13,7 @@ One last production push of the year, and right before Christmas! 🎅🌲🎁 T
 * **Vendor Integrations**
   * Cisco Catalyst (DNA) Center users can now define an existing hierarchy with building and areas (with multiple nested areas) when exporting a Cisco Catalyst XML file.
     * If there isn't a hierarchy defined in Cisco Catalyst Center, it can be exported as as separate CSV file.
-      * The building name defaults to the Hamina project name, but this can be overridden.
+    * The building name defaults to the Hamina project name, but this can be overridden.
   * Added APAC01 region to Juniper Mist.
 * **Client View**
   * Added a scroll bar to the Client experience pane.
