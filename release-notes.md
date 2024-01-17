@@ -8,6 +8,8 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 This one contains a bunch of stuff, so we'll break it up into categories a little bit.
 
+#### Features and Changes
+
 * **Vendor Integrations**
   * Cisco Catalyst (DNA) Center users can now define an existing hierarchy with building and areas (with multiple nested areas) when exporting a Cisco Catalyst XML file.
     * If there isn't a hierarchy defined in Cisco Catalyst Center, it can be exported as as separate CSV file.
@@ -29,11 +31,13 @@ This one contains a bunch of stuff, so we'll break it up into categories a littl
 * **Miscellaneous**
   * When mousing over areas with Interference in the Interference heatmap, the APs causing that interference have a red highlight. Nice.
   * Previously, we gave new Hamina accounts the opportunity to view one of several example projects, which would then copy that example project to their account. Now, we copy all of the example projects to the new user's account, so they can explore all of them.
-* **Bugs**
-  * We fixed an issue where a measured AP could appear on two maps. This was mostly true before (but is extra-true now): if you have a project with multiple maps/floors, a surveyed AP will only appear on one at a time.
-  * We decided to make the "Roaming Man" in the Client View is more grounded. Seriously. At the default client height, in 3D, his feet appear to be on the ground.
-  * There was an issue where you couldn't place notes on survey paths. That's fixed, now you can put map notes wherever you want!
-  * There were some memory usage issues in Safari, which we mitigated with... uh... memory-usage-mitigating techniques.
+
+#### Bugs
+
+* We fixed an issue where a measured AP could appear on two maps. This was mostly true before (but is extra-true now): if you have a project with multiple maps/floors, a surveyed AP will only appear on one at a time.
+* We decided to make the "Roaming Man" in the Client View is more grounded. Seriously. At the default client height, in 3D, his feet appear to be on the ground.
+* There was an issue where you couldn't place notes on survey paths. That's fixed, now you can put map notes wherever you want!
+* There were some memory usage issues in Safari, which we mitigated with... uh... memory-usage-mitigating techniques.
 
 ### 2023/12/11
 
