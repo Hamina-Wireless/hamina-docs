@@ -4,6 +4,37 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 # 🗒 Release Notes
 
+### 2023/12/21
+
+This one contains a bunch of stuff, so we'll break it up into categories a little bit.
+
+* **Vendor Integrations**
+  * Cisco Catalyst (DNA) Center users can now define an existing hierarchy with building and areas (with multiple nested areas) when exporting a Cisco Catalyst XML file.
+    * If there isn't a hierarchy defined in Cisco Catalyst Center, it can be exported as as separate CSV file.
+      * The building name defaults to the Hamina project name, but this can be overridden.
+  * Added APAC01 region to Juniper Mist.
+* **Client View**
+  * Added a scroll bar to the Client experience pane.
+  * When the Client View is activated, the heatmaps are now automatically hidden, but you can show them again by unchecking **Show association area** in the **Client experience** pane.
+  * In the **Survey paths** pane, the newest surveys are now at the top, making them the easiest to find.
+  * In 3D, if the client height is changed, the "Roaming Man" in the Client View now has a vertical line to show it's precise location on the ground.
+  * The maximum client height is now tied to the height of the current floor.
+* **Folder Behavior**
+  * To prepare for our upcoming team project sharing features, we converted the concept of "Folders" to "Tags". With this change, we are able to drastically simplify the development and usage of the team project sharing feature.
+    * As part of the conversion from "Folders" to "Tags", when you tag a project and share it, the person you are sharing with will see the same tag structure as you.
+    * Conversely, if someone shares a tagged project with you, you'll see the tag structure as well.
+* **Surveys**
+  * We show the location of measured APs if they exceed -60 dBm.
+  * The Survey tab only appears for projects containing survey data, or if your account has a Hamina Onsite subscription.
+* **Miscellaneous**
+  * When mousing over areas with Interference in the Interference heatmap, the APs causing that interference have a red highlight. Nice.
+  * Previously, we gave new Hamina accounts the opportunity to view one of several example projects, which would then copy that example project to their account. Now, we copy all of the example projects to the new user's account, so they can explore all of them.
+* **Bugs**
+  * We fixed an issue where a measured AP could appear on two maps. This was mostly true before (but is extra-true now): if you have a project with multiple maps/floors, a surveyed AP will only appear on one at a time.
+  * We decided to make the "Roaming Man" in the Client View is more grounded. Seriously. At the default client height, in 3D, his feet appear to be on the ground.
+  * There was an issue where you couldn't place notes on survey paths. That's fixed, now you can put map notes wherever you want!
+  * There were some memory usage issues in Safari, which we mitigated with... uh... memory-usage-mitigating techniques.
+
 ### 2023/12/11
 
 *   Added support for an innovative new input method for computer mice: **scroll wheels**! The camera controls toolbar on the right now has a **Switch to mouse/trackpad mode** button, which changes the behavior of the "scroll wheel". Trackpad mode optimizes for two-finger scrolling and pinch-to-zoom, and mouse mode optimizes for zooming in and out with the scroll wheel. We put the button right there in the toolbar, so if you switch back and forth instantly. 🐭\
