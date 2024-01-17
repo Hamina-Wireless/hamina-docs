@@ -6,7 +6,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 ### 2023/12/21
 
-This one contains a bunch of stuff, so we'll break it up into categories a little bit.
+One last production push of the year, and right before Christmas! 🎅🌲🎁 This one contains a bunch of stuff, so we'll break it up into categories a little bit. ❄️⛄🎄
 
 #### Features and Changes
 
