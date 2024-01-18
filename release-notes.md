@@ -27,7 +27,7 @@ One last production push of the year, and right before Christmas! 🎅🌲🎁 T
     * Conversely, if someone shares a tagged project with you, you'll see the tag structure as well.
 * **Surveys**
   * We show the location of measured APs if they exceed -60 dBm.
-  * The Survey tab only appears for projects containing survey data, or if your account has a Hamina Onsite subscription.
+  * For users with Hamina Network Planner subscriptions, the Survey tab only appears if the project contains survey data.
 * **Miscellaneous**
   * When mousing over areas with Interference in the Interference heatmap, the APs causing that interference have a red highlight. Nice.
   * Previously, we gave new Hamina accounts the opportunity to view one of several example projects, which would then copy that example project to their account. Now, we copy all of the example projects to the new user's account, so they can explore all of them.
