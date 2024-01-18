@@ -4,6 +4,36 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 # 🗒 Release Notes
 
+### 2024/01/10
+
+* When using the Export feature, with the "Match by name" selected, Hamina Planner will now attempt matching unassigned APs by name, instead of randomly assigning them.
+* We made some other model matching improvements.
+
+### 2024/01/09
+
+#### Features and Changes
+
+* Previously for measured data, the heatmaps would fade to red near the edges, suggesting that signal strength wasn't as good there. This has now been corrected; the heatmaps now have a clean cut at the edges without a color change.
+* We adjusted the default heatmap thresholds. For Primary Coverage:
+  * Green: -65 dBm
+  * Yellow: -70 dBm
+  * Red: -75 dBm
+* For Secondary Coverage:
+  * Green: -67 dBm
+  * Yellow: -70 dBm
+  * Red: -75 dBm
+* For SNR:
+  * Green: 25 dB
+  * Yellow: 20 dB
+  * Red: 15 dB
+* The Secondary Coverage and SNR heatmaps are now available for measured data.
+* For the various integration/import/export features in Hamina Network Planner, we renamed "Meraki" to "Cisco Meraki".
+
+#### Bugs
+
+* Fixed a bug where the channel optimizer wouldn't re-run when switching AP models.
+* The Cisco 3802 was labeled as "Wi-Fi 6", which is not correct. Now, it says "Wi-Fi 5" in the BOM, like it should.
+
 ### 2024/01/04
 
 Happy New Year! 🎉
