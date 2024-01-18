@@ -101,6 +101,10 @@ One last production push of the year, and right before Christmas! 🎅🌲🎁 T
   * When mousing over areas with Interference in the Interference heatmap, the APs causing that interference have a red highlight. Nice.
   * Previously, we gave new Hamina accounts the opportunity to view one of several example projects, which would then copy that example project to their account. Now, we copy all of the example projects to the new user's account, so they can explore all of them.
 
+#### APs and Antennas
+
+* Added the Calix GigaPro p6dx
+
 #### Bugs
 
 * We fixed an issue where a measured AP could appear on two maps. This was mostly true before (but is extra-true now): if you have a project with multiple maps/floors, a surveyed AP will only appear on one at a time.
