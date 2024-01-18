@@ -4,7 +4,29 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 # 🗒 Release Notes
 
+### 2024/01/15
+
+#### Features and Changes
+
+* When Importing access points, they are now "Not Connected" by default.
+* We no longer fetch survey data until you switch to the "Survey" tab.
+
+#### Bugs
+
+* There was a bug where you couldn't select notes in the Survey tab. That's fixed now.
+* If two measurements were in the exact same location, some strange visual artifacts could occur. Fixed!
+
+#### New APs and Antennas
+
+* Added the MP Antenna 08-ANT-1072.
+* Added the Aruba AP-584.
+* Added the Alcatel OAW-AP1321, OAW-AP1322, OAW-AP1331, OAW-AP1361, OAW-AP1361D, and OAW-AP1362.
+* Added the Extreme ML-2452-APA2-02.
+* Added the Siemens ANT793-8DJ and ANT793-8DL.
+
 ### 2024/01/10
+
+#### Features and Changes
 
 * When using the Export feature, with the "Match by name" selected, Hamina Planner will now attempt matching unassigned APs by name, instead of randomly assigning them.
 * We made some other model matching improvements.
