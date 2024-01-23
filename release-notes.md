@@ -18,11 +18,11 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 #### New APs and Antennas
 
-* Added the MP Antenna 08-ANT-1072.
-* Added the Aruba AP-584.
-* Added the Alcatel OAW-AP1321, OAW-AP1322, OAW-AP1331, OAW-AP1361, OAW-AP1361D, and OAW-AP1362.
-* Added the Extreme ML-2452-APA2-02.
-* Added the Siemens ANT793-8DJ and ANT793-8DL.
+* MP Antenna 08-ANT-1072.
+* Aruba AP-584, AP-634, AP-635, AP-654, and AP-655.
+* Alcatel OAW-AP1321, OAW-AP1322, OAW-AP1331, OAW-AP1361, OAW-AP1361D, and OAW-AP1362.
+* Extreme ML-2452-APA2-02.
+* Siemens ANT793-8DJ and ANT793-8DL.
 
 ### 2024/01/10
 
