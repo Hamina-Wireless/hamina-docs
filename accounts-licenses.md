@@ -12,9 +12,9 @@ In Hamina Wireless products, a user is defined as an individual person. Each use
 Hamina Network Planner works best when everyone has their own account. Additionally, shared accounts are not allowed per our Terms of Service.
 {% endhint %}
 
-## Activating a Trial Key
+## Activating a License Key
 
-Thanks for trying out Hamina! Here's how to activate your trial key.
+Whether you are trying out Hamina, or activating a new subscription, here's how to activate your license. This applies to both Hamina Network Planner, and Hamina Onsite.
 
 1.  Click on the **Account** menu in the upper right, then click **Subscription**.\
 
@@ -24,7 +24,7 @@ Thanks for trying out Hamina! Here's how to activate your trial key.
     <figure><img src=".gitbook/assets/account.png" alt="" width="344"><figcaption></figcaption></figure>
 
     </div>
-2.  Click the **... menu** next to the trial license, and click **Activate**.\
+2.  Click the **... menu** next to the license, and click **Activate**.\
 
 
     <div align="left">
@@ -32,7 +32,7 @@ Thanks for trying out Hamina! Here's how to activate your trial key.
     <figure><img src=".gitbook/assets/activate_trial (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
     </div>
-3. If you have any colleagues who are also trialing Hamina with the same license key, use the **Copy license key** option in the **... menu** to retrieve it to share with them.
+3. If you have a subscription with multiple seats, and have any colleagues who need to activate it, use the **Copy license key** option in the **... menu** to retrieve it to share with them.
 
 ## Volume License Keys
 
