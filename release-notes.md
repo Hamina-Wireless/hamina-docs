@@ -88,7 +88,6 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
     </div>
 *   Here's an example in a pretty standard building, in this case a small medical clinic. The doors and windows are drawn in like standard walls, and the **Fill top & bottom** setting takes care of the rest. We've added all of the correct profiles for new projects, so this will work out-of-the box. There's still a floor-to-ceiling **Glass** profile for fancy conference rooms.\
-    \
 
 
     <div align="left">
