@@ -67,7 +67,8 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 * We added dual 5 GHz mode for the Fortinet 431G, which appears as Fortinet 431G (2.4/5/5).
 * Fortinet 233G Custom, 234G, and 432FR.
 * Fortinet FANT-02ACAX-0606-P-R.
-* Ruckus T300, T301n, and T301s
+* Ruckus T300, T301n, and T301s.
+* Ruckus T710o and T710s.
 * Mist AP64.
 * CyberTAN EWW631-B1.
 * Extreme AP650.
