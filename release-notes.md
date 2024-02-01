@@ -4,6 +4,46 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 # 🗒 Release Notes
 
+### 2024/01/30
+
+**New Features 🎉**
+
+* We applied some more smoothing to the heatmaps. They're 0.42% per cent smoother. Or was is 4.2%, or 42%?&#x20;
+* The Survey tab now supports 3D mode, which is nice for visualizing heatmaps in buildings with raised floors, sloped floors, and holes in the floor.
+* The selected heatmap, band, and SSID are now saved to the project, and synchronized between Hamina Planner and Hamina Onsite.
+
+**Improvements** 🔧
+
+* Previously, if you disabled Note visibility in Simulation mode, you couldn't see the notes anymore without switching back to the Simulation mode to re-enable them. Now, they're always visible in the Survey tab. We'll add fine-grained layer visibility to Survey mode soon.
+* In Hamina Onsite and Hamina Network Planner, we don't try to place an AP on the map, unless we're pretty confident that we know where it is. Previously, if you used the Edit tool to select an area, it would select invisible APs. Now, the Edit tool only selects visible APs.
+* We improved the appearance of heatmap contours on low-resolution displays.
+* When exporting to ExtremeCloud and creating a building, you can now input the building's country, which is required by the ExtremeCloud API.
+* In the Survey tab, Coverage is now the default heatmap.
+* Cisco Catalyst (DNA) Center is now available directly in Export! It's marked as "Beta", since we're still fine-tuning it.
+
+**Bugfixes 🪲**
+
+* There was an issue where switching AP models could cause the direction arrow to disappear. We fixed it!
+* We fixed an issue where switching the mouse mode (mouse/trackpad) in shared reports would cause the page to reload.
+* There was a minor bug in our authentication code that was causing us to ask you to log back in way too often. We fixed it, so now you don't have to log in nearly as often. Sorry about the hassle!
+* We fixed the Netgear 630, which wasn't implemented correctly in our AP database. Now in Hamina Planner, it supports dual 5 GHz with the correct channel selection limitations.
+
+**New APs and Antennas**
+
+* We added dual 5 GHz mode for the Fortinet 231G, which appears as Fortinet 231G (2.4/5/5)
+* We added dual 5 GHz mode for the Fortinet 431G, which appears as Fortinet 431G (2.4/5/5)
+* Fortinet 233G Custom
+* Fortinet 234G
+* Fortinet 432FR
+* Fortinet FANT-02ACAX-0606-P-R
+* Ruckus T300, T301n, and T301s
+* Mist AP64
+* CyberTAN EWW631-B1
+* Extreme AP650
+* Acceltex ATS-OO-2456-466-4
+* AccelTex ATS-OP-2456-81010-4
+* Ventev Nano Patch M6060060D3D36
+
 ### 2024/01/15
 
 #### Features and Changes
