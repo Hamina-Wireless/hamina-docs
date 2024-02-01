@@ -8,9 +8,42 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 **New Features 🎉**
 
-* We applied some more smoothing to the heatmaps. They're 0.42% per cent smoother. Or was is 4.2%, or 42%?&#x20;
+*   In this update, we've introduced transparent walls, transparent attenuating objects, and a high-quality graphics mode! Check it out!\
+
+
+    <div align="left">
+
+    <figure><img src=".gitbook/assets/high-quality-graphics.png" alt=""><figcaption></figcaption></figure>
+
+    </div>
+*   **High quality graphics** and **Transparency effects** can be enabled in the **Edit account** menu. There is a performance impact from these, so experiment with your machine to see how it does. We'd also recommend not having a bunch of Hamina tabs open at once, as it does consume more RAM. That said, it works pretty well for us, even on modest machines.\
+
+
+    <div align="left">
+
+    <figure><img src=".gitbook/assets/edit-account-3d.png" alt="" width="563"><figcaption></figcaption></figure>
+
+    </div>
+*   For both Walls and Attenuating objects, you can enable or disable transparency for each material type.\
+
+
+    <div align="left">
+
+    <figure><img src=".gitbook/assets/transparent-setting.png" alt="" width="563"><figcaption></figcaption></figure>
+
+    </div>
+*   In addition to just looking cool, we think transparency will be helpful for tall warehouse shelves, and also for situations where you need to see a heatmap under the material, like this custom ceiling Attenuating Object that we made for this warehouse.\
+
+
+    <div align="left">
+
+    <figure><img src=".gitbook/assets/transparent-ceiling.png" alt="" width="563"><figcaption></figcaption></figure>
+
+    </div>
+* We applied some more smoothing to the survey heatmaps. They're 0.42% per cent smoother. Or was is 4.2%, or 42%?&#x20;
 * The Survey tab now supports 3D mode, which is nice for visualizing heatmaps in buildings with raised floors, sloped floors, and holes in the floor.
 * The selected heatmap, band, and SSID are now saved to the project, and synchronized between Hamina Planner and Hamina Onsite.
+* In 2D mode, a **Floor holes** area no longer masks the heatmap, if the **Floor holes layer** is hidden.
 
 **Improvements** 🔧
 
@@ -30,24 +63,47 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 **New APs and Antennas**
 
-* We added dual 5 GHz mode for the Fortinet 231G, which appears as Fortinet 231G (2.4/5/5)
-* We added dual 5 GHz mode for the Fortinet 431G, which appears as Fortinet 431G (2.4/5/5)
-* Fortinet 233G Custom
-* Fortinet 234G
-* Fortinet 432FR
-* Fortinet FANT-02ACAX-0606-P-R
+* We added dual 5 GHz mode for the Fortinet 231G, which appears as Fortinet 231G (2.4/5/5).
+* We added dual 5 GHz mode for the Fortinet 431G, which appears as Fortinet 431G (2.4/5/5).
+* Fortinet 233G Custom, 234G, and 432FR.
+* Fortinet FANT-02ACAX-0606-P-R.
 * Ruckus T300, T301n, and T301s
-* Mist AP64
-* CyberTAN EWW631-B1
-* Extreme AP650
-* Acceltex ATS-OO-2456-466-4
-* AccelTex ATS-OP-2456-81010-4
-* Ventev Nano Patch M6060060D3D36
+* Mist AP64.
+* CyberTAN EWW631-B1.
+* Extreme AP650.
+* Acceltex ATS-OO-2456-466-4.
+* AccelTex ATS-OP-2456-81010-4.
+* Ventev Nano Patch M6060060D3D36.
 
 ### 2024/01/15
 
 #### Features and Changes
 
+*   We added an all-new feature for constructing doors and windows: **Top and Bottom Fill**. For walls with a custom lower or upper height, the empty space will be filled with whatever wall type is on either side of it. For example, if you draw a door on a brick wall, the empty space above the door will now be filled with Brick.\
+
+
+    <div align="left">
+
+    <figure><img src=".gitbook/assets/top-bottom-height.png" alt="" width="563"><figcaption></figcaption></figure>
+
+    </div>
+*   Here's an example in a pretty standard building, in this case a small medical clinic. The doors and windows are drawn in like standard walls, and the **Fill top & bottom** setting takes care of the rest. We've added all of the correct profiles for new projects, so this will work out-of-the box. There's still a floor-to-ceiling **Glass** profile for fancy conference rooms.\
+    \
+
+
+    <div align="left">
+
+    <figure><img src=".gitbook/assets/3d-building (1).png" alt="" width="375"><figcaption></figcaption></figure>
+
+    </div>
+*   Here's the window and door effect in a warehouse. Notice that even though the Concrete walls are pretty tall, the Windows are still at the correct height, because of the static **Top height** and **Bottom height** settings. Note that everything you see is included in the predictive model, so your models will be a tiny bit more accurate now, too.\
+
+
+    <div align="left">
+
+    <figure><img src=".gitbook/assets/3d-warehouse (1).png" alt="" width="375"><figcaption></figcaption></figure>
+
+    </div>
 * When Importing access points, they are now "Not Connected" by default.
 * We no longer fetch survey data until you switch to the "Survey" tab.
 
