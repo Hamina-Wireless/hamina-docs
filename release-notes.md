@@ -40,15 +40,16 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
     <figure><img src=".gitbook/assets/transparent-ceiling.png" alt="" width="563"><figcaption></figcaption></figure>
 
     </div>
-* We applied some more smoothing to the survey heatmaps. They're 0.42% per cent smoother. Or was is 4.2%, or 42%?&#x20;
+* We applied some more smoothing to the survey heatmaps. They're 0.42% smoother. Or was is 4.2%, or 42%?&#x20;
 * The Survey tab now supports 3D mode, which is nice for visualizing heatmaps in buildings with raised floors, sloped floors, and holes in the floor.
 * The selected heatmap, band, and SSID are now saved to the project, and synchronized between Hamina Planner and Hamina Onsite.
 * In 2D mode, a **Floor holes** area no longer masks the heatmap, if the **Floor holes layer** is hidden.
 
 **Improvements** 🔧
 
-* Previously, if you disabled Note visibility in Simulation mode, you couldn't see the notes anymore without switching back to the Simulation mode to re-enable them. Now, they're always visible in the Survey tab. We'll add fine-grained layer visibility to Survey mode soon.
-* In Hamina Onsite and Hamina Network Planner, we don't try to place an AP on the map, unless we're pretty confident that we know where it is. Previously, if you used the Edit tool to select an area, it would select invisible APs. Now, the Edit tool only selects visible APs.
+* Previously, if you disabled Note visibility in Simulation mode, and then switched to the Survey tab, you couldn't see the notes anymore without switching back to the Simulation mode to re-enable them. Now, they're always visible in the Survey tab. We'll add fine-grained layer visibility to Survey mode soon.
+* In Hamina Onsite and Hamina Network Planner, we don't try to place an AP on the map, unless we're pretty confident that we know which map it should be placed on (such as in a multi-story building).
+* Previously, if you used the Edit tool to select an area, it would select invisible APs. Now, the Edit tool only selects visible APs.
 * We improved the appearance of heatmap contours on low-resolution displays.
 * When exporting to ExtremeCloud and creating a building, you can now input the building's country, which is required by the ExtremeCloud API.
 * In the Survey tab, Coverage is now the default heatmap.
