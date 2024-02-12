@@ -4,6 +4,24 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 # 🗒 Release Notes
 
+### 2024/02/05
+
+**New Features** 📷
+
+*   Photo notes are here! Now you can now view photos that were added from Hamina Onsite, as well as upload, download, and remove photos. _Note: We don't have project duplication or copy/paste for photos in notes supported quite yet, but we'll get them taken care of soon._\
+
+
+    <div align="left">
+
+    <figure><img src=".gitbook/assets/photos-in-note (2).png" alt="" width="375"><figcaption></figcaption></figure>
+
+    </div>
+
+**Improvements** 🔧
+
+* We removed the scale marker from the 3D view, which was only correct for 2D and doesn't apply to 3D very well. Just you want to see, _less_ features for your money!
+* We worked on ther performance of the Survey tab and Survey Paths pane, especially when viewing larger surveys. We think there's more we can do to improve this, but we made good progress.
+
 ### 2024/01/30
 
 **New Features 🎉**
