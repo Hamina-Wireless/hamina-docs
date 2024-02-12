@@ -13,6 +13,7 @@
 
 ## ⚡ Design
 
+* [🖊 Edit Tool](design/edit-tool.md)
 * [📶 Access Points](design/access-points.md)
 * [📺 Channel Planning](design/channel-planning.md)
 * [🚚 Capacity Planning](design/capacity-planning.md)
