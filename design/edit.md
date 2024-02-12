@@ -2,7 +2,7 @@
 description: Learn how to use the Edit tool in Hamina Network Planner.
 ---
 
-# 🖊 Edit Tool
+# 🖊 Edit
 
 The Edit tool us used for selecting, editing, or moving objects on the map.
 
@@ -42,7 +42,7 @@ If a heatmap is enabled, only the selected access points will be included in the
 
 ## Filtering Objects
 
-When objects are selected, clickable Filters will appear at the top center of the map.
+When objects are selected, clickable **Selection Filters** will appear at the top center of the map.
 
 <div data-full-width="false">
 
@@ -50,7 +50,7 @@ When objects are selected, clickable Filters will appear at the top center of th
 
 </div>
 
-To filter to a specific type of object, click on the associated **Filter**. This will remove all of the other filters, focusing on the specific object type that you selected.
+To filter to a specific type of object, click on the associated **Selection Filter**. This will remove all of the other filters, focusing on the specific object type that you selected.
 
 <div align="left">
 
@@ -58,7 +58,7 @@ To filter to a specific type of object, click on the associated **Filter**. This
 
 </div>
 
-To remove a specific type of object from the selection, click the **X** inside the **Filter**. You can repeat this action to remove any object types from the selection.
+To remove a specific type of object from the selection, click the **X** inside the **Selection Filter**. You can repeat this action to remove any object types from the selection.
 
 <div align="left">
 
