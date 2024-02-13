@@ -4,6 +4,39 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 # 🗒 Release Notes
 
+### 2024/02/13
+
+**Improvements 🎉**
+
+*   It has been possible to view antenna patterns for internal antennas on access points for a long time, but only after pressing a cryptic keyboard shortcut. Now, you can enable the antenna pattern viewer for access points in **Edit account**.\
+
+
+    <div align="left">
+
+    <figure><img src=".gitbook/assets/antenna-viewer-option.png" alt="" width="563"><figcaption></figcaption></figure>
+
+    </div>
+*   Once that is enabled, you can mouse over access points to see their antennas.\
+
+
+    <div align="left">
+
+    <figure><img src=".gitbook/assets/internal-antenna-viewer.png" alt="" width="563"><figcaption></figcaption></figure>
+
+    </div>
+* We applied some more performance improvements to Survey mode. There are still some more things to do, but we're moving things in the right direction. 👍
+
+**Bug Fixes 🤦‍♂️**
+
+* If the heatmap was turned off (set to **None**) in Simulation mode, then the heatmap legend would not re-appear in Survey mode (even when you turned the heatmaps back on). That's fixed!
+* We got the orientation of the MP Antenna 1039 and 1041 wrong, but it should be fixed now! Thanks Jeremy for the heads-up about this, and be sure to check out his recent appearance on [The Industrial Wi-Fi Shop podcast](https://industrialwifishop.com/2024/01/15/the-industrial-wi-fi-shop-podcast-ep-2-industrial-wireless-safety-mobility/).
+
+**New APs and Antennas**
+
+* Alta AP6 and AP6 Pro
+* MosoLabs Canopy 4GID1 (4G Indoor), 4GOD1 (4G Outdoor), 5GID1 (5G Indoor), and 5GOD1 (5G Outdoor)
+* Fortinet 441K and 443K
+
 ### 2024/02/05
 
 **New Features** 📷
