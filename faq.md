@@ -39,3 +39,20 @@ Fonts:
 * `https://fonts.googleapis.com`
 * `https://fonts.gstatic.com`
 
+### My organization allowlists IP-addresses in vendor APIs. Which IP-addresses do I need to allow in order to get Hamina vendor integrations to work?
+
+To ensure that Hamina can connect to vendor APIs, the IP addresses listed below need to be allowlisted. If you still have trouble using Hamina vendor integrations after allowing these IP addresses, please contact us at [support@hamina.com](mailto:support@hamina.com).
+
+#### US instance
+
+* `4.249.203.234`
+* `20.84.195.194`
+* `20.221.120.99`
+
+#### EU instance
+
+* `20.79.87.213`
+* `20.79.85.126`
+* `20.113.5.11`
+* `20.113.5.58`
+* `20.113.43.45`
