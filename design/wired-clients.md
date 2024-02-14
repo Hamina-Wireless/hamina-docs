@@ -10,7 +10,7 @@ To place a wired client, locate the **Network** section on the left, click on th
 
 <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption><p>Add cameras, computers, printers, and more</p></figcaption></figure>
 
-In the Add Client Device pane, chose the appropriate type of wired device.
+In the Add Client Device pane, choose the appropriate type of wired device.
 
 <figure><img src="../.gitbook/assets/image (16).png" alt="" width="290"><figcaption><p>Client Device Type</p></figcaption></figure>
 
