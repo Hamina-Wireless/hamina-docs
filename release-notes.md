@@ -52,7 +52,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 **Improvements** 🔧
 
-* We removed the scale marker from the 3D view, which was only correct for 2D and doesn't apply to 3D very well. Just you want to see, _less_ features for your money!
+* We removed the scale marker from the 3D view, which was only correct for 2D and doesn't apply to 3D very well. Just what you want to see, _less_ features for your money!
 * We worked on ther performance of the Survey tab and Survey Paths pane, especially when viewing larger surveys. We think there's more we can do to improve this, but we made good progress.
 
 ### 2024/01/30
