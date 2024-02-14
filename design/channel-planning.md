@@ -25,5 +25,5 @@ In 2.4, 5, and 6 GHz, it is possible to remove channels from the channel plan. I
 * Lack of access point support on certain channels
 * Non-Wi-Fi technologies operating in the same frequency space as some Wi-Fi channels
 
-You can use the Chanel Settings window to remove channels from the channel plan but unchecking them, and clicking **Save**.
+You can use the Channel Settings window to remove channels from the channel plan but unchecking them, and clicking **Save**.
 
