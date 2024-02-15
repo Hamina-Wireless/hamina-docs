@@ -43,7 +43,7 @@ Hamina Network Planner includes a built-in antenna viewer for both access points
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/external-antenna-viewer.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/external-antenna-viewer.png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -58,7 +58,7 @@ By default, the antenna pattern viewer does not show internal antennas in access
 
     <div align="left">
 
-    <figure><img src="../.gitbook/assets/internal-antenna-pattern-viewer.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/internal-antenna-pattern-viewer.png" alt="" width="375"><figcaption></figcaption></figure>
 
     </div>
 3.  Now, you can mouse over access points to see their internal antenna patterns.\
@@ -66,7 +66,7 @@ By default, the antenna pattern viewer does not show internal antennas in access
 
     <div align="left">
 
-    <figure><img src="../.gitbook/assets/internal-pattern-viewer.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/internal-pattern-viewer.png" alt="" width="375"><figcaption></figcaption></figure>
 
     </div>
 
