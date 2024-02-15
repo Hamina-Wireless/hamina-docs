@@ -37,9 +37,9 @@ When placing additional access points, Hamina Network Planner will reuse all of 
 Hamina Network Planner includes a built-in antenna viewer for both access points with internal antennas, and external antennas. The viewer shows:
 
 * **Horizontal** - The 2D, top-down or "Azimuth" pattern.
-* **Vertical** - The 2D, side view or "Elevation pattern.
+* **Vertical** - The 2D, side view or "Elevation" pattern.
 * **3D Pattern** - A 3D composite of the horizontal and vertical patterns.
-* **Datasheet gain** - The gain of the antenna, according to the vendor's antenna datasheet.
+* **Datasheet gain** - The gain of the antenna, according to the datasheet provided by the vendor.
 
 <div align="left">
 
