@@ -53,7 +53,6 @@ By default, the antenna pattern viewer does not show internal antennas in access
 
 1. Open the Account menu in the upper right.
 2.  Toggle on **Internal antenna pattern viewer**, and click **Save.**\
-    \
 
 
     <div align="left">
