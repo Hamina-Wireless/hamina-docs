@@ -15,7 +15,8 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 **Bug Fixes** 🔨
 
-* We _did_ squish some bugs, but they were all related to upcoming features that aren't available yet. 🤫
+* There was a bug that would break photos in notes if you didn't have a Hamina Onsite subscription. Oops! It's fixed now.
+* We squished some more bugs, but they were all related to upcoming features that aren't available yet. 🤫
 
 **New APs and Antennas** ✨
 
