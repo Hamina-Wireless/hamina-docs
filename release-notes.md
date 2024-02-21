@@ -4,6 +4,24 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 # 🗒 Release Notes
 
+### 2024/02/20
+
+**Improvements** 🔧
+
+* If you place a Wall/Pole mounted AP within 0.7 meters (2.3 feet) of a wall, it will automatically point away from the wall at a 90° angle! We hope that saves you a lot of time manally pointing antennas around.
+* You can now use **`Option`** + **`C`** (macOS) or **`Alt`** + **`C`** (Windows) to open the Channel and Network Settings!
+* We inverted the direction that the map moves with the arrow keys, which feels a lot more natural.
+* Opening the heatmap settings (Requirements pane) doesn't de-select APs anymore, which is nice if you want to make small adjustments while looking at a set of specific APs.
+
+**Bug Fixes** 🔨
+
+* We _did_ squish some bugs, but they were all related to upcoming features that aren't available yet. 🤫
+
+**New APs and Antennas** ✨
+
+* Celona AP-13 and AP-13E
+* Meraki MR53 and MR74
+
 ### 2024/02/13
 
 **Improvements 🎉**
