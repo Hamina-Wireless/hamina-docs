@@ -117,3 +117,58 @@ To renumber the access points, switches, and wired clients:
 
 <figure><img src="../.gitbook/assets/After.png" alt=""><figcaption></figcaption></figure>
 
+## Renaming Access Points
+
+Hamina Network Planner uses a name and variable system to programmatically generate names for access points, switches, and PoE clients on the fly. To accommodate this variable system, access point names have two states: **Unresolved** and **Resolved**.
+
+An **Unresolved Name** is the what you see when you are changing the name of an access point, or when you have multiple access point selected. Both the text and the variables will be visible and editable in the name.
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/unresolved-ap-name.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+A **Resolved Name** is the final name of the access point, after the text and variables have been applied. By default, Hamina Network Planner access point names resolve to `Access Point ${number}`.
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/resolved-ap-name.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+### Display Patterns
+
+Display Patterns are variables that you can use to automatically populate the names of access points, switches, and PoE clients. Hamina Network Planner will automatically replace Display Patterns with text and numbers when the name resolves. For example, the `${number}` field is populated with the access point number.
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/ap-number.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+Display patterns:
+
+* `${project}` - The name of the project.
+* `${make}` - The make/vendor of the access point.
+* `${map}` - The current map or floor that the AP is located on.
+* `${model}` - The model of access point.
+* `${number}` - The unique number, as assigned by Hamina Network Planner.
+* `${switch}` - The switch that the AP is connected too.
+
+You can view all of the display patterns and modifiers directly in Hamina Network Planner by clicking the **?** button inside the **Access Point Name** field.
+
+<figure><img src="../.gitbook/assets/display-patterns.png" alt=""><figcaption></figcaption></figure>
+
+### Editing Access Point Names
+
+Access points can be renamed one at a time, in a manual selection, or all at once (for all access points on the current map).
+
+{% hint style="success" %}
+While editing single access point names is possible, we recommend selecting all access points on the map, and editing them at the same time using display patterns.
+{% endhint %}
+
+1. Use the Edit tool to select all of the access points on the current map (usually with `command` + `A` or `Ctrl` + `A`, and then clicking the Access points filter at the top).
+2. Locate the **Access Point Name** field in the **Edit Access Point** pane on the right.
+3. Enter a new name, including display patterns/variables.
+4. All of the access points will now be renamed, according to the new naming convention that you have applied.

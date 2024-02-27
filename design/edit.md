@@ -2,7 +2,7 @@
 description: Learn how to use the Edit tool in Hamina Network Planner.
 ---
 
-# 🖊 Edit
+# 🖊️ Edit
 
 The Edit tool us used for selecting, editing, or moving objects on the map.
 
@@ -24,11 +24,11 @@ To select an object, left-click it. Selectable objects include:
 * Switches, routers, IDFs, and MDFs
 * PoE clients
 
-For most object types, selecting the object will cause an Edit pane to appear on the right.
+For most object types, selecting the object will cause an **Edit** pane to appear on the right.
 
 ## Selecting Multiple Objects
 
-To select multiple objects, click and drag to make a selection rectangle. Alternatively, hold down Shift while clicking multiple objects, or press **`⌘`** + `A` or `Ctrl` + `A` to select all objects on the map.
+To select multiple objects, click and drag to make a selection rectangle. Alternatively, hold down `Shift` while clicking multiple objects, or press `⌘` + `A` or `Ctrl` + `A` to select all objects on the map.
 
 <div align="left">
 
