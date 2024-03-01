@@ -2,7 +2,7 @@
 description: Frequently asked questions about Hamina Network Planner.
 ---
 
-# ❓ FAQ
+# ❓ FAQs
 
 ### My organization manually allowlists URLs. Which ones do we need to unblock for Hamina to work properly?
 
@@ -56,3 +56,16 @@ To ensure that Hamina can connect to vendor APIs, the IP addresses listed below 
 * `20.113.5.11`
 * `20.113.5.58`
 * `20.113.43.45`
+
+### There's black artifacts all over my heatmaps. What's going on?
+
+Hamina Network Planner takes full advantage of your 3D graphics accelerator to draw heatmaps. As a result, support for hardware acceleration must be enabled in your browser.
+
+{% hint style="success" %}
+These instructions are for Google Chrome, but the process of enabling hardware acceleration is very similar in most browsers.
+{% endhint %}
+
+1. In the upper right corner of your browser, click on the **hamburge**r (three dot) menu.
+2. Select **Settings**.
+3. The **Settings tab** will appear. Towards the bottom of the Settings menu on the left, select **System**.
+4. Enable **Use graphics acceleration when available**.

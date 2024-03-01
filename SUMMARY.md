@@ -42,5 +42,5 @@
 
 * [📡 Requesting AP's and Antennas](requesting-aps.md)
 * [🔑 Accounts and Licenses](accounts-licenses.md)
-* [❓ FAQ](faq.md)
+* [❓ FAQs](faqs.md)
 * [🗒️ Release Notes](release-notes.md)
