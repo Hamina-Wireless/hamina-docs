@@ -57,7 +57,7 @@ To ensure that Hamina can connect to vendor APIs, the IP addresses listed below 
 * `20.113.5.58`
 * `20.113.43.45`
 
-### There's black artifacts all over my heatmaps. What's going on?
+### There are black artifacts all over my heatmaps. What's going on?
 
 Hamina Network Planner takes full advantage of your 3D graphics accelerator to draw heatmaps. As a result, support for hardware acceleration must be enabled in your browser.
 
