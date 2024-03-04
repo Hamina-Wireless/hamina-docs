@@ -12,7 +12,7 @@ The online, interactive report is essentially a read-only version of Hamina, wit
 
 To create a report in Hamina Network Planner:
 
-1.  Click the blue **Reporting** button in the upper right. Then, select **Create a new Report**.\
+1.  Click the **Reporting** button in the upper right. Then, select **Create a new Report**.\
 
 
     <div align="left">
