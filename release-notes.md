@@ -2,13 +2,27 @@
 description: Learn about new features, changes, and bug fixes in Hamina Network Planner.
 ---
 
-# 🗒 Release Notes
+# 🗒️ Release Notes
+
+### 2024/03/01
+
+**Improvements ✨**
+
+* You can now create online reports for surveys! This initial release includes Survey Paths, AP Placement, Coverage, Secondary Coverage, and SNR heatmaps. PDF reporting will follow soon, along with more heatmaps.
+* We made how we read survey measurements a bit more efficient. It's pretty technical stuff, so don't worry about it too much. Just know that things should be a bit faster now.
+* In Hamina, whatever access point you selected last will be duplicated when you place more APs. Previously, this was partially true for switches as well, but it would break when you switched maps/floors. Now, the previous switch settings will persist when you switch to another floor.
+* Before this production push, we always calculated propagation across the entire map, regardless of what was in or out of scope. Now, we ignore areas that are outside of the scope zones, so things compute more faster-er.
+
+**Bugs 🪲**
+
+* Previously, Onsite users couldn't adjust heatmap thresholds due to a licensing bug. Not anymore.
+* In the **AP Radio Details** list in reports, the **Tx Power (EIRP)** field was incorrect, due to a calculation bug. That's fixed now!
 
 ### 2024/02/20
 
 **Improvements** 🔧
 
-* If you place a Wall/Pole mounted AP within 0.7 meters (2.3 feet) of a wall, it will automatically point away from the wall at a 90° angle! We hope that saves you a lot of time manally pointing antennas around.
+* If you place a Wall/Pole mounted AP within 0.7 meters (2.3 feet) of a wall, it will automatically point away from the wall at a 90° angle! We hope that saves you a lot of time manually pointing antennas around.
 * You can now use **`Option`** + **`C`** (macOS) or **`Alt`** + **`C`** (Windows) to open the Channel and Network Settings!
 * We inverted the direction that the map moves with the arrow keys, which feels a lot more natural.
 * Opening the heatmap settings (Requirements pane) doesn't de-select APs anymore, which is nice if you want to make small adjustments while looking at a set of specific APs.
