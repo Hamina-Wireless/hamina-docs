@@ -22,6 +22,62 @@ The EU and US instances of Hamina are completely separate. Hamina user accounts,
 
 Invited users will receive an email notification asking them to approve invite. Once approved, they will have access to the project. They will be able to modify the project based on their individual Hamina Network Planner subscription status.&#x20;
 
+## Teams
+
+In Hamina Network Planner, you can use teams to share projects with multiple users at the same time. Hamina users can be part of and own multiple teams.
+
+### Creating a Team
+
+To create, view, and manage teams, visit the **Team view** in the **Account menu**.
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/account-teams.png" alt="" width="351"><figcaption></figcaption></figure>
+
+</div>
+
+### Inviting Users to the Team
+
+To create a team, click the **Add a team** button. You'll be prompted to name the team and choose an icon, both of which can be changed later at any time.
+
+In the **To** field, enter in the email address of the person you would like to invite, and click **Send invite**. The user will receive an email inviting them to join the team. In the Hamina Network Planner web app, they will also receive a notification inviting them to join the team.
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/team-notification.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+{% hint style="success" %}
+The user does not need to have a pre-existing Hamina account to be invited to the team.
+{% endhint %}
+
+{% hint style="info" %}
+Email addresses are not case sensitive, so you don't need to worry about case.
+{% endhint %}
+
+### Managing Team Roles
+
+There are three roles that users can have on a team:
+
+* User - Can view and edit all projects in the team.
+* Admin - Can add new users, and can rename the team.
+* Owner - Can add new users, rename the team, delete the team, and transfer ownership of the team.
+
+To change the user's role, click on the role next to the user in the list.
+
+<figure><img src="../.gitbook/assets/team-permissions.png" alt=""><figcaption></figcaption></figure>
+
+### Sharing Projects with Teams
+
+Sharing projects with teams is identical to sharing projects with individual users. In the **Share project** menu in the upper right, you can click on the search box to see a list of available teams, or you can use the search field to look for a specific team.
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/share-with-team.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
 ## Moving Projects to Other Accounts
 
 Using the Project Sharing and Project Duplication tools, you can move projects to another account.
