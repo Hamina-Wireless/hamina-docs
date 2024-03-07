@@ -24,7 +24,7 @@ Invited users will receive an email notification asking them to approve invite. 
 
 ## Teams
 
-In Hamina Network Planner, you can use teams to share projects with multiple users at the same time. Hamina users can be part of and own multiple teams.
+In Hamina Network Planner, you can use teams to share projects with multiple users at the same time. Hamina users can be part of multiple teams, and can own multiple teams.
 
 ### Creating a Team
 
