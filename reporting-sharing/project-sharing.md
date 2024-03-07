@@ -60,9 +60,9 @@ Email addresses are not case sensitive, so you don't need to worry about case.
 
 There are three roles that users can have on a team:
 
-* User - View and edit all projects in the team, see who is in the team.
-* Admin - Add and remove users, change membership roles (excluding Owner), rename the team and change the icon.
-* Owner - Add and remove users, change membership roles (including Owner), rename the team and change the icon, delete the team. Multiple owners can exist in one team.
+* **User** - View and edit all projects in the team, see who is in the team.
+* **Admin** - Add and remove users, change membership roles (excluding Owner), rename the team and change the icon.
+* **Owner** - Add and remove users, change membership roles (including Owner), rename the team and change the icon, delete the team. Multiple owners can exist in one team. The last owner on a team can't be removed, so there is always at least one owner.
 
 To change the user's role, click on the role next to the user in the list.
 
@@ -71,6 +71,10 @@ To change the user's role, click on the role next to the user in the list.
 ### Sharing Projects with Teams
 
 Sharing projects with teams is identical to sharing projects with individual users. In the **Share project** menu in the upper right, you can click on the search box to see a list of available teams, or you can use the search field to look for a specific team.
+
+{% hint style="warning" %}
+Sharing a project with a team gives full write access to all members of the team.
+{% endhint %}
 
 <div align="left">
 
