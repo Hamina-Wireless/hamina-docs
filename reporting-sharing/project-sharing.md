@@ -60,9 +60,9 @@ Email addresses are not case sensitive, so you don't need to worry about case.
 
 There are three roles that users can have on a team:
 
-* User - Can view and edit all projects in the team.
-* Admin - Can add new users, and can rename the team.
-* Owner - Can add new users, rename the team, delete the team, and transfer ownership of the team.
+* User - View and edit all projects in the team, see who is in the team.
+* Admin - Add and remove users, change membership roles (excluding Owner), rename the team and change the icon.
+* Owner - Add and remove users, change membership roles (including Owner), rename the team and change the icon, delete the team. Multiple owners can exist in one team.
 
 To change the user's role, click on the role next to the user in the list.
 
