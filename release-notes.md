@@ -4,6 +4,41 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 # 🗒️ Release Notes
 
+### 2024/03/06
+
+**Improvements 🍻**
+
+*   We've added a new "Teams" feature to Hamina Network Planner! In the **Account** menu (in the upper right), visit the Teams view to create teams, manage who is part of your team, and manage their permissions. Critically, when you share a project, you can share it with an entire team!\
+
+
+    <div align="left">
+
+    <figure><img src=".gitbook/assets/team-shared-project.png" alt=""><figcaption></figcaption></figure>
+
+    </div>
+*   When viewing the results of a survey, Hamina won't show an access point on the map, unless we hear it above -55 dBm. In Hamina Network Planner, you can now manually show and place an access point by selecting the **Edit** tool, right-clicking on the map, and selecting **Place Access Point**. Then, you can select the SSID and BSSID of the AP you'd like to place. A manually placed access point won't automatically update if you add more survey data.\
+
+
+    <div align="left">
+
+    <figure><img src=".gitbook/assets/place-access-point.png" alt="" width="322"><figcaption></figcaption></figure>
+
+    </div>
+* Previously, the raised and sloped floors feature tried to be smart about what default heights to use;  when drawing a new area, the heights would be inherited from other areas. We think it was a pretty good idea, but in practice, it ended up just being confusing. Now, just like with access points and switches, when you draw a new sloped or raised floor, we just copy the values of whatever you last selected.
+* Previously, if you placed a Wall/Pole mounted AP within 0.7 meters (2.3 feet) of a wall, it would automatically point away from the wall at a 90° angle. We've increased the threshold to 1 meter, so you don't have to click quite as precisely when you place the access point.
+* Attenuating objects were visible in the Survey tab when viewing in 3D. Since Attenuating objects don't affect the survey data, we removed them from the survey 3D view.
+
+**Bug Fixes 🐛**
+
+* In the Survey tab, if you selected some SSIDs and switched to a different floor, the heatmap breadcrumbs would show the wrong amount of selected SSIDs. It's a small bug, but we fixed it.
+* We found and fixed a bug where some APs in survey reports were missing some data, such as channels and names.
+* Mesh links wouldn't survive project duplication. Now, when you duplicate a project, mesh links are preserved!
+* If a survey path point was deleted in Planner, and then the delete was undone, the survey path wouldn't appear back in the Onsite app. Fixed!
+
+**Known Issues 🔍**
+
+* When drawing sloped areas, Hamina Network Planner is supposed to draw the low side first. For some reason, sometimes the first side drawn ends up being the high side of the slope. We'll investigate that and get it fixed.
+
 ### 2024/03/01
 
 **Improvements ✨**
