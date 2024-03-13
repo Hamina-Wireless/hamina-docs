@@ -4,6 +4,62 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 # 🗒️ Release Notes
 
+### 2024/03/13
+
+**Improvements ✨**
+
+*   Floor duplication is now a thing that exists in Hamina Network Planner!\
+
+
+    <div align="left">
+
+    <figure><img src=".gitbook/assets/duplicate-floor.png" alt="" width="563"><figcaption></figcaption></figure>
+
+    </div>
+* The **Mouseover inspector** in the **Heatmap legend** now works in the **Survey tab**! Inspect all of the things!\
+  \
+  ![](.gitbook/assets/mouseover-inspector.gif)\
+
+*   BLE radios (like the Mist BT11) have a Bluetooth logo now, and it looks pretty slick! Wi-Fi and RTLS wired clients have shiny new icons, too!\
+
+
+    <div align="left">
+
+    <figure><img src=".gitbook/assets/new-icons.png" alt="" width="563"><figcaption></figcaption></figure>
+
+    </div>
+*   Previous, in the wall profile editor, the **Top height** and **Bottom height** text boxes were next to each other, and we confused them almost every single time we edited a wall profile. We couldn't stand it anymore, and raised the issue with our UX guy, and he totally, totally fixed it. The **Top height from floor** and **Bottom height from floor** input boxes have now been stacked, and have handy diagrams that show exactly what they do! 👏\
+
+
+    <div align="left">
+
+    <figure><img src=".gitbook/assets/top-height-bottom-height.png" alt="" width="563"><figcaption></figcaption></figure>
+
+    </div>
+*   **High quality graphics** and **Transparency effects** are now available in the **Report Editor**. The settings will mirror whatever you're using the main web app.\
+
+
+    <div align="left">
+
+    <figure><img src=".gitbook/assets/high-quality-reporting.png" alt="" width="375"><figcaption></figcaption></figure>
+
+    </div>
+* We made some improvements to the **Shared Report Viewer** (the one that your customers see when you send them a link), too! It hasn't received the transparency and shadow effects yet, but we did add outlines to make things look nicer. We're planning to revisit this soon.
+* The maximum zoom level is now based on the map scale, instead of being tied to the background map resolution. If you're trying to do precise things like select co-located access points and precisely draw walls, this should make things much easier.
+* Project invitation and team invitation links now take 30 days to expire, instead of two days like before.&#x20;
+* For surveys, we improved our AP location estimation a bit.
+* If you open a photo note, full-screen a photo, and press **`Esc`**, we now close just the full-screen photo, instead of closing the entire note.
+
+**Bugs** 🐛
+
+* If you had a Hamina Network Planner subscription, and activated a Hamina Onsite subscription, there was a weird bug that would deactivate Network Planner. Not anymore!
+* We improved automatic BSSID grouping for Juniper Mist and Cisco access points.
+* Email addresses for team invitations are now case-insensitivie (just in case uppercase letters sneak into your email addresses).
+
+**APs**
+
+* The CW9163E was available in Cisco before, but it shows up under Meraki now as well.
+
 ### 2024/03/06
 
 **Improvements 🍻**
