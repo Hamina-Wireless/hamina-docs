@@ -16,10 +16,14 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
     <figure><img src=".gitbook/assets/duplicate-floor.png" alt="" width="563"><figcaption></figcaption></figure>
 
     </div>
-* The **Mouseover inspector** in the **Heatmap legend** now works in the **Survey tab**! Inspect all of the things!\
-  \
-  ![](.gitbook/assets/mouseover-inspector.gif)\
+*   The **Mouseover inspector** in the **Heatmap legend** now works in the **Survey tab**! Inspect all of the things!\
 
+
+    <div align="left">
+
+    <figure><img src=".gitbook/assets/mouseover-inspector.gif" alt="" width="408"><figcaption></figcaption></figure>
+
+    </div>
 *   BLE radios (like the Mist BT11) have a Bluetooth logo now, and it looks pretty slick! Wi-Fi and RTLS wired clients have shiny new icons, too!\
 
 
