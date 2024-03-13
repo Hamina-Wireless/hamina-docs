@@ -64,6 +64,11 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 * The CW9163E was available in Cisco before, but it shows up under Meraki now as well.
 
+**Known Issues** 😅
+
+* Routers don't appear in the BOM. Fix coming soon!
+* The weird issue with sloped floors being backwards is still there, but we haven't been able to reliably reproduce it. We might put it in the back burner for now.
+
 ### 2024/03/06
 
 **Improvements 🍻**
