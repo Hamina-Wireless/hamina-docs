@@ -16,6 +16,14 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
     <figure><img src=".gitbook/assets/duplicate-floor.png" alt="" width="563"><figcaption></figcaption></figure>
 
     </div>
+*   AP labels on the map! Now, in the **Layer Visibility** menu, you can turn Labels on and off, and switch them between **Numbers** and **Names**. We don't have this on the reporting side yet, but we will soon.\
+
+
+    <div align="left">
+
+    <figure><img src=".gitbook/assets/labels (1).png" alt="" width="563"><figcaption></figcaption></figure>
+
+    </div>
 *   The **Mouseover inspector** in the **Heatmap legend** now works in the **Survey tab**! Inspect all of the things!\
 
 
