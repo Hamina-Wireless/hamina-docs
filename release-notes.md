@@ -89,7 +89,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
     <figure><img src=".gitbook/assets/team-shared-project.png" alt=""><figcaption></figcaption></figure>
 
     </div>
-*   When viewing the results of a survey, Hamina won't show an access point on the map, unless we hear it above -55 dBm. In Hamina Network Planner, you can now manually show and place an access point by selecting the **Edit** tool, right-clicking on the map, and selecting **Place Access Point**. Then, you can select the SSID and BSSID of the AP you'd like to place. A manually placed access point won't automatically update if you add more survey data.\
+*   When viewing the results of a survey, Hamina won't show an access point on the map, unless we hear it above -60 dBm. In Hamina Network Planner, you can now manually show and place an access point by selecting the **Edit** tool, right-clicking on the map, and selecting **Place Access Point**. Then, you can select the SSID and BSSID of the AP you'd like to place. A manually placed access point won't automatically update if you add more survey data.\
 
 
     <div align="left">
