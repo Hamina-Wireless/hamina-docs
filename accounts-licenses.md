@@ -9,7 +9,7 @@ description: Learn about managing accounts and licenses in Hamina.
 In Hamina Wireless products, a user is defined as an individual person. Each user needs to have their own subscription. Subscriptions for teams can be provided through a volume license key.
 
 {% hint style="warning" %}
-Shared accounts are not allowed, per our Terms of Service. Each user must have their own named account, linked to their personal email address.
+Shared accounts, group accounts, and login sharing are not permitted per our Terms of Service. Each user must create a unique, named account.
 
 For details, check out our [Terms of Service](https://www.hamina.com/terms).
 {% endhint %}
