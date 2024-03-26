@@ -13,7 +13,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
     <div align="left">
 
-    <figure><img src=".gitbook/assets/duplicate-floor.png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/duplicate-floor.png" alt="" width="563"><figcaption></figcaption></figure>
 
     </div>
 *   AP labels on the map! Now, in the **Layer Visibility** menu, you can turn Labels on and off, and switch them between **Numbers** and **Names**. We don't have this on the reporting side yet, but we will soon.\
@@ -21,7 +21,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
     <div align="left">
 
-    <figure><img src=".gitbook/assets/labels (1).png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/labels (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
     </div>
 *   The **Mouseover inspector** in the **Heatmap legend** now works in the **Survey tab**! Inspect all of the things!\
@@ -29,7 +29,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
     <div align="left">
 
-    <figure><img src=".gitbook/assets/mouseover-inspector.gif" alt="" width="408"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/mouseover-inspector.gif" alt="" width="408"><figcaption></figcaption></figure>
 
     </div>
 *   BLE radios (like the Mist BT11) have a Bluetooth logo now, and it looks pretty slick! Wi-Fi and RTLS wired clients have shiny new icons, too!\
@@ -37,7 +37,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
     <div align="left">
 
-    <figure><img src=".gitbook/assets/new-icons.png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/new-icons.png" alt="" width="563"><figcaption></figcaption></figure>
 
     </div>
 *   Previous, in the wall profile editor, the **Top height** and **Bottom height** text boxes were next to each other, and we confused them almost every single time we edited a wall profile. We couldn't stand it anymore, and raised the issue with our UX guy, and he totally, totally fixed it. The **Top height from floor** and **Bottom height from floor** input boxes have now been stacked, and have handy diagrams that show exactly what they do! 👏\
@@ -45,7 +45,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
     <div align="left">
 
-    <figure><img src=".gitbook/assets/top-height-bottom-height.png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/top-height-bottom-height.png" alt="" width="563"><figcaption></figcaption></figure>
 
     </div>
 *   **High quality graphics** and **Transparency effects** are now available in the **Report Editor**. The settings will mirror whatever you're using the main web app.\
@@ -53,7 +53,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
     <div align="left">
 
-    <figure><img src=".gitbook/assets/high-quality-reporting.png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/high-quality-reporting.png" alt="" width="375"><figcaption></figcaption></figure>
 
     </div>
 * We made some improvements to the **Shared Report Viewer** (the one that your customers see when you send them a link), too! It hasn't received the transparency and shadow effects yet, but we did add outlines to make things look nicer. We're planning to revisit this soon.
@@ -86,7 +86,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
     <div align="left">
 
-    <figure><img src=".gitbook/assets/team-shared-project.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/team-shared-project.png" alt=""><figcaption></figcaption></figure>
 
     </div>
 *   When viewing the results of a survey, Hamina won't show an access point on the map, unless we hear it above -60 dBm. In Hamina Network Planner, you can now manually show and place an access point by selecting the **Edit** tool, right-clicking on the map, and selecting **Place Access Point**. Then, you can select the SSID and BSSID of the AP you'd like to place. A manually placed access point won't automatically update if you add more survey data.\
@@ -94,7 +94,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
     <div align="left">
 
-    <figure><img src=".gitbook/assets/place-access-point.png" alt="" width="322"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/place-access-point.png" alt="" width="322"><figcaption></figcaption></figure>
 
     </div>
 * Previously, the raised and sloped floors feature tried to be smart about what default heights to use;  when drawing a new area, the heights would be inherited from other areas. We think it was a pretty good idea, but in practice, it ended up just being confusing. Now, just like with access points and switches, when you draw a new sloped or raised floor, we just copy the values of whatever you last selected.
@@ -154,7 +154,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
     <div align="left">
 
-    <figure><img src=".gitbook/assets/antenna-viewer-option.png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/antenna-viewer-option.png" alt="" width="563"><figcaption></figcaption></figure>
 
     </div>
 *   Once that is enabled, you can mouse over access points to see their antennas.\
@@ -162,7 +162,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
     <div align="left">
 
-    <figure><img src=".gitbook/assets/internal-antenna-viewer.png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/internal-antenna-viewer.png" alt="" width="563"><figcaption></figcaption></figure>
 
     </div>
 * We applied some more performance improvements to Survey mode. There are still some more things to do, but we're moving things in the right direction. 👍
@@ -187,7 +187,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
     <div align="left">
 
-    <figure><img src=".gitbook/assets/photos-in-note (2).png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/photos-in-note (2).png" alt="" width="375"><figcaption></figcaption></figure>
 
     </div>
 
@@ -205,7 +205,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
     <div align="left">
 
-    <figure><img src=".gitbook/assets/high-quality-graphics.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/high-quality-graphics.png" alt=""><figcaption></figcaption></figure>
 
     </div>
 *   **High quality graphics** and **Transparency effects** can be enabled in the **Edit account** menu. There is a performance impact from these, so experiment with your machine to see how it does. We'd also recommend not having a bunch of Hamina tabs open at once, as it does consume more RAM. That said, it works pretty well for us, even on modest machines.\
@@ -213,7 +213,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
     <div align="left">
 
-    <figure><img src=".gitbook/assets/edit-account-3d.png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/edit-account-3d.png" alt="" width="563"><figcaption></figcaption></figure>
 
     </div>
 *   For both Walls and Attenuating objects, you can enable or disable transparency for each material type.\
@@ -221,7 +221,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
     <div align="left">
 
-    <figure><img src=".gitbook/assets/transparent-setting.png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/transparent-setting.png" alt="" width="563"><figcaption></figcaption></figure>
 
     </div>
 *   In addition to just looking cool, we think transparency will be helpful for tall warehouse shelves, and also for situations where you need to see a heatmap under the material, like this custom ceiling Attenuating Object that we made for this warehouse.\
@@ -229,7 +229,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
     <div align="left">
 
-    <figure><img src=".gitbook/assets/transparent-ceiling.png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/transparent-ceiling.png" alt="" width="563"><figcaption></figcaption></figure>
 
     </div>
 * We applied some more smoothing to the survey heatmaps. They're 0.42% smoother. Or was is 4.2%, or 42%?&#x20;
@@ -278,7 +278,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
     <div align="left">
 
-    <figure><img src=".gitbook/assets/top-bottom-height.png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/top-bottom-height.png" alt="" width="563"><figcaption></figcaption></figure>
 
     </div>
 *   Here's an example in a pretty standard building, in this case a small medical clinic. The doors and windows are drawn in like standard walls, and the **Fill top & bottom** setting takes care of the rest. We've added all of the correct profiles for new projects, so this will work out-of-the box. There's still a floor-to-ceiling **Glass** profile for fancy conference rooms.\
@@ -286,7 +286,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
     <div align="left">
 
-    <figure><img src=".gitbook/assets/3d-building (1).png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/3d-building (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
     </div>
 *   Here's the window and door effect in a warehouse. Notice that even though the Concrete walls are pretty tall, the Windows are still at the correct height, because of the static **Top height** and **Bottom height** settings. Note that everything you see is included in the predictive model, so your models will be a tiny bit more accurate now, too.\
@@ -294,7 +294,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
     <div align="left">
 
-    <figure><img src=".gitbook/assets/3d-warehouse (1).png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/3d-warehouse (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
     </div>
 * When Importing access points, they are now "Not Connected" by default.
@@ -408,7 +408,7 @@ One last production push of the year, and right before Christmas! 🎅🌲🎁 T
 
     <div align="left">
 
-    <figure><img src=".gitbook/assets/mouse.png" alt="" width="191"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/mouse.png" alt="" width="191"><figcaption></figcaption></figure>
 
     </div>
 *   While we typically don't want it to happen, clients do occasionally roam to APs on different floors! The problem is that the Client View only paid attention to the current floor, but we fixed that. Now, the client can roam to APs on the floors above and below. Enable **Full Building propagation** and the client can potentially roam to any AP on any floor! The association area turns red, too.\
@@ -416,7 +416,7 @@ One last production push of the year, and right before Christmas! 🎅🌲🎁 T
 
     <div align="left">
 
-    <figure><img src=".gitbook/assets/wrong_floor (1).png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/wrong_floor (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
     </div>
 *   Speaking of the Client View, it's all-new to make room for **Client capacity**! Now, when a Capacity zone is drawn, and clients are associated to the current associated AP, the Client view will now show the capacity of the current radio from a client association perspective.\
@@ -424,7 +424,7 @@ One last production push of the year, and right before Christmas! 🎅🌲🎁 T
 
     <div align="left">
 
-    <figure><img src=".gitbook/assets/client_capacity.png" alt="" width="375"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/client_capacity.png" alt="" width="375"><figcaption></figcaption></figure>
 
     </div>
 * With Hamina Network Planner Plus, the Client View can now show **Downlink**, **Uplink**, and... you're gunna love this one, we made it all up on our own: **Worstlink**®! It shows you, uh... the worst of the two.
@@ -434,7 +434,7 @@ One last production push of the year, and right before Christmas! 🎅🌲🎁 T
 
     <div align="left">
 
-    <figure><img src=".gitbook/assets/Screenshot 2023-12-11 at 7.17.58 PM.png" alt="" width="374"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/Screenshot 2023-12-11 at 7.17.58 PM.png" alt="" width="374"><figcaption></figcaption></figure>
 
     </div>
 * Previously, entering 3D mode would cause the map to slowly rotate, which looked pretty cool. Unfortunately, changing the zoom or rotation would stop it. Now, you can right-click the Switch to 2D button in the camera controls toolbar to restart rotation. Ok, this is mostly for us to demo things and sell more Hamina subscriptions, but maybe you'll find some use for it too.
@@ -504,7 +504,7 @@ One last production push of the year, and right before Christmas! 🎅🌲🎁 T
 
     <div align="left">
 
-    <figure><img src=".gitbook/assets/interference.png" alt="" width="372"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/interference.png" alt="" width="372"><figcaption></figcaption></figure>
 
     </div>
 * Added **Automatic channel width**! Now, Hamina Network Planner can automagically optimize the channel width, based on how much co-channel interference you have. For now, you'll need to visit the **Channel settings** to enable it for each band, but someday, we'll probably make it on by default. Once it's enabled, as you add APs, you'll see &#x20;
@@ -608,7 +608,7 @@ There's so much stuff in this one that we're going to split out the release note
 
 ### 2023/09/08
 
-* Wait. _Another_ production push? There was a sneaky surprise in yesterday's push: single-hop mesh support! We did a mini-production push today to enable it. Now, **Connected via Ethernet** is set to `Not Connected (Mesh)`, mesh options appear. Check out our [Mesh Planning knowledgebase article](design/mesh-planning.md) to learn more.
+* Wait. _Another_ production push? There was a sneaky surprise in yesterday's push: single-hop mesh support! We did a mini-production push today to enable it. Now, **Connected via Ethernet** is set to `Not Connected (Mesh)`, mesh options appear. Check out our [Mesh Planning knowledgebase article](../design/mesh-planning.md) to learn more.
 * In addition to the new mesh feature, we also added generic `Home Wi-Fi` gear. Now, new users can create an account and design their home Wi-Fi network for free. If you're a consumer router/access point/home mesh system vendor, and want us to include your gear, let us know and we can get it added for you. We'll just need your [specs and antenna patterns](requesting-aps.md#what-data-do-you-need-to-add-aps-and-antennas-to-hamina). 😃
 
 ### 2023/09/07
@@ -623,7 +623,7 @@ There's so much stuff in this one that we're going to split out the release note
 * Added the CIG WF-660A
 * Added the Meter MW05 and MW09
 
-<figure><img src=".gitbook/assets/Cell.png" alt=""><figcaption><p>Check out the latest amazing Hamina innovation: new cellular radio unit icons! Whoa!</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Cell.png" alt=""><figcaption><p>Check out the latest amazing Hamina innovation: new cellular radio unit icons! Whoa!</p></figcaption></figure>
 
 ### 2023/09/01
 
@@ -634,4 +634,4 @@ There's so much stuff in this one that we're going to split out the release note
 * When sharing a project with another Hamina Network Planner user, you can now type in their address and hit Enter (without having to click on the Share button).
 * The scale marker in the lower left wasn’t working correctly with feet, although it was fine in meters. We beat feet and got it fixed. 🏃
 
-<figure><img src=".gitbook/assets/Wall Drawing (1).png" alt=""><figcaption><p>Comparison of the old automatic wall drawing and the new automatic wall drawing on the same CAD-sourced PDF file.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/Wall Drawing (1).png" alt=""><figcaption><p>Comparison of the old automatic wall drawing and the new automatic wall drawing on the same CAD-sourced PDF file.</p></figcaption></figure>

@@ -38,9 +38,9 @@
 * [🌲 Juniper Mist](import-export/juniper-mist.md)
 * [💬 Meraki](import-export/meraki.md)
 
-***
+## 📂 Other
 
-* [📡 Requesting AP's and Antennas](requesting-aps.md)
-* [🔑 Accounts and Licenses](accounts-licenses.md)
-* [❓ FAQs](faqs.md)
-* [🗒️ Release Notes](release-notes.md)
+* [🔑 Accounts and Licenses](other/accounts-licenses.md)
+* [📡 Requesting AP's and Antennas](other/requesting-aps.md)
+* [🗒️ Release Notes](other/release-notes.md)
+* [❓ FAQs](other/faqs.md)

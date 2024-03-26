@@ -23,7 +23,7 @@ Whether you are trying out Hamina, or activating a new subscription, here's how 
 
     <div align="left">
 
-    <figure><img src=".gitbook/assets/account.png" alt="" width="344"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/account.png" alt="" width="344"><figcaption></figcaption></figure>
 
     </div>
 2.  Click the **... menu** next to the license, and click **Activate**.\
@@ -31,7 +31,7 @@ Whether you are trying out Hamina, or activating a new subscription, here's how 
 
     <div align="left">
 
-    <figure><img src=".gitbook/assets/activate_trial (1).png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/activate_trial (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
     </div>
 3. If you have a subscription with multiple seats, and have any colleagues who need to activate it, use the **Copy license key** option in the **... menu** to retrieve it to share with them.
@@ -48,7 +48,7 @@ If you purchase multiple licenses, you'll need to retrieve the license key from 
 
 <div align="left">
 
-<figure><img src=".gitbook/assets/account_menu (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/account_menu (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -57,7 +57,7 @@ If you purchase multiple licenses, you'll need to retrieve the license key from 
 
 <div align="left">
 
-<figure><img src=".gitbook/assets/copy_license_key.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/copy_license_key.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -72,7 +72,7 @@ By default, your individual Hamina account is not activated. You can either acti
 3. Name and create your first project.
 4. Click on the Account Menu in the upper right.
 
-<figure><img src=".gitbook/assets/account_menu (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/account_menu (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
