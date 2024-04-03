@@ -48,7 +48,6 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 * On the **Subscriptions** page, under **Your licenses**, users with Hamina Network Planner Lite (basically, anyone without a paid Network Planner or Network Planner Plus subscription) would see **Free evaluation**. We're calling it **Hamina Network Planner Lite** these days, so we fixed it.
 * There was a bug where sloped floors didn't take out-of-scope zones into account. That's been taken care of.
 * Routers were missing from the BoM. They aren't missing from the BoM anymore.
-* [Show radios separately in measured access point dialog #2602](https://github.com/Hamina-Wireless/hamina/pull/2602) I need to come back and fix this one, I'm not totally sure what we did.
 * There was a weird bug where if you placed an IDF or MDF without any switches or power, it would show a warning icon on the map.
 * Previously, if you started the project notes with an image, the Save button would be disabled. That's fixed now - feel free to begin your notes with a logo, or whatever you like!
 * If there wasn't enough room, or if the browser size was too small, some of the submenus would get really weird. They behave normally now.
