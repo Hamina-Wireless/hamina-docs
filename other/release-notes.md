@@ -4,6 +4,76 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 # 🗒️ Release Notes
 
+### 2024/04/03
+
+**Improvements 🥳**
+
+*   This release adds the option to generate stairs in sloped floors! The stair sizes are based on the scale of the map, and are purely cosmetic (they don't affect the predictive model at all).\
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/stairs.png" alt="" width="563"><figcaption></figcaption></figure>
+
+    </div>
+*   In the last release, we stacked the **Top height from floor** and **Bottom height from floor** boxes for the wall type editor. In this release, we gave the Attenuating object type editor the same treatment.\
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/attenuating-object-editor.png" alt="" width="563"><figcaption></figcaption></figure>
+
+    </div>
+* We added map notes images to reports!
+* If you duplicate a project, the note images will now be duplicated along with it.
+*   In the Survey tab, when selecting multiple radios, we don't try to show all of the radio details anymore. Instead, we'll just show you the stuff that you might want to bulk edit, like the AP height and model.\
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/ap-multiselect.png" alt="" width="563"><figcaption></figcaption></figure>
+
+    </div>
+* We added a simple alerting system to let you know if your subscription is past due for payment, and close to license deactivation. Anyone that is using a license key from your subscription will also get a notification, and the notification will show up once a day in the notification area towards the upper right.
+* Hamina Network Planner Lite (aka "free tier") users can now adjust heatmap settings.
+* The cyan, orange, and purple colors that we were using didn't have very much contrast (and didn't match our designs), so we fixed those up. We also fixed and improved some other styling around the app.
+* We used to show a separate toast notification for each PDF page that was uploading. Now, we just show one toast for the entire file. 🍞
+
+**Bugfixes** 🪲
+
+* There was an issue where some users could get stuck in an endless loop while logging in if they have multiple accounts, which could cause them to get stuck in an endless loop while logging in, if they have multiple accounts, which could cause them to get stuck in and endless loop while logging in...
+* There was another loopy login bug, where if you clicked **Cancel** on the MFA page, you'd get stuck in one infinite loop.
+* There was a bug where if you have only an Onsite license (a common scenario, especially for people who only do surveys and don't need to create designs), you'd still see the **Upgrade** button towards the upper right. That was confusing to people who only subscribe to Onsite, so we fixed it.
+* In the AP Radio Details page in the Report Editor and Viewer, radios now correctly say "Off".
+* On the **Subscriptions** page, under **Your licenses**, users with Hamina Network Planner Lite (basically, anyone without a paid Network Planner or Network Planner Plus subscription) would see **Free evaluation**. We're calling it **Hamina Network Planner Lite** these days, so we fixed it.
+* There was a bug where sloped floors didn't take out-of-scope zones into account. That's been taken care of.
+* Routers were missing from the BoM. They aren't missing from the BoM anymore.
+* [Show radios separately in measured access point dialog #2602](https://github.com/Hamina-Wireless/hamina/pull/2602) I need to come back and fix this one, I'm not totally sure what we did.
+* There was a weird bug where if you placed an IDF or MDF without any switches or power, it would show a warning icon on the map.
+* Previously, if you started the project notes with an image, the Save button would be disabled. That's fixed now - feel free to begin your notes with a logo, or whatever you like!
+* If there wasn't enough room, or if the browser size was too small, some of the submenus would get really weird. They behave normally now.
+
+**APs and Antennas** 📡
+
+* Eero PoE 6
+* Eero Max 7
+* Ventev M6060060P23602NBC
+* Nomadix AP-6NA
+* Calix u6t
+* Calix u6txg
+* Aruba AP-305
+* Aruba Instant On AP-12
+* Fortinet AP-432G
+* Meraki MR42E
+* Meraki MR45
+* Meraki MR84
+* EnGenius EWS377AP
+* Juniper AP45 in 5/5/6 mode
+* Cisco IW-ANT-PNL25610-R antenna
+* Extreme 7532-67040 (which is the external antenna version of the 7532)
+
+<figure><img src="../.gitbook/assets/APs.png" alt=""><figcaption></figcaption></figure>
+
 ### 2024/03/13
 
 **Improvements ✨**
