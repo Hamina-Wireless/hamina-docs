@@ -8,7 +8,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 **Improvements 🥳**
 
-*   This release adds the option to generate stairs in sloped floors! The stair sizes are based on the scale of the map, and are purely cosmetic (they don't affect the predictive model at all).\
+*   This release adds the option to generate stairs in sloped floors! The stair sizes are based on the scale of the map, and are purely cosmetic (they don't affect the predictive model at all). To enable them, just click the **Draw stairs** option in the **Edit Sloped Floor** pane.\
 
 
     <div align="left">
