@@ -34,7 +34,6 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
     <figure><img src="../.gitbook/assets/ap-multiselect.png" alt="" width="563"><figcaption></figcaption></figure>
 
     </div>
-* We added a simple alerting system to let you know if your subscription is past due for payment, and close to license deactivation. Anyone that is using a license key from your subscription will also get a notification, and the notification will show up once a day in the notification area towards the upper right.
 * Hamina Network Planner Lite (aka "free tier") users can now adjust heatmap settings.
 * The cyan, orange, and purple colors that we were using didn't have very much contrast (and didn't match our designs), so we fixed those up. We also fixed and improved some other styling around the app.
 * We used to show a separate toast notification for each PDF page that was uploading. Now, we just show one toast for the entire file. 🍞
