@@ -2,34 +2,9 @@
 description: Learn how to export designs from Hamina for import to Cisco Catalyst Center.
 ---
 
-# 🧬 Cisco Catalyst (DNA) Center
+# 🧬 Cisco Catalyst Center
 
 Hamina Network Planner can export the network design as a file that can be imported to Cisco DNA Center (formerly known as Cisco DNA Center or "DNAC").
-
-{% hint style="danger" %}
-This feature is currently in development, and is only available in Hamina Network Planner as a <mark style="color:red;">**Feature Preview**</mark>. It probably won't work at all, but feel free to give it a try if you're interested.
-{% endhint %}
-
-## Enabling the Cisco Catalyst Center Feature Preview
-
-Since Cisco Catalyst Center Export is only available as a <mark style="color:red;">**Feature Preview**</mark>, it must be manually enabled before it will appear in the Export menu.
-
-1.  Click on the **Account** menu in the upper right corner, and select **Edit Account** from the list.\
-
-
-    <div align="left">
-
-    <figure><img src="../.gitbook/assets/settings (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
-
-    </div>
-2.  Click the **Feature preview** tab, and enable **Cisco DNA center integration**.\
-
-
-    <div align="left">
-
-    <figure><img src="../.gitbook/assets/enable_dna.png" alt="" width="375"><figcaption></figcaption></figure>
-
-    </div>
 
 ## Exporting From Hamina Network Planner
 
