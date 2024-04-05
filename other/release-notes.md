@@ -75,6 +75,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 * Cisco IW-ANT-PNL25610-R antenna
 * Extreme 7532-67040 (which is the external antenna version of the 7532)
 * Edgecore OAP101
+* Celona AP-11 2-sector mode
 
 <figure><img src="../.gitbook/assets/APs.png" alt=""><figcaption></figcaption></figure>
 
