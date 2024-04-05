@@ -56,6 +56,11 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 * Eero PoE 6
 * Eero Max 7
 * Ventev M6060060P23602NBC
+* Ventev M6040040P23602
+* Ventev M6060060P1D43602M
+* Ventev M6130130MP1D3607D
+* Ventev M6060060D3D43699
+* Ventev M6060060P1D43699D
 * Nomadix AP-6NA
 * Calix u6t
 * Calix u6txg
