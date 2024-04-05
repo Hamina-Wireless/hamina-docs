@@ -69,6 +69,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 * Juniper AP45 in 5/5/6 mode
 * Cisco IW-ANT-PNL25610-R antenna
 * Extreme 7532-67040 (which is the external antenna version of the 7532)
+* Edgecore OAP101
 
 <figure><img src="../.gitbook/assets/APs.png" alt=""><figcaption></figcaption></figure>
 
