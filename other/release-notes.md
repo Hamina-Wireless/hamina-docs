@@ -79,6 +79,11 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 <figure><img src="../.gitbook/assets/APs.png" alt=""><figcaption></figcaption></figure>
 
+**Known Issues** 🫢
+
+* If you place the Celona AP-11 in 2-sector mode without defining an antenna, it will be stuck with a default antenna that you can't change. If you pick the antenna before placing it, it works fine. We didn't catch this one until it was out the door, so we'll fix it in the next release.
+* The Meraki MR86 is marked as an "Indoor" AP, when it is in fact an outdoor AP.
+
 ### 2024/03/13
 
 **Improvements ✨**
