@@ -76,6 +76,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 * Extreme 7532-67040 (which is the external antenna version of the 7532)
 * Edgecore OAP101
 * Celona AP-11 2-sector mode
+* Added Zigbee patterns to the Ruckus H510, R550, R650, R850, and T750
 
 <figure><img src="../.gitbook/assets/APs.png" alt=""><figcaption></figcaption></figure>
 
