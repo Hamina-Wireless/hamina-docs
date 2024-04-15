@@ -25,7 +25,9 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 * Gamma Nu IOAOXY2FLAT\_MIMO
 * Extreme Extreme ML-2452-HPA5-036
-* AccelTex ATS-ID90RD-245-23-1
+* AccelTex:
+  * ATS-ID90RD-245-23-1
+  * ATS-ID90RD-245-46-1
 * L-com HG3513DP4-NF
 * KP Performance:
   * KP-3DP120S-45
