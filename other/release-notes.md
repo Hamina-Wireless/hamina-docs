@@ -24,7 +24,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 **APs and Antennas 📻**
 
 * Gamma Nu IOAOXY2FLAT\_MIMO
-* Extreme Extreme ML-2452-HPA5-036
+* Extreme ML-2452-HPA5-036
 * AccelTex:
   * ATS-ID90RD-245-23-1
   * ATS-ID90RD-245-46-1
