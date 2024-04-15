@@ -29,6 +29,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
   * ATS-ID90RD-245-23-1
   * ATS-ID90RD-245-46-1
 * L-com HG3513DP4-NF
+* JMA Wireless IV02OMI136-M4
 * KP Performance:
   * KP-3DP120S-45
   * KP-3DP33S-45
