@@ -4,6 +4,51 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 # 🗒️ Release Notes
 
+### 2024/04/11
+
+**Improvements ✨**
+
+* Surveyed AP selections persist when you switch floors, so now you can see what other floors an access point (or multiple access points) was audible on. When an AP on another floor is selected, you'll see an **Adjacent floor measured access points** filter applied at the top.
+* When importing an Arista network, we now include import the transmit power and current channel for each AP radio.
+* In the **Project Settings** menu, we renamed **Remove** to **Delete project**.
+* We made some minor improvements to the styling in the Teams dialogue.
+
+**Bugfixes 🪲**
+
+* There was a bug that caused the Legend to always say 5 GHz, even if 2.4 or 6 GHz is selected. Oops. No more!
+* When viewing site surveys, there was a bug that would sometimes cause the access point details pane to be mostly empty. We fixed it!
+* In Hamina Network Planner Lite, we now show an **🔒 Upgrade** tag next to the **Duplicate floor** option, to show that you can't do it without a Planner or Planner Plus subscription.
+* The drop shadow was missing from the Layers menu button, so we added it back in.
+* There was a strange bug where if you placed a big **Out of Scope zone**, and drew a small **In Scope zone** inside of it, everything would turn green (even if there were no access points). Weird, but fixed!
+
+**APs and Antennas 📻**
+
+* Gamma Nu IOAOXY2FLAT\_MIMO
+* Extreme Extreme ML-2452-HPA5-036
+* AccelTex ATS-ID90RD-245-23-1
+* L-com HG3513DP4-NF
+* KP Performance:
+  * KP-3DP120S-45
+  * KP-3DP33S-45
+  * KP-3DP65S-45
+  * KPP-3SX4-65
+  * KPPA-3GHZDP90S-45
+  * KPPA-3GHZ-DPOMA
+* Aruba (omnidirectional antennas):
+  * AP-ANT-311
+  * AP-ANT-312
+  * AP-ANT-313
+  * AP-ANT-340
+  * AP-ANT-320
+* Aruba (directional antennas):
+  * AP-ANT-345
+  * AP-ANT-348
+  * AP-ANT-325
+  * AP-ANT-328
+* Netgear WBE750
+* Netgear WBE758
+* We also updated the antenna pattern for the Meter MW08
+
 ### 2024/04/03
 
 **Improvements 🥳**
