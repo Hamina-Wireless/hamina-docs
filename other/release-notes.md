@@ -8,7 +8,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 **Improvements 💫**
 
-*   Once a license has been activated by a user for at least 90 days, the subscriber (who has a list of user who have activated their keys) can release their license! This is useful if someone leaves the company, moves to a different role, or if the team just plain needs to move the license to someone else.
+*   Once a license has been activated by a user for at least 90 days, the subscriber (who has a list of users who have activated their keys) can release their license! This is useful if someone leaves the company, moves to a different role, or if the team just plain needs to move the license to someone else.
 
     <div align="left">
 
