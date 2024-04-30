@@ -4,6 +4,44 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 # 🗒️ Release Notes
 
+### 2024/04/29
+
+**Improvements 💫**
+
+*   Once a license has been activated by a user for at least 90 days, the subscriber (who has a list of user who have activated their keys) can release their license! This is useful if someone leaves the company, moves to a different role, or if the team just plain needs to move the license to someone else.
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/release-license (1).png" alt="" width="319"><figcaption></figcaption></figure>
+
+    </div>
+*   If an access point wasn't loud enough for us to automatically place it, you can now right-click on the map with the **Edit** tool and click **Place access point**. The list respects any filters that you have an place, and will show a heatmap for the access point as you mouse over it.\
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/place-access-point (1).png" alt="" width="317"><figcaption></figcaption></figure>
+
+    </div>
+
+**Bugfixes 🪲**
+
+* We found a corner case where survey measurements might not synchronize properly, and got it fixed.
+* If there were multiple photos in a note, the full-screen image viewer would switch back to the first image if you nudged your mouse. We fixed that.
+* One of the selectable map note icons was broken, so we fixed that too.
+* The Meraki MR86 was erroneously marked as an indoor AP, which caused the description in the bill of materials to be incorrect. It is now marked as an outdoor AP.
+* In the external antennas list, we corrected "NetGear" to "Netgear".
+
+**APs and Antennas 🛰️**
+
+* Cradlepoint A2415
+* Fortinet 421E
+* Ubiquiti U6 Enterprise In-Wall
+* Intelbras AP5626
+* HFCL ion12xi
+* HFCL ion4xi\_WP
+* We also updated the antenna pattern for the Acceltex ATS-OHDP-245-1312-6
+
 ### 2024/04/11
 
 **Improvements ✨**
