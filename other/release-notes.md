@@ -19,7 +19,6 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
     </div>
 *   You can also adjust the **Guess range** for surveys. We recommend keeping your survey paths fairly close together, and only adjusting the Guess range to higher numbers to fill in gaps.\
-    \
 
 
     <div align="left">
