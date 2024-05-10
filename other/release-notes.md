@@ -4,6 +4,53 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 # 🗒️ Release Notes
 
+
+
+### 2024/05/10
+
+**Improvements** 😵‍💫
+
+*   Hamina Network Planner now includes an Interference heatmap for surveys! In the **Adjust Requirements** Pane, you can adjust some of the specifics for the heatmap. Most notably, you can show interference for **My network** or **All networks**. The Interference heatmap is currently in beta, and will likely see some changes and bugfixes in the coming weeks.\
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/interference-heatmap.png" alt="" width="563"><figcaption></figcaption></figure>
+
+    </div>
+*   You can also adjust the **Guess range** for surveys. We recommend keeping your survey paths fairly close together, and only adjusting the Guess range to higher numbers to fill in gaps.\
+    \
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/guess-range.png" alt="" width="563"><figcaption></figcaption></figure>
+
+    </div>
+*   You can manually disable radios! Has Hamina gone too far?! 🤯 To use it, right-click the channel labels underneath the access point, and select **Disable Radio**.\
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/disable-radio.png" alt="" width="362"><figcaption></figcaption></figure>
+
+    </div>
+*   This marks our first release with support for OpenIntent importing and exporting! It won't import and export everything about the project, but the basics are there. Expect to see more iterations on this feature soon.\
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/export-openintent.png" alt="" width="375"><figcaption></figcaption></figure>
+
+    </div>
+* Importing from Mist now includes the AP orientation and height. Convenient!
+* Bitmap background images are now processed with fancy new cloudly cloud stuffs. They're a bit faster now, and easier for us to maintain.
+
+**Bugfixes** 🐛
+
+* In online and PDF reports, in the AP List, the order that we listed access points looked random. We added some logic to sort the list by floor, and then AP number per floor. In the online reports, you can still click the columns to reorder them on the fly.
+* There was a teeny tiny bug that could cause a subscription to show up in Hamina Network Planner. Ugly, but bad. We squished that one!
+
 ### 2024/04/29
 
 **Improvements 💫**
