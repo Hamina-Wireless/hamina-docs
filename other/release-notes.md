@@ -48,7 +48,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 **Bugfixes** 🐛
 
 * In online and PDF reports, in the AP List, the order that we listed access points looked random. We added some logic to sort the list by floor, and then AP number per floor. In the online reports, you can still click the columns to reorder them on the fly.
-* There was a teeny tiny bug that could cause a subscription to show up in Hamina Network Planner. Ugly, but bad. We squished that one!
+* There was a teeny tiny bug that could cause a subscription to show up in Hamina Network Planner. Small, but bad. We squished that one!
 
 ### 2024/04/29
 
