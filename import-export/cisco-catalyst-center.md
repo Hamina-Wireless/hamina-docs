@@ -93,7 +93,7 @@ In Cisco Catalyst Center, there are two ways to import data:
     <figure><img src="../.gitbook/assets/edit-address.png" alt="" width="563"><figcaption></figcaption></figure>
 
     </div>
-6.  Now that the hierarchy exists, select **Import** > **Import Floor Maps** to upload the **Project** / **Floor Maps** /`tar.gz` file.\
+6.  Now that the hierarchy exists, select **Import** > **Import Floor Maps** to upload the **Project** / **Floor Maps** / `tar.gz` file.\
 
 
     <div align="left">
@@ -185,7 +185,6 @@ It is possible to update access point models and placements on a floorplan.
     <figure><img src="../.gitbook/assets/export-subselection.png" alt=""><figcaption></figcaption></figure>
 3. Using **Import** > **Import Floor Maps**, import the **Project** / **Floor Maps** /`tar.gz` file.
 4.  Access point locations and models will be updated.\
-    \
 
 
     <figure><img src="../.gitbook/assets/update-in-hamina.png" alt=""><figcaption></figcaption></figure>
