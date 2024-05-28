@@ -50,7 +50,7 @@ In Cisco Catalyst Center, there are two ways to import data:
     \
     **Download hierarchy** will download a **Sites** / **Hierarchy** / `.csv` file, which defines Areas, Sub-areas, Buildings, and Floors.\
     \
-    Download project will generate a **Project** / **Floor Maps** / `tar.gz` file, which contains the maps and APs.\
+    **Download project** will generate a **Project** / **Floor Maps** / `tar.gz` file, which contains the maps and APs.\
 
 
     <div align="left">
