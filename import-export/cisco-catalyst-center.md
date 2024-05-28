@@ -46,7 +46,11 @@ In Cisco Catalyst Center, there are two ways to import data:
     <figure><img src="../.gitbook/assets/export-settings-filled.png" alt="" width="563"><figcaption></figcaption></figure>
 
     </div>
-4.  Click **Download hierarchy** and **Download project**, which will export and download a `.csv` file containing the **Sites** (hierarchy), and a `tar.gz` file containing the **Floor Maps** (project).\
+4.  Click **Download hierarchy** and **Download project.**\
+    \
+    **Download hierarchy** will download a **Sites** / **Hierarchy** / `.csv` file, which defines Areas, Sub-areas, Buildings, and Floors.\
+    \
+    Download project will generate a **Project** / **Floor Maps** / `tar.gz` file, which contains the maps and APs.\
 
 
     <div align="left">
@@ -81,7 +85,7 @@ In Cisco Catalyst Center, there are two ways to import data:
     <figure><img src="../.gitbook/assets/import-sites.png" alt="" width="563"><figcaption></figcaption></figure>
 
     </div>
-4.  Upload the **Sites** / **Hierarchy** / `.csv` file that was generated in Hamina. Note that in our case, it created an **Area**, **Sub-area**, **Building**, and **Floors**.\
+4.  Upload the **Sites** / **Hierarchy** / `.csv` file that was generated in Hamina, and contains definitions for Areas, Sub-areas, Buildings, and Floors.\
 
 
     <figure><img src="../.gitbook/assets/import-csv (1).png" alt=""><figcaption></figcaption></figure>
@@ -93,7 +97,7 @@ In Cisco Catalyst Center, there are two ways to import data:
     <figure><img src="../.gitbook/assets/edit-address.png" alt="" width="563"><figcaption></figcaption></figure>
 
     </div>
-6.  Now that the hierarchy exists, select **Import** > **Import Floor Maps** to upload the **Project** / **Floor Maps** / `tar.gz` file.\
+6.  Now that the hierarchy exists, select **Import** > **Import Floor Maps** to upload the **Project** / **Floor Maps** / `tar.gz` file, which contains the maps and APs.\
 
 
     <div align="left">
