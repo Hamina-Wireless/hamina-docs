@@ -28,7 +28,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
     <figure><img src="../.gitbook/assets/blast-radius (2).gif" alt="" width="563"><figcaption></figcaption></figure>
 
     </div>
-* We implemented a new progress indicator at the bottom center of the map viewport. Some some reason, this was internally called the "Snack Bar".
+* We implemented a new progress indicator at the bottom center of the map viewport. For some reason, this was internally called the "Snack Bar", probably because it's a progress bar, and it was a small change. Like a snack. So, a "Snack Bar".
 * The new progress indicator now appears when loading survey results. On a small survey, you'll barely see it, but it can take a little while if the survey is really big.
 *   In the survey tab, you can now remove AP locations. This doesn't remove the AP from the survey data or anything, it just basically says, "Don't place this AP here, or anywhere." Of course, you can always put the AP back on the map with the Place AP option that we introduced a couple of production pushes ago.\
 
