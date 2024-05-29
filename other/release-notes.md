@@ -4,8 +4,6 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 # 🗒️ Release Notes
 
-
-
 ### 2024/05/29
 
 **Improvements ✨**
@@ -54,7 +52,27 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 **APs and Antennas 🏗️**
 
-* asdfas
+* ASUS EBA63
+* Cambium X7-35X
+* Cisco CW-ANT-D1-NS-00
+* Extreme AP5020
+* Extreme ML-2452-SEC6M4-036
+* Huawei AirEngine 5773-21
+* Huawei AirEngine 5773-22P
+* Huawei AirEngine 5573-23H
+* Huawei AirEngine 5573-23HW
+* KP Performance KP-3QOMNI-8
+* MosoLabs Canopy 5GOD1 (External)
+* Nokia AWHTA 5G AirScale Micro
+* Ruckus R350e
+* Ruckus R670
+* Ruckus T670
+* Sunwoo Sector 17dBi
+* Ubiquiti U6 In-Wall
+* WAVE GAWiFi6E4OV1
+* Ventev M6060060MP1D43602
+* Made corrected an issue with the Ruckus T750SE, which now defaults to a wall mount.
+* We fixed the capitalization on the Ruckus T350SE and T750SE.
 
 ### 2024/05/10
 
