@@ -8,7 +8,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 **Improvements ✨**
 
-*   Hamina Network Planner now features a simulated pipeline for heatmaps, which our CTO Jarno Harno says improves performance, enables Fast Ray Tracing (FRT for short), and enables some fancy stuff like cancelling the generation of a heatmap. Here's a totally real photo of CTO Jarno Harno, working on the simulated heatmap pipeline.\
+*   Hamina Network Planner now features a simulated pipeline for heatmaps, which our CTO Jarno Harno says improves performance, enables Fast Ray Tracing (FRT for short), and enables some fancy stuff like cancelling the generation of a heatmap. Here's a totally real photo of Jarno, working on the simulated heatmap pipeline.\
 
 
     <div align="left">
