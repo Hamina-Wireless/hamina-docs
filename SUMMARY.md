@@ -9,6 +9,7 @@
 * [🏗️ Walls](basics/walls.md)
 * [📦 Attenuating Objects](basics/attenuating-objects.md)
 * [🔥 Heatmaps](basics/heatmaps.md)
+* [🔎 Heatmap Legend](basics/heatmap-legend.md)
 * [📍 Scope Zones](basics/scope-zones.md)
 
 ## ⚡ Design
