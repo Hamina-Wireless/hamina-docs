@@ -6,6 +6,56 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 
 
+### 2024/05/29
+
+**Improvements ✨**
+
+*   Hamina Network Planner now features a simulated pipeline for heatmaps, which our CTO Jarno Harno says improves performance, enables Fast Ray Tracing (FRT for short), and enables some fancy stuff like cancelling the generation of a heatmap. Here's a totally real photo of CTO Jarno Harno, working on the simulated heatmap pipeline.\
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/jarno-pipeline.png" alt="" width="345"><figcaption></figcaption></figure>
+
+    </div>
+* Related to our new pipeline: we're smarter about only doing calculations where necessary in and around Scope Zones.
+* Here's another one that related to the pipeline. You've probably noticed that Hamina calculates successively higher and higher resolution heatmaps in the background while you work (which is part of how we keep everything super fast and real-time). Now, we smoothly animate between the heatmaps, as the higher-resolution maps are calculated. This is happening on your GPU, so it's basically free from a computing perspective. _Note: You can see this in action in the GIF below._
+*   See the impact of a switch failure with **Blast Radius**. Clicking on a switch (with a heatmap enabled) shows the heatmap for all of the APs connected to that switch to see what it is covering. You can inverse this by selecting all of the switches on the map, and then `Shift` + clicking a switch to remove it from selection, visualizing the blast radius of the switch going down.\
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/blast-radius (2).gif" alt="" width="563"><figcaption></figcaption></figure>
+
+    </div>
+* We implemented a new progress indicator at the bottom center of the map viewport. Some some reason, this was internally called the "Snack Bar".
+* The new progress indicator now appears when loading survey results. On a small survey, you'll barely see it, but it can take a little while if the survey is really big.
+*   In the survey tab, you can now remove AP locations. This doesn't remove the AP from the survey data or anything, it just basically says, "Don't place this AP here, or anywhere." Of course, you can always put the AP back on the map with the Place AP option that we introduced a couple of production pushes ago.\
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/hide-ap.png" alt="" width="563"><figcaption></figcaption></figure>
+
+    </div>
+* Uh-oh, missed your payment? No worries, we now give you an extra two weeks to talk your accounting team or purchasing agent. Everyone using the overdue subscription will get a reminder in the notification area each day, so it doesn't surprise anyone when it stops working.
+* We added band n79, which is a TDD band spanning from 4400 to 5000 MHz.
+* Hamina Network Planner now supports 6 GHz MBSSID (Multi BSSID) elements in beacons.
+* We updated `OUI.csv`, which is a list of which OUI (the first three nibbles of a MAC address) belong to which vendor. We use this to identify AP vendors, and to properly group virtual SSIDs together.
+* Hey, 'member Mojo access points?! We 'member! Now they show up as "Arista".
+* We updated the text on the project start page. It's all the, small things. 🎸
+* Totally in the background: we moved a bunch of functions into container applications that automagically start and stop as needed, which makes our cloud more scalable and easier to maintain. Plus, we can say that Hamina uses "microservices" or whatever. Next, we need to figure out how to shoehorn "AI" into this thing...
+
+**Bugfixes 🚫🪲**
+
+* There was an issue where setting a new channel width wouldn't affect other floors on the building. We've corrected that now!
+* The Juniper Mist AP45 5/5/6 now correctly maps to the AP45 in exports to the Juniper Mist Cloud.
+* There was a bug that would cause the map to be waaaaaaaay zoomed out when you switched to it. That's fixed!
+
+**APs and Antennas 🏗️**
+
+* asdfas
+
 ### 2024/05/10
 
 **Improvements** 😵‍💫

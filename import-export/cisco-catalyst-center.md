@@ -4,12 +4,16 @@ description: Learn how to export designs from Hamina for import to Cisco Catalys
 
 # 🧬 Cisco Catalyst Center
 
+## Introduction
+
 Hamina Network Planner can export the network design as a file that can be imported to Cisco Catalyst Center (formerly known as Cisco DNA Center or "DNAC").
 
 In Cisco Catalyst Center, there are two ways to import data:
 
 * With a hierarchy file generated in Hamina Network Planner. This generates a `.csv` file, which contains the entire hierarchy including buildings and floors. The following instructions use this method, which is recommended.
 * Manually, without a hierarchy file. With this method, you will need to define an exact hierarchy, or Cisco Catalyst Center will fail to import the Floor Maps. Instructions for this method can be found in a [later section of this article](cisco-catalyst-center.md#manual-hierarchy).
+
+{% embed url="https://youtu.be/X4iHJauqs3A" %}
 
 ## Exporting from Hamina Network Planner
 
