@@ -60,6 +60,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 **APs and Antennas 🏗️**
 
+* Askey EAO2522P
 * ASUS EBA63
 * Cambium X7-35X
 * Cisco CW-ANT-D1-NS-00
