@@ -78,7 +78,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 * Sunwoo Sector 17dBi
 * Ubiquiti U6 In-Wall
 * WAVE GAWiFi6E4OV1
-* Ventev M6060060MP1D43602
+* Ventev M6080080P1D436
 * Made corrected an issue with the Ruckus T750SE, which now defaults to a wall mount.
 * We fixed the capitalization on the Ruckus T350SE and T750SE.
 
