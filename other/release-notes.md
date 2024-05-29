@@ -17,8 +17,8 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
     </div>
 * Related to our new pipeline: we're smarter about only doing calculations where necessary in and around Scope Zones.
-* Here's another one that related to the pipeline. You've probably noticed that Hamina calculates successively higher and higher resolution heatmaps in the background while you work (which is part of how we keep everything super fast and real-time). Now, we smoothly animate between the heatmaps, as the higher-resolution maps are calculated. This is happening on your GPU, so it's basically free from a computing perspective. _Note: You can see this in action in the GIF below._
-*   See the impact of a switch failure with **Blast Radius**. Clicking on a switch (with a heatmap enabled) shows the heatmap for all of the APs connected to that switch to see what it is covering. You can inverse this by selecting all of the switches on the map, and then `Shift` + clicking a switch to remove it from selection, visualizing the blast radius of the switch going down.\
+* Here's another one that's related to the pipeline. You've probably noticed that Hamina calculates successively higher and higher resolution heatmaps in the background while you work (which is part of how we keep everything super fast and real-time). Now, we smoothly animate between the heatmaps, as the higher-resolution maps are calculated. This is happening on your GPU, so it's basically free from a computing perspective. _Note: You can see this in action in the GIF below._
+*   See the impact of a switch failure with **Blast Radius**. Clicking on a switch (with a heatmap enabled) shows the heatmap for all of the APs connected to that switch to see what it is covering. You can inverse this by selecting all of the switches on the map and then `Shift` + clicking a switch to remove it from selection, visualizing the blast radius of the switch going down.\
 
 
     <div align="left">
@@ -78,7 +78,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 **Improvements** 😵‍💫
 
-*   Hamina Network Planner now includes an Interference heatmap for surveys! In the **Adjust Requirements** Pane, you can adjust some of the specifics for the heatmap. Most notably, you can show interference for **My network** or **All networks**. The Interference heatmap is currently in beta, and will likely see some changes and bugfixes in the coming weeks.\
+*   Hamina Network Planner now includes an Interference heatmap for surveys! In the **Adjust Requirements** Pane, you can adjust some of the specifics for the heatmap. Most notably, you can show interference for **My network** or **All networks**. The Interference heatmap is currently in beta and will likely see some changes and bugfixes in the coming weeks.\
 
 
     <div align="left">
@@ -86,7 +86,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
     <figure><img src="../.gitbook/assets/interference-heatmap.png" alt="" width="563"><figcaption></figcaption></figure>
 
     </div>
-*   You can also adjust the **Guess range** for surveys. We recommend keeping your survey paths fairly close together, and only adjusting the Guess range to higher numbers to fill in gaps.\
+*   You can also adjust the **Guess range** for surveys. We recommend keeping your survey paths fairly close together, only adjusting the Guess range to higher numbers to fill in gaps.\
 
 
     <div align="left">
@@ -94,7 +94,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
     <figure><img src="../.gitbook/assets/guess-range.png" alt="" width="563"><figcaption></figcaption></figure>
 
     </div>
-*   You can manually disable radios! Has Hamina gone too far?! 🤯 To use it, right-click the channel labels underneath the access point, and select **Disable Radio**.\
+*   You can manually disable radios! Has Hamina gone too far?! 🤯 To use it, right-click the channel labels underneath the access point and select **Disable Radio**.\
 
 
     <div align="left">
