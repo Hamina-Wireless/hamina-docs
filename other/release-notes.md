@@ -26,8 +26,6 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
     <figure><img src="../.gitbook/assets/blast-radius (2).gif" alt="" width="563"><figcaption></figcaption></figure>
 
     </div>
-* We implemented a new progress indicator at the bottom center of the map viewport. For some reason, this was internally called the "Snack Bar", probably because it's a progress bar, and it was a small change. Like a snack. So, a "Snack Bar".
-* The new progress indicator now appears when loading survey results. On a small survey, you'll barely see it, but it can take a little while if the survey is really big.
 *   In the survey tab, you can now remove AP locations. This doesn't remove the AP from the survey data or anything, it just basically says, "Don't place this AP here, or anywhere." Of course, you can always put the AP back on the map with the Place AP option that we introduced a couple of production pushes ago.\
 
 
@@ -36,6 +34,16 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
     <figure><img src="../.gitbook/assets/hide-ap.png" alt="" width="563"><figcaption></figcaption></figure>
 
     </div>
+*   Previously for surveys, virtual SSIDs would only be shown in the **Edit Access Point** pane if they were selected in the heatmap drop-down menu. Now, we display all of the virtual SSIDs that the AP is broadcasting, whether they are selected or not.\
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/virtual-ssid-visibility.png" alt=""><figcaption></figcaption></figure>
+
+    </div>
+* We implemented a new progress indicator at the bottom center of the map viewport. For some reason, this was internally called the "Snack Bar", probably because it's a progress bar, and it was a small change. Like a snack. So, a "Snack Bar".
+* The new progress indicator now appears when loading survey results. On a small survey, you'll barely see it, but it can take a little while if the survey is really big.
 * Uh-oh, missed your payment? No worries, we now give you an extra two weeks to talk your accounting team or purchasing agent. Everyone using the overdue subscription will get a reminder in the notification area each day, so it doesn't surprise anyone when it stops working.
 * We added band n79, which is a TDD band spanning from 4400 to 5000 MHz.
 * Hamina Network Planner now supports 6 GHz MBSSID (Multi BSSID) elements in beacons.
