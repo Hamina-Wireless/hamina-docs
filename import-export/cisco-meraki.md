@@ -1,14 +1,18 @@
 ---
-description: Learn how to configure Meraki and Hamina for importing and exporting designs.
+description: Learn how to import and export projects from Hamina to Cisco Meraki.
 ---
 
-# 💬 Meraki
+# 💬 Cisco Meraki
 
-With the integration between Hamina and Meraki, you can import floor plans, access points, and radio details from your Meraki network into Hamina. You can also export access points and floor plans from Hamina back to the Meraki cloud.
+Hamina Network Planner features cloud-to-cloud integration with Cisco Meraki. The integration can be used in several ways:
+
+* **Deploy a network** - Create a greenfield design in Hamina (including maps, scale, AP locations), and export it to the Meraki Cloud for deployment. This eliminates any duplicate mapping work in the Cisco Meraki dashboard.
+* **Analyze an existing network** - Import a network from Cisco Meraki to Hamina, and see the current running configuration including the map, AP locations, channels, and transmit power. Add walls and attenuating objects to see how the current network looks inside a predictive model.
+* **Modify an existing network** - Export the design from Hamina back to Cisco Meraki to implement any changes such as moving APs, adding APs, or changing AP models.
 
 To get started, you'll need to enable API access in your Meraki organization, and create API keys. Once API access is enabled, our step-by-step instructions will guide you through the process of importing and exporting data between Hamina and Meraki.
 
-## Enabling API Access
+## Enable API Access in Cisco Meraki
 
 In order to use Hamina integration with your Meraki organization, you have to make sure that API access is enabled in the organization. You can enable API access in Meraki Dashboard portal by navigating to **Organization > Settings > Dashboard API access**:
 
@@ -18,7 +22,7 @@ In order to use Hamina integration with your Meraki organization, you have to ma
 
 </div>
 
-## Creating API Key
+### Creating API Key
 
 Hamina integration uses Meraki Dashboard user's API key for communicating with the Meraki API. The API key will inherit the same permissions as that account that created the API key.
 

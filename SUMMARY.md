@@ -38,7 +38,7 @@
 * [🟠 Aruba Central](import-export/aruba-central.md)
 * [🧬 Cisco Catalyst Center](import-export/cisco-catalyst-center.md)
 * [🌲 Juniper Mist](import-export/juniper-mist.md)
-* [💬 Meraki](import-export/meraki.md)
+* [💬 Cisco Meraki](import-export/cisco-meraki.md)
 
 ## 📂 Other
 
