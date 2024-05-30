@@ -3,6 +3,7 @@
 ## 🖱️ Basics
 
 * [🚀 Getting Started](README.md)
+* [📂 Creating and Managing Projects](basics/creating-and-managing-projects.md)
 * [🗺️ Panning and Zooming Maps](basics/panning-zooming.md)
 * [🏭 Managing Maps and Floors](basics/maps-floors.md)
 * [📏 Scaling Maps](basics/scaling-maps.md)
