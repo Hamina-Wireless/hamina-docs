@@ -28,14 +28,6 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
     </div>
 * The requirement for multi-factor authentication has been waived for Hamina Network Planner Lite users.
-*   Previously, in the Survey tab when viewing an access point, we would only list SSIDs on a radio that were selected in the heatmaps menu. Not anymore! Now, we show all of the SSIDs on the radio, regardless of what heatmaps are selected.\
-
-
-    <div align="left">
-
-    <figure><img src="../.gitbook/assets/bssid-always-visible.png" alt=""><figcaption></figcaption></figure>
-
-    </div>
 * The 3D antenna viewer is now available in Hamina Network Planner Lite! You're welcome.
 *   Previously, the mouseover inspector only showed BSSIDs, which was hard to read. Now, it shows resolved AP names!\
 
