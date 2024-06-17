@@ -4,6 +4,64 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 # 🗒️ Release Notes
 
+## 2024/06/05
+
+**Improvements**
+
+* Remember the pipeline from last week? This production push builds on that to introduce Fast Ray Tracing, which provides simulation of reflections and diffractions!
+* To activate FRT (Fast Ray Tracing), Hamina Network Planner Plus users can click the FRT button on the right of the map view, which will do a one-time ray-tracing calculation for the design. If we need to recalculate the heatmap and any reason, it will reset to a non-FRT calculation. You can click the FRT button whenever you like. Watch those shadows behind concrete pillars melt away! _Note: Fast Ray Tracing is only available for Hamina Network Planner Plus users. It is not currently available in web-based or PDF-based reports._
+*   As part of FRT, there is a slider to adjust the intensity of simulated diffraction and reflection effects. Adjust it to "High" for more reflective environments.\
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/frt-slider.png" alt="" width="375"><figcaption></figcaption></figure>
+
+    </div>
+*   There's also a new **Auto-select prediction input** toggle. Previously, behind the scenes, the **Environment type** setting in in the **Project settings** applies blanket attenuation to the project based on the environment type, until you draw walls and attenuating objects. Now, you can select which you want to use. While this option doesn't do a lot today, it paves the way for our upcoming **Environment learning** feature. Stay tuned!\
+    \
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/environment-type.png" alt="" width="375"><figcaption></figcaption></figure>
+
+    </div>
+* The requirement for multi-factor authentication has been waived for Hamina Network Planner Lite users.
+*   Previously, in the Survey tab when viewing an access point, we would only list SSIDs on a radio that were selected in the heatmaps menu. Not anymore! Now, we show all of the SSIDs on the radio, regardless of what heatmaps are selected.\
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/bssid-always-visible.png" alt=""><figcaption></figcaption></figure>
+
+    </div>
+* The 3D antenna viewer is now available in Hamina Network Planner Lite! You're welcome.
+*   Previously, the mouseover inspector only showed BSSIDs, which was hard to read. Now, it shows resolved AP names!\
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/resolved-mouseover-inspector.png" alt="" width="372"><figcaption></figcaption></figure>
+
+    </div>
+* The 3D antenna viewer is now available in Hamina Network Planner Lite! You're welcome.
+* We now only allow positive values in coordinates for OpenIntent exports.
+* The interference heatmaps seem to be working great, so we removed the "Beta" label from them.
+
+**Bug Fixes**
+
+* If you drew a map on your Macintosh SE/30, and found that it doesn't work in Hamina Network Planner, then congrats! 🎉 You found the greyscale map bug! That's been fixed. _Note: To be clear, absolutely nobody found the bug like that._
+* The maximum height in the Client Height slider used to update in real time. It stopped updating in real time, so we made it update in real time again.
+
+**Access Points**
+
+* Galgus IC450, OC400, OC410, IX450, IX850, and OX451
+* Huawei AirEngine 5573-23HW, 8760R-X1, 8760R-X1E 2.4/5, and 8760R-X1E 2.4/5/5
+* Ventev M6060040O1D42420L
+* EdgeCore EAP111
+* AccelTex ATS-OO-2456-344-4 and ATS-OP-2456-477-4
+
 ### 2024/05/29
 
 **Improvements ✨**

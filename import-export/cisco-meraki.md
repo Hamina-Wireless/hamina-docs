@@ -18,7 +18,7 @@ In order to use Hamina integration with your Meraki organization, you have to ma
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt="enable organization API access"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt="enable organization API access"><figcaption></figcaption></figure>
 
 </div>
 
