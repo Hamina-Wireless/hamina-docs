@@ -24,8 +24,23 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
     <figure><img src="../.gitbook/assets/connect-to-infra.png" alt="" width="563"><figcaption></figcaption></figure>
 
     </div>
-* With Juniper Mist and Arista, it also measures attenuation between access points to create **Environment learning** of obstacles in the map to draw more accurate heatmaps, all without drawing any walls! To try this out, start a project with a fresh map with no walls. Then, copy the APs from the Live tab, and paste them in the Simulation tab. Then, drag the APs around to see how their coverage changes, based on the Environment learning.
-* Previously, Hamina Network Planner only featured a detailed mouseover inspector for Interference. The idea was that you could mouse over the heatmap to see which APs were causing co-channel contention. We have now expanded that, so you can optionally enable a detailed mouseover inspector for all heatmaps.
+*   With Juniper Mist and Arista, it also measures attenuation between access points to create **Environment learning** of obstacles in the map to draw more accurate heatmaps, all without drawing any walls! To try this out, start a project with a fresh map with no walls. Then, copy the APs from the Live tab, and paste them in the Simulation tab. Then, drag the APs around to see how their coverage changes, based on the Environment learning.\
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/environment-learning.gif" alt="" width="240"><figcaption></figcaption></figure>
+
+    </div>
+*   To go along with Environment Learning, there's also a new checkbox in the **Adjust requirements** pane called **Auto-select prediction input**. You can turn this off, and manually choose Hamina's inputs for prediction in both the Simulation and Live tabs. **Environment type** applies a blanket of attenuation across the map, based on the environment type defined in the Project settings. **Walls + objects** is what most of us are used to, as it simulates good ol' free space path loss, loss from walls, and loss from attenuating objects. Finally, there's **Environment learning**, which comes from the measurements taken from the infrastructure in the live view. Setting this to **Auto** will always prefer **Walls + objects**, with **Environment learning** next, and **Environment type** last.\
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/simulation-input.png" alt=""><figcaption></figcaption></figure>
+
+    </div>
+* Previously on mouseover, Hamina Network Planner only showed one access point. In the **Adjust requirements** pane, there is now a **List all APs on mouseover**, which does that exact thing.
 *   We updated the toolbar behavior a bit - now there's a small button for the pop-out menu, which paves the way for another tool that's coming soon. 🤫\
 
 
