@@ -4,7 +4,24 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 # 🗒️ Release Notes
 
+## 2024/06/19
+
+**Improvements**
+
+* We added the **Channel utilization** heatmap to the Live View. It's pretty nice to see how busy each coverage cell is!
+
+**Bugfixes**
+
+* If you touched anything in the Live View, or even moved your mouse, the Live View heatmap would re-render that. Fixed!
+* As part of the PDF generation speed improvements we made yesterday, we bumped the PDF image resolution up a little bit.
+
+**APs and Antennas**
+
+* Aruba AP-735
+
 ## 2024/06/18
+
+**Improvements**
 
 * Included in today's production push is a <mark style="color:red;">**Feature Preview**</mark> for the new Live View in Hamina Network Planner! _Note: For now, it's available everywhere, but when it leaves beta, it will only be available for Hamina Network Planner Plus users._
 *   The **Live View** connects to your Arista, Juniper Mist, or Cisco Meraki cloud to synchronize maps, access points, channels, transmit power, clients per radio, and switches to Hamina Network Planner, and appears as a new tab at the top of Hamina Network Planner.\
