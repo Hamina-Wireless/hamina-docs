@@ -16,7 +16,6 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
     </div>
 *   To enable it, visit the menu in the upper right, click **Edit account**, click the **Feature preview** tab, and enable **Live Analysis of Meraki, Juniper Mist and Arista**. Then, click on the **Live** tab at the top, where you'll be directed to connect Hamina to your cloud infrastructure.\
-    \
 
 
     <div align="left">
