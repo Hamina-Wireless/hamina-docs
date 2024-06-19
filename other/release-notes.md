@@ -4,6 +4,52 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 # 🗒️ Release Notes
 
+## 2024/06/18
+
+* Included in today's production push is a <mark style="color:red;">**Feature Preview**</mark> for the new Live View in Hamina Network Planner! _Note: For now, it's available everywhere, but when it leaves beta, it will only be available for Hamina Network Planner Plus users._
+*   The **Live View** connects to your Arista, Juniper Mist, or Cisco Meraki cloud to synchronize maps, access points, channels, transmit power, clients per radio, and switches to Hamina Network Planner, and appears as a new tab at the top of Hamina Network Planner.\
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/live-view (1).png" alt="" width="563"><figcaption></figcaption></figure>
+
+    </div>
+*   To enable it, visit the menu in the upper right, click **Edit account**, click the **Feature preview** tab, and enable **Live Analysis of Meraki, Juniper Mist and Arista**. Then, click on the **Live** tab at the top, where you'll be directed to connect Hamina to your cloud infrastructure.\
+    \
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/connect-to-infra.png" alt="" width="563"><figcaption></figcaption></figure>
+
+    </div>
+* With Juniper Mist and Arista, it also measures attenuation between access points to create **Environment learning** of obstacles in the map to draw more accurate heatmaps, all without drawing any walls! To try this out, start a project with a fresh map with no walls. Then, copy the APs from the Live tab, and paste them in the Simulation tab. Then, drag the APs around to see how their coverage changes, based on the Environment learning.
+* Previously, Hamina Network Planner only featured a detailed mouseover inspector for Interference. The idea was that you could mouse over the heatmap to see which APs were causing co-channel contention. We have now expanded that, so you can optionally enable a detailed mouseover inspector for all heatmaps.
+*   We updated the toolbar behavior a bit - now there's a small button for the pop-out menu, which paves the way for another tool that's coming soon. 🤫\
+
+
+    <figure><img src="../.gitbook/assets/new-button.png" alt=""><figcaption></figcaption></figure>
+* PDF generation for for simulated networks is much, much faster now. Seriously. ⚡
+* Added `EMEA 02` to the Juniper Mist Import, Export, and Live Views.
+* Added `US-WEST-5` to the Aruba Import.
+
+**Bugfixes**
+
+* In the frontend, it looked like you a non-admin on a team could change someone's permission. They couldn't (the command would quietly fail in the back end), but we made it so it doesn't _look_ like it works.
+
+**APs and Antennas**
+
+* Aruba InstantOn AP32
+* Netgear WBE710
+* Ubiquiti U6-Mesh-Pro
+* Ubiquiti U7 Pro
+* Rigado Cascade 500
+* TP-Link EAP683 LR
+* TP-Link EAP773
+* TP-Link EAP783
+* There were a couple of problems with our implementation of the Aruba AP365 (such as orientation), so we fixed it.
+
 ## 2024/06/05
 
 **Improvements**
@@ -37,19 +83,17 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
     <figure><img src="../.gitbook/assets/resolved-mouseover-inspector.png" alt="" width="372"><figcaption></figcaption></figure>
 
     </div>
-* The 3D antenna viewer is now available in Hamina Network Planner Lite! You're welcome.
 * We now only allow positive values in coordinates for OpenIntent exports.
-* The interference heatmaps seem to be working great, so we removed the "Beta" label from them.
+* The survey interference heatmaps seem to be working great, so we removed the "Beta" label from them.
 
 **Bug Fixes**
 
 * If you drew a map on your Macintosh SE/30, and found that it doesn't work in Hamina Network Planner, then congrats! 🎉 You found the greyscale map bug! That's been fixed. _Note: To be clear, absolutely nobody found the bug like that._
-* The maximum height in the Client Height slider used to update in real time. It stopped updating in real time, so we made it update in real time again.
 
 **Access Points**
 
 * Galgus IC450, OC400, OC410, IX450, IX850, and OX451
-* Huawei AirEngine 5573-23HW, 8760R-X1, 8760R-X1E 2.4/5, and 8760R-X1E 2.4/5/5
+* Huawei AirEngine 5573-23HW, 8760R-X1, 8760R-X1E
 * Ventev M6060040O1D42420L
 * EdgeCore EAP111
 * AccelTex ATS-OO-2456-344-4 and ATS-OP-2456-477-4
