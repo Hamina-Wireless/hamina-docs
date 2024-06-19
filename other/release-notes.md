@@ -50,7 +50,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 **Bugfixes**
 
-* In the frontend, it looked like you a non-admin on a team could change someone's permission. They couldn't (the command would quietly fail in the back end), but we made it so it doesn't _look_ like it works.
+* In the frontend, it looked like a non-admin on a team could change someone's permission. They couldn't (the command would quietly fail in the back end), but we made it so it doesn't _look_ like it works.
 
 **APs and Antennas**
 
