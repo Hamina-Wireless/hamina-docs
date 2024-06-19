@@ -45,8 +45,8 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
     <figure><img src="../.gitbook/assets/new-button.png" alt=""><figcaption></figcaption></figure>
 * PDF generation for for simulated networks is much, much faster now. Seriously. ⚡
-* Added `EMEA 02` to the Juniper Mist Import, Export, and Live Views.
-* Added `US-WEST-5` to the Aruba Import.
+* Added `EMEA-02` region to the Juniper Mist Import, Export, and Live Views.
+* Added `US-WEST-5`, `US-EAST-1`, and `UAE-NORTH1` regions to the Aruba Import.
 
 **Bugfixes**
 
