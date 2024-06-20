@@ -23,7 +23,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 **Improvements**
 
-* Included in today's production push is a <mark style="color:red;">**Feature Preview**</mark> for the new Live View in Hamina Network Planner! _Note: For now, it's available everywhere, but when it leaves beta, it will only be available for Hamina Network Planner Plus users._
+* Included in today's production push is a <mark style="color:red;">**Feature Preview**</mark> for the new Live View in Hamina Network Planner Plus! _Note: This features requires a Hamina Network Planner Plus subscription._
 *   The **Live View** connects to your Arista, Juniper Mist, or Cisco Meraki cloud to synchronize maps, access points, channels, transmit power, clients per radio, and switches to Hamina Network Planner, and appears as a new tab at the top of Hamina Network Planner.\
 
 
