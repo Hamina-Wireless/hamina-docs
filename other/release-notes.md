@@ -4,7 +4,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 # 🗒️ Release Notes
 
-## 2024/06/19
+### 2024/06/19
 
 **Improvements**
 
@@ -19,7 +19,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 * Aruba AP-735
 
-## 2024/06/18
+### 2024/06/18
 
 **Improvements**
 
@@ -81,7 +81,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 * TP-Link EAP783
 * There were a couple of problems with our implementation of the Aruba AP365 (such as orientation), so we fixed it.
 
-## 2024/06/05
+### 2024/06/05
 
 **Improvements**
 
