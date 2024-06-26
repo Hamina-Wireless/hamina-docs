@@ -90,7 +90,7 @@ To release a license:
 1. Click on the Account Menu in the upper right.
 2. In the drop-down menu, click **Subscription**.
 3. Find the user with the license you would like to release in the **Users** list.
-4.  Click the **elipsis menu** (...) to the right of the user.\
+4.  Click the **ellipsis menu** (...) to the right of the user.\
 
 
     <div align="left">
