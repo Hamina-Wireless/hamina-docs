@@ -79,6 +79,27 @@ By default, your individual Hamina account is not activated. You can either acti
 5. In the drop-down menu, click **Subscription**.
 6. Click the blue **Use License Key** button in the upper right.
 
+### Release a License
+
+When a user activates a license, the license is tied to that user for 90 days. After 90 days, the subscription holder (the person who shared the license key) has the ability to **Release** the user's license, freeing up the seat for another user to activate.
+
+This is useful for when someone leaves your organization, if someone's role changes, or if you just want to keep a small pool of licenses and move them around between users.
+
+To release a license:
+
+1. Click on the Account Menu in the upper right.
+2. In the drop-down menu, click **Subscription**.
+3. Find the user with the license you would like to release in the **Users** list.
+4.  Click the **elipsis menu** (...) to the right of the user.\
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/release-user.png" alt=""><figcaption></figcaption></figure>
+
+    </div>
+5. Click **Release**. _Note: The license key must be activated for at least 90 days before this option will be available._
+
 ## Cancelling a Subscription
 
 Done with wireless projects, and ready to take a break from Hamina? No problem! It's super easy to unsubscribe.
