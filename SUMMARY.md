@@ -39,6 +39,7 @@
 * [🧬 Cisco Catalyst Center](import-export/cisco-catalyst-center.md)
 * [🌲 Juniper Mist](import-export/juniper-mist.md)
 * [💬 Cisco Meraki](import-export/cisco-meraki.md)
+* [🏂 ExtremeCloud IQ](import-export/extremecloud-iq.md)
 
 ## 📂 Other
 
