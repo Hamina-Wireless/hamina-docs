@@ -22,6 +22,32 @@ Click the **Show more** expander to view additional options, such as the **Acces
 
 The transmit power of the access point radio is configured as _Conducted Power_, in other words, the amount of power transmitted by the radio without factoring in antenna gain. The final amount of gain, or EIRP (Equivalent Isotropic Radiated Power) is calculated by adding the Conducted Power and the antenna gain together.
 
+### Disabling Radios
+
+#### Automatically Disabled Radios
+
+The automatic channel planner in Hamina Network Planner runs whenever any changes are made to the predictive model. By default, it will automatically disable radios in the 2.4 GHz band to avoid creating excessive co-channel contention (sometimes called Co-Channel Interference) in the network. This behavior can be changed in the [Channel Settings](channel-planning.md) for the project.
+
+When a 2.4 GHz radio has been disabled automatically, the 2.4 GHz channel label will be changed to `Off`.
+
+#### Manually Disabling Radios
+
+To manually disable a radio, right-click the channel label beneath the access point on the map, and select **Disable**.
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/disable-radio (1).png" alt="" width="375"><figcaption></figcaption></figure>
+
+</div>
+
+When a radio has been manually disabled, the channel label will display an `X`.
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/disabled-radio.png" alt="" width="285"><figcaption></figcaption></figure>
+
+</div>
+
 ## Duplicating Access Points
 
 When placing additional access points, Hamina Network Planner will reuse all of the settings from the last selected access point.
