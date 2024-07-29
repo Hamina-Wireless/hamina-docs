@@ -8,7 +8,7 @@ description: >-
 
 ## Selecting Heatmaps
 
-Access heatmap options by clicking on the **Heatmap** drop-down menu at the top of Hamina. You can choose the **Technology**, **Heatmap**, and **Band** (for Wi-Fi). The **Adjust requirements** link at the bottom opens the **Adjust Requirements pane**.
+Access heatmap options by clicking on the **Heatmaps** drop-down menu at the top of Hamina. You can choose the **Technology**, **Heatmap**, and **Band** (for Wi-Fi). The **Adjust requirements** link at the bottom opens the **Adjust Requirements pane**.
 
 <figure><img src="../.gitbook/assets/heatmap_menu.png" alt="" width="563"><figcaption></figcaption></figure>
 
