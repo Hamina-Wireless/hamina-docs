@@ -46,7 +46,7 @@ Finnish summer vacations are coming to an end, and the product and engineering t
 * From Ubiquiti, we added the U7 Pro Max, U7 Pro Wall, and U7 Pro Outdoor.
 * We cleaned up the Ubiquiti access point names, so they all have a consistent naming convention in Hamina Network Planner.
 * As part of the new access point modes feature, we added a Custom Antenna mode to the Ubiquiti UniFi AC Mesh.
-* We corrected the orientation of the Ventev M6060040O1D42420L. Thanks to Dennis and Jeremy for the heads-up!
+* We corrected the orientation of the Ventev M6060040O1D42420L. Thanks to Dennis and Nick for the heads-up!
 
 ### 2024/06/19
 
