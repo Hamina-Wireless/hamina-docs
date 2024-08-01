@@ -67,3 +67,32 @@ It is best practice to design wireless networks to meet a set of requirements, s
 {% hint style="warning" %}
 In some environments, enabling Full building propagation may cause significant performance problems. Enable it with care, and disable if needed.
 {% endhint %}
+
+## **Heatmap Calculations**
+
+Hamina Network Planner keeps planning fast, smooth and responsive by calculating heatmaps in stages. The first stage is a relatively low-resolution heatmap, so you get instant (or near-instant) results. Then, Hamina Network Planner opportunistically calculates successively higher-resolution heatmaps until it was reached the maximum resolution for the browser window.
+
+<div align="center">
+
+<figure><img src="../.gitbook/assets/heatmaps-calculating.gif" alt="" width="563"><figcaption><p>In this example, you can see the stages of heatmap calculation. When all APs are selected, notice that the second stage (when the progress bar is about 1/8th complete) is already high-enough resolution for analysis.</p></figcaption></figure>
+
+</div>
+
+### Heatmap Progress Bar
+
+The progress of this calculation is represented with a blue **Heatmap Progress Bar** along the top of Hamina Network Planner. The progress bar will disappear when the maximum resolution heatmap is completed. It will also reset whenever the calculations start over, for example by changing the viewport or the predictive model.
+
+<figure><img src="../.gitbook/assets/progress-bar.gif" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+In almost all cases, _you don't need to wait for the Heatmap Progress Bar to finish_. In most projects, the first couple of stages will give you plenty of resolution to make decisions, and potentially move on to the next design task.
+{% endhint %}
+
+The calculation is optimized for the **current viewport**, which is the part of the map that is currently visible in Hamina Network Planner. The viewport changes as you pan and zoom around the project.
+
+Hamina Network Planner will reset heatmap calculations whenever the viewport changes (e.g., by panning and zooming), or whenever the predictive model changes (e.g. by moving an access point or placing a wall). Heatmap calculation is automatically reset and started, so you don't have to think about it - just plan, and we'll take care of the heatmaps for you.
+
+{% hint style="info" %}
+If you'd like to quickly get a high-resolution heatmap for a specific area, zoom in on it.
+{% endhint %}
+

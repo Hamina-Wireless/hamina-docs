@@ -4,6 +4,50 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 # 🗒️ Release Notes
 
+### 2024/07/31
+
+Finnish summer vacations are coming to an end, and the product and engineering team is trickling back into the office! You know what that means: it's time for a production push!
+
+**Improvements** ✨
+
+*   Back in the day, access points were simple; they had one or two radios and an Ethernet port. These days, they're pretty complicated! Many access points can switch a radio to a different band. Some access points have both an internal antenna, external antennas that come in the box, or the ability to use a completely custom 3rd party antenna. Other APs even have the ability to split up a radio into multiple radios with less spatial streams! To better support this, we've introduced the new **Modes** menu for access points that need it. When you select an access point, if the AP has multiple software-configurable or hardware-configurable modes available, the "Modes" menu will appear. In some cases, the Modes menu adjusts the beamwidth of the built-in antennas, which type of antenna should be used (such as internal and external), or what frequency bands the radios should be configured to use. It cleans up the AP list a lot, and lays the groundwork for more AP configurations options.\
+
+
+    <figure><img src="../.gitbook/assets/mode.png" alt=""><figcaption></figcaption></figure>
+*   We changed behavior of the blue progress bar at the top of Hamina Network Planner, which shows the current heatmap calculation progress. Hamina keeps things super-fast by calculating a low-resolution heatmap first, and then iterating through higher resolution heatmaps until things are "pixel perfect". We also focus calculations on the current viewport, so when it moves (e.g. you pan or zoom), we need to restart the heatmap calculation. This is also true if you change the model (e.g. add a wall or move an AP). Previously, we added the new progress to the remainder of the progress bar, which had the unintended side effect of making it look like it had frozen. Now, we just reset the whole progress bar, which we hope will make it more obvious what Hamina Network Planner is doing.\
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/resetting-progress (1).gif" alt=""><figcaption></figcaption></figure>
+
+    </div>
+* For the Live View feature preview, we added Wi-Fi and non-Wi-Fi Utilization heatmaps for the vendors that support it. If the connected infrastructure vendor supports it, you'll find **Wi-Fi** and **non-Wi-Fi** checkboxes under the **Utilization** in the **Heatmap settings** menu.
+* In the Live View feature preview, we improved the Channel Utilization heatmaps by showing nothing instead of green when there's no data.
+* Previous in the Live View when the Channel Utilization heatmap was displayed, filtering would be applied based on the AP selection. Filtering down to specific APs could create misleading heatmaps, so we disabled the filtering (but just for the Channel Utilization heatmap).
+* The Live View Channel Utilization heatmap now has an extra shade of green to help tell coverage cells apart.
+* In PDF reports, on the **AP Placement** page, we bumped up the render resolution. This means the report will take slightly longer, but the higher-resolution image will help out AP installers in large buildings.
+* When exporting an OpenIntent schema file, we added the name of the project to the filename to make it easier to recognize.
+* We updated the styling and content on the project start page, including links to helpful videos and the knowledgebase.
+* The styling for the **Display patterns** dialogue box has been updated.
+* The walrus. It has changed. What does that mean? It's up to you to find out.
+
+**Bugfixes** 🔧
+
+* When viewing Interference for survey results, the mouseover inspector would randomly not list access points. That is fixed!
+* In the Live View feature preview, we were accidentally pulling adjacent floors in from the Simulation tab. Oops! Not anymore.
+* This isn't _exactly_ a bug, but it feels a bit like one: In the Live View feature preview, once you connected your project to some infrastructure to get the Live View, automatic channel planning would be turned off for the simulation. Now, automatic channel planning will happily work alongside the Live View in the same project.
+* The Capacity Planner was allowing clients to associate to disabled radios. LOL, yeah uhhhh that's not right. We made right.
+* In the Survey tab, holding `Shift` didn't disable snapping for the **Scale** tool. It works as expected, now!
+
+**APs and Antennas** 📶
+
+* From Huawei, we added the AP160, AP263, AP,362, AP661, and AP761.
+* From Ubiquiti, we hadded the U7 Pro Max, U7 Pro Wall, and U7 Pro Outdoor.
+* We cleaned up the Ubiquiti access point names, so they all have a consistent naming convention in Hamina Network Planner.
+* As part of the new access point modes feature, we added a Custom Antenna mode to the Ubiquiti UniFi AC Mesh.
+* We corrected the orientation of the Ventev M6060040O1D42420L.
+
 ### 2024/06/19
 
 **Improvements**
