@@ -10,7 +10,11 @@ description: >-
 
 Access heatmap options by clicking on the **Heatmaps** drop-down menu at the top of Hamina. You can choose the **Technology**, **Heatmap**, and **Band** (for Wi-Fi). The **Adjust requirements** link at the bottom opens the **Adjust Requirements pane**.
 
+<div align="left">
+
 <figure><img src="../.gitbook/assets/heatmap_menu.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
 
 ### Heatmaps
 
@@ -41,13 +45,21 @@ Access heatmap options by clicking on the **Heatmaps** drop-down menu at the top
 
 With any Technology and Heatmap selected, click the **Adjust requirements** link, or click on the **Heatmap Legend** in the lower left, which will open the **Adjust requirements pane** on the right.
 
+<div align="left">
+
 <figure><img src="../.gitbook/assets/show_requirements_pane.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
 
 ### Heatmap Thresholds
 
 To divide the heatmaps into multiple colors, Hamina Network Planner uses configurable thresholds. By default, there are three thresholds which divide the heatmap into colors, which have labels.
 
+<div align="left">
+
 <figure><img src="../.gitbook/assets/thresholds (1).png" alt="" width="295"><figcaption></figcaption></figure>
+
+</div>
 
 The labels can be renamed in the column on the left, and the thresholds can be changed and deleted using the column on the right. Click the **Add a threshold** button on the bottom to add thresholds back in. The maximum amount of thresholds is three, and the minimum is one.
 
@@ -57,7 +69,11 @@ It is best practice to design wireless networks to meet a set of requirements, s
 
 ### Global Heatmap Settings
 
+<div align="left">
+
 <figure><img src="../.gitbook/assets/adjust_requirements_pane.png" alt="" width="295"><figcaption></figcaption></figure>
+
+</div>
 
 * **Opacity** - Adjusts the opacity of the heatmap, which can be adjusted lower to make the map underneath the heatmap easier to see, or adjusted higher to make the heatmap easier to see.
 * **Client height** - Adjusts the height of the client devices in the network simulation. By default, Hamina Network Planner simulates a client that is 1 meter off the ground (which is the average height of a client in a user's hand, or on a desk).
@@ -72,7 +88,7 @@ In some environments, enabling Full building propagation may cause significant p
 
 Hamina Network Planner keeps planning fast, smooth and responsive by calculating heatmaps in stages. The first stage is a relatively low-resolution heatmap, so you get instant (or near-instant) results. Then, Hamina Network Planner opportunistically calculates successively higher-resolution heatmaps until it was reached the maximum resolution for the browser window.
 
-<div align="center">
+<div align="left">
 
 <figure><img src="../.gitbook/assets/heatmaps-calculating.gif" alt="" width="563"><figcaption><p>In this example, you can see the stages of heatmap calculation. When all APs are selected, notice that the second stage (when the progress bar is about 1/8th complete) is already high-enough resolution for analysis.</p></figcaption></figure>
 
