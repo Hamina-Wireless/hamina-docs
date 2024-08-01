@@ -43,10 +43,10 @@ Finnish summer vacations are coming to an end, and the product and engineering t
 **APs and Antennas** 📶
 
 * From Huawei, we added the AP160, AP263, AP,362, AP661, and AP761.
-* From Ubiquiti, we hadded the U7 Pro Max, U7 Pro Wall, and U7 Pro Outdoor.
+* From Ubiquiti, we added the U7 Pro Max, U7 Pro Wall, and U7 Pro Outdoor.
 * We cleaned up the Ubiquiti access point names, so they all have a consistent naming convention in Hamina Network Planner.
 * As part of the new access point modes feature, we added a Custom Antenna mode to the Ubiquiti UniFi AC Mesh.
-* We corrected the orientation of the Ventev M6060040O1D42420L.
+* We corrected the orientation of the Ventev M6060040O1D42420L. Thanks to Dennis and Jeremy for the heads-up!
 
 ### 2024/06/19
 
