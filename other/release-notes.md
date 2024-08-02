@@ -71,9 +71,9 @@ Finnish summer vacations are coming to an end, and the product and engineering t
   * AP362
   * AP661
   * AP761
-  * Huawei AirEngine 5776-26
-  * Huawei AirEngine 6776-57T
-  * Huawei AirEngine 6776-56TP
+  * AirEngine 5776-26
+  * AirEngine 6776-57T
+  * AirEngine 6776-56TP
 * LANCOM
   * LX-6200E
 * Ubiquiti
