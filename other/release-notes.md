@@ -42,8 +42,51 @@ Finnish summer vacations are coming to an end, and the product and engineering t
 
 **APs and Antennas** 📶
 
-* From Huawei, we added the AP160, AP263, AP,362, AP661, and AP761.
-* From Ubiquiti, we added the U7 Pro Max, U7 Pro Wall, and U7 Pro Outdoor.
+* Aruba
+  * AIO-AP21
+  * AIO-AP22D
+  * AIO-AP32
+  * AIO-AP27
+  * AP-605H
+  * AP-677
+  * AP-675
+  * AP-679
+  * ANT-3x3-5712
+* ASUS
+  * EBR63
+  * EBM68
+  * RT-AX57Go
+* Calix
+  * GigaPro p4
+* Cisco
+  * 2702i
+* Extreme
+  * AP3912i
+  * AP3935i
+* FortiAP
+  * 221E
+* Huawei
+  * AP160
+  * AP263
+  * AP362
+  * AP661
+  * AP761
+  * Huawei AirEngine 5776-26
+  * Huawei AirEngine 6776-57T
+  * Huawei AirEngine 6776-56TP
+* LANCOM
+  * LX-6200E
+* Ubiquiti
+  * U7 Pro Max
+  * U7 Pro Wall
+  * U7 Pro Outdoor
+  * WiFi BaseStation XG
+* Ventev
+  * VN-VLHM6-XD
+  * VN-XLHM6-XD
+* Zyxel
+  * WBE530
+  * NWA130BE
 * We cleaned up the Ubiquiti access point names, so they all have a consistent naming convention in Hamina Network Planner.
 * As part of the new access point modes feature, we added a Custom Antenna mode to the Ubiquiti UniFi AC Mesh.
 * We corrected the orientation of the Ventev M6060040O1D42420L. Thanks to Dennis and Nick for the heads-up!
