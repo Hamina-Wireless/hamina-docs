@@ -36,11 +36,12 @@
 
 * [🔁 Introduction](import-export/introduction.md)
 * [📥 Importing access points](import-export/importing-access-points.md)
+* [🅰️ Arista](import-export/arista.md)
 * [🟠 Aruba Central](import-export/aruba-central.md)
 * [🧬 Cisco Catalyst Center](import-export/cisco-catalyst-center.md)
-* [🌲 Juniper Mist](import-export/juniper-mist.md)
 * [💬 Cisco Meraki](import-export/cisco-meraki.md)
 * [🏂 ExtremeCloud IQ](import-export/extremecloud-iq.md)
+* [🌲 Juniper Mist](import-export/juniper-mist.md)
 
 ## 📂 Other
 
