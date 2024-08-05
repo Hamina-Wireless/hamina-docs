@@ -24,7 +24,7 @@ Finnish summer vacations are coming to an end, and the product and engineering t
     </div>
 * For the Live View feature preview, we added Wi-Fi and non-Wi-Fi Utilization heatmaps for the vendors that support it. If the connected infrastructure vendor supports it, you'll find **Wi-Fi** and **non-Wi-Fi** checkboxes under the **Utilization** in the **Heatmap settings** menu.
 * In the Live View feature preview, we improved the Channel Utilization heatmaps by showing nothing instead of green when there's no data.
-* Previous in the Live View when the Channel Utilization heatmap was displayed, filtering would be applied based on the AP selection. Filtering down to specific APs could create misleading heatmaps, so we disabled the filtering (but just for the Channel Utilization heatmap).
+* Previously in the Live View when the Channel Utilization heatmap was displayed, filtering would be applied based on the AP selection. Filtering down to specific APs could create misleading heatmaps, so we disabled the filtering (but just for the Channel Utilization heatmap).
 * The Live View Channel Utilization heatmap now has an extra shade of green to help tell coverage cells apart.
 * In PDF reports, on the **AP Placement** page, we bumped up the render resolution. This means the report will take slightly longer, but the higher-resolution image will help out AP installers in large buildings.
 * When exporting an OpenIntent schema file, we added the name of the project to the filename to make it easier to recognize.
@@ -37,7 +37,7 @@ Finnish summer vacations are coming to an end, and the product and engineering t
 * When viewing Interference for survey results, the mouseover inspector would randomly not list access points. That is fixed!
 * In the Live View feature preview, we were accidentally pulling adjacent floors in from the Simulation tab. Oops! Not anymore.
 * This isn't _exactly_ a bug, but it feels a bit like one: In the Live View feature preview, once you connected your project to some infrastructure to get the Live View, automatic channel planning would be turned off for the simulation. Now, automatic channel planning will happily work alongside the Live View in the same project.
-* The Capacity Planner was allowing clients to associate to disabled radios. LOL, yeah uhhhh that's not right. We made right.
+* The Capacity Planner was allowing clients to associate to disabled radios. LOL, yeah uhhhh that's not right. We made it right.
 * In the Survey tab, holding `Shift` didn't disable snapping for the **Scale** tool. It works as expected, now!
 
 **APs and Antennas** 📶
