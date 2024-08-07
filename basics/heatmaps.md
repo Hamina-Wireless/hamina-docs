@@ -88,6 +88,13 @@ In some environments, enabling Full building propagation may cause significant p
 
 Hamina Network Planner keeps planning fast, smooth and responsive by calculating heatmaps in stages. The first stage is a relatively low-resolution heatmap, so you get instant (or near-instant) results. Then, Hamina Network Planner opportunistically calculates successively higher-resolution heatmaps until it was reached the maximum resolution for the browser window.
 
+Lower-resolution stages can produce two side effects:
+
+* Blocky and less-detailed heatmaps
+* "Holes" in coverage areas such as warehouse aisles
+
+In most cases, these side effects either don't appear, or simply don't matter. In some cases (such as with warehouse aisles), it is necessary to let Hamina Network Planner calculate higher-resolution heatmaps (by simply letting Hamina sit idle for a moment, so it can complete the calculations).
+
 <div align="left">
 
 <figure><img src="../.gitbook/assets/heatmaps-calculating.gif" alt="" width="563"><figcaption><p>In this example, you can see the stages of heatmap calculation. When all APs are selected, notice that the second stage (when the progress bar is about 1/8th complete) is already high-enough resolution for analysis.</p></figcaption></figure>
@@ -96,7 +103,7 @@ Hamina Network Planner keeps planning fast, smooth and responsive by calculating
 
 ### Heatmap Progress Bar
 
-The progress of this calculation is represented with a blue **Heatmap Progress Bar** along the top of Hamina Network Planner. The progress bar will disappear when the maximum resolution heatmap is completed. It will also reset whenever the calculations start over, for example by changing the viewport or the predictive model.
+The progress of this calculation is represented with a blue **Heatmap Progress Bar** along the top of Hamina Network Planner. The progress bar will disappear when the maximum resolution heatmap is completed. It will also reset whenever the calculations start over, for example by changing the viewport or modifying the predictive model (in other words, modifying walls, attenuating objects, or access points).
 
 <figure><img src="../.gitbook/assets/progress-bar.gif" alt=""><figcaption></figcaption></figure>
 
