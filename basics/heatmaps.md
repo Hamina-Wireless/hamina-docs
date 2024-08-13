@@ -119,3 +119,36 @@ Hamina Network Planner will reset heatmap calculations whenever the viewport cha
 If you'd like to quickly get a high-resolution heatmap for a specific area, zoom in on it.
 {% endhint %}
 
+## **Fast Ray Tracing**
+
+Hamina Network Planner Plus includes the option to calculate heatmaps with Fast Ray Tracing, which simulate the effects of diffraction and refraction.
+
+Since FRT (Fast Ray Tracing) heatmaps can take more time to calculate, the heatmap calculation is manually triggered by clicking the **Compute FRT heatmap** button directly underneath the **Camera** and **Layer** controls on the right of the map view.
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/fast-ray-tracing-button.png" alt="" width="563"><figcaption></figcaption></figure>
+
+</div>
+
+To disable the FRT heatmap, click the **Compute FRT heatmap** button again.
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/fast-ray-tracing.gif" alt="" width="360"><figcaption></figcaption></figure>
+
+</div>
+
+### Adjusting Diffraction and Refraction Effects
+
+The intensity of simulated diffraction and refraction effects can be adjusted to simulate more or less reflective environments using the **Simulated diffraction and reflection effects** slider.
+
+The slider is located in the **Adjust Requirements pane** (which can also be thought of as the **Heatmap Settings pane**), under **Show more**.
+
+<div align="left">
+
+<figure><img src="../.gitbook/assets/diffraction-and-refraction-effects.png" alt="" width="375"><figcaption></figcaption></figure>
+
+</div>
+
+We recommend starting with setting `3`, comparing with measurements in the environment (such as a full site survey, or spot-checks from a client device), and adjusting it up or down until the reflectivity more closely matches the real-world measurement.
