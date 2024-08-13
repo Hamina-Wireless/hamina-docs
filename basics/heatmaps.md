@@ -159,7 +159,7 @@ To disable the FRT heatmap, click the **Compute FRT heatmap** button again.
 
 The intensity of simulated diffraction and refraction effects can be adjusted to simulate more or less reflective environments using the **Simulated diffraction and reflection effects** slider.
 
-The slider is located in the [**Adjust Requirements**](https://docs.hamina.com/planner/basics/heatmaps#adjusting-requirements) **pane** (which can also be thought of as the **Heatmap Settings pane**), under **Show more**.
+The slider is located in the [**Adjust Requirements pane**](heatmaps.md#heatmap-settings), under **Show more**.
 
 <div align="left">
 
