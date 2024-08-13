@@ -80,13 +80,13 @@ It is best practice to design wireless networks to meet a set of requirements, s
 * **Opacity** - Adjusts the opacity of the heatmap, which can be adjusted lower to make the map underneath the heatmap easier to see, or adjusted higher to make the heatmap easier to see.
 * **Client height** - Adjusts the height of the client devices in the network simulation. By default, Hamina Network Planner simulates a client that is 1 meter off the ground (which is the average height of a client in a user's hand, or on a desk).
 
-#### Fast ray tracing
+#### Fast ray tracing settings
 
 * **Simulated diffraction and reflection effects** (Hamina Planner Plus only) - Adjusts the intensity of Fast Ray Tracing effects. For more information, see  [#fast-ray-tracing](heatmaps.md#fast-ray-tracing "mention").
+
+#### Other settings
+
 * **Display heatmap at client height** (3D only) - In 3D mode, by default, Hamina Network Planner places the heatmap on the floor. Enabling this option causes the heatmap to hover off the floor at the height of the client, which may be useful for visualization purposes. This option is only available in 3D.
-
-#### Other options
-
 * **Full Building Propagation (Beta)** - Without this option enabled, Hamina Network Planner only calculates propagation for the current floor, and the floors above and below the current floor. This usually provides a good balance of speed and accuracy, as most buildings don't see significant signal propagation beyond one floor in either vertical direction. With this option enabled, signal propagation is calculated across all floors in the building, which can be useful for multi-floor atriums, theaters, and stadiums.&#x20;
 
 {% hint style="warning" %}
