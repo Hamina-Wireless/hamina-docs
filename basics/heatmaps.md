@@ -8,11 +8,11 @@ description: >-
 
 ## Selecting Heatmaps
 
-Access heatmap options by clicking on the **Heatmaps** drop-down menu at the top of Hamina. You can choose the **Technology**, **Heatmap**, and **Band** (for Wi-Fi). The **Adjust requirements** link at the bottom opens the **Adjust Requirements pane**.
+You can access heatmap options by clicking on the **Heatmaps** drop-down menu at the top of Hamina. You can choose the **Technology**, **Heatmap**, and **Band** (for Wi-Fi). The **Adjust requirements** link at the bottom opens the **Adjust Requirements pane**.
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/heatmap_menu.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/heatmap-menu.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -47,7 +47,7 @@ With any Technology and Heatmap selected, click the **Adjust requirements** link
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/show_requirements_pane.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/heatmap-settings.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -57,7 +57,7 @@ To divide the heatmaps into multiple colors, Hamina Network Planner uses configu
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/thresholds (1).png" alt="" width="295"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/heatmap-thresholds.png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -67,21 +67,37 @@ The labels can be renamed in the column on the left, and the thresholds can be c
 It is best practice to design wireless networks to meet a set of requirements, such as -65 dBm of coverage, or better. Using the Hamina default labels as an example: **High** (-65 dBm or better) is usually considered a Pass, while everything below -65 dBm (**Decent**, **Low**, and **Edge**) is considered a Fail.
 {% endhint %}
 
-### Global Heatmap Settings
+### Heatmap Settings
 
 <div align="left">
 
-<figure><img src="../.gitbook/assets/adjust_requirements_pane.png" alt="" width="295"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/adjust-requirements.png" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 
+#### **Global Heatmap Settings**
+
 * **Opacity** - Adjusts the opacity of the heatmap, which can be adjusted lower to make the map underneath the heatmap easier to see, or adjusted higher to make the heatmap easier to see.
 * **Client height** - Adjusts the height of the client devices in the network simulation. By default, Hamina Network Planner simulates a client that is 1 meter off the ground (which is the average height of a client in a user's hand, or on a desk).
+
+#### Fast ray tracing
+
+* **Simulated diffraction and reflection effects** (Hamina Planner Plus only) - Adjusts the intensity of Fast Ray Tracing effects. For more information, see  [#fast-ray-tracing](heatmaps.md#fast-ray-tracing "mention").
 * **Display heatmap at client height** (3D only) - In 3D mode, by default, Hamina Network Planner places the heatmap on the floor. Enabling this option causes the heatmap to hover off the floor at the height of the client, which may be useful for visualization purposes. This option is only available in 3D.
+
+#### Other options
+
 * **Full Building Propagation (Beta)** - Without this option enabled, Hamina Network Planner only calculates propagation for the current floor, and the floors above and below the current floor. This usually provides a good balance of speed and accuracy, as most buildings don't see significant signal propagation beyond one floor in either vertical direction. With this option enabled, signal propagation is calculated across all floors in the building, which can be useful for multi-floor atriums, theaters, and stadiums.&#x20;
 
 {% hint style="warning" %}
 In some environments, enabling Full building propagation may cause significant performance problems. Enable it with care, and disable if needed.
+{% endhint %}
+
+* **List all APs on mouseover** - By default, the Legend only shows the loudest AP on most heatmaps. With this option enabled, all access points will be listed on mouseover.
+* **Auto-select prediction input** - By default, Hamina chooses which model to use for prediction: **Walls + objects**, **environment type**, or **environment learning**. By disabling this option, you can manually choose which model Hamina should use in both the **Simulation tab** and **Live tab**.&#x20;
+
+{% hint style="info" %}
+The Live View is currently available as a <mark style="color:red;">**Feature Preview**</mark> for Hamina Network Planner Plus subscribers. [See the release notes](https://docs.hamina.com/planner/other/release-notes#id-2024-06-18) for more information about the Feature Preview.
 {% endhint %}
 
 ## **Heatmap Calculations**
