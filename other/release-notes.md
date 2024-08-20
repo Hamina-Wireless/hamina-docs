@@ -4,6 +4,60 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 # 🗒️ Release Notes
 
+### 2024/08/20
+
+**New Features and Improvements ✨**
+
+*   Hamina Network Planner can now **Auto-plan APs**!\
+
+
+    <figure><img src="../.gitbook/assets/auto-plan-aps-menu.png" alt=""><figcaption></figcaption></figure>
+
+    In the Auto-plan APs pane, can customize your AP as usual including colors, naming conventions (with variables for names), height, and everything else that you're used to customizing. Then, you can choose any omni-directional AP, or any AP with an external omni-directional antenna, and click the **Start the auto-plan** button. Sit back and relax as Hamina Network Planner paints your heatmap green! To learn more, check out the Access Points article, coming soon.\
+
+
+    <figure><img src="../.gitbook/assets/auto-plan-aps.gif" alt=""><figcaption></figcaption></figure>
+*   **Layer controls** are now availabling in the Survey tab! You can toggle things on and off including access points, labels (including numbers and names), notes, and survey paths.\
+
+
+    <figure><img src="../.gitbook/assets/layers-menu-in-survey-tab.png" alt=""><figcaption></figcaption></figure>
+*   Hamina Network Planner now features the Windows Laptop client device type! Normally, we add clients by consulting the vendor and getting the exact roaming behaviors from the source. In this case, we "brute-forced" it by simulating thousands of roaming events with common Intel chipsets, and then analyzing the data to find the behavior patterns. We think the result gets us (and you) a solid simulation of when we think Windows clients with Intel chipsets will roam, and how they will decide where to roam.\
+
+
+    <figure><img src="../.gitbook/assets/windows-client-roam.png" alt=""><figcaption></figcaption></figure>
+* In the Feature Preview for the Live view, environment learning is now supported for Arista networks!
+* Since it is pretty tough to get 250 Mbps with a 20 MHz channel (unless you are within a few meters of the AP), we dropped the default green threshold from 250 to 200 Mbps in the Data Rate heatmap.
+* We combined **Preferences**, **Teams**, **Billing & subscription**, and **Feature preview** into a new **Settings** modal, which makes things feel cleaner and more connected.
+
+**Bugfixes 🪲**
+
+* We fixed a weird bug that caused PoE consumption calculations to differ between web reports and PDF reports. They match, now!
+* Paying for Hamina would immediately reward the user with a bug! The Subscriptions page wouldn't pop back up like it was supposed to. Now, we reward paying customers by making the Subscriptions page re-appear properly. Oh yeah, we're gooooood.
+* Hamina Network Planner Lite users couldn't switch interference sources between **My network** and **All networks**. That wasn't on purpose, so we fixed it.
+* Dan found a weird bug where sloped floor transparencies would break in 3D. We fixed it, and we hope that Dan is happy.
+
+**APs and Antennas**
+
+* Askey EAI2308P
+* Baicells Nova436Q
+* EnGenius EWS850-FIT
+* Fortinet
+  * Added 432G custom antennas mode
+  * FANT-04ACAX-0606-D
+* Huawei AP361
+* Siemens
+  * ANT795-6DC
+  * ANT795-6MP
+  * ANT795-4MX
+  * ANT793-8DP
+* Ubiquiti
+  * Swiss Army Knife
+  * External Omni Antennas (for Swiss Army Knife)
+  * External Panel Antenna (for Swiss Army Knife)
+  * U7 Outdoor external omni antenna mode
+* We updated the datasheet peak gain for the Nile NWA1000.
+* We added the datasheet peak gains for the Calix u6t and u6txg
+
 ### 2024/07/31
 
 Finnish summer vacations are coming to an end, and the product and engineering team is trickling back into the office! You know what that means: it's time for a production push!
