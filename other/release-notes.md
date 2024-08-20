@@ -13,7 +13,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
     <figure><img src="../.gitbook/assets/auto-plan-aps-menu.png" alt=""><figcaption></figcaption></figure>
 
-    In the Auto-plan APs pane, can customize your AP as usual including colors, naming conventions (with variables for names), height, and everything else that you're used to customizing. Then, you can choose any omni-directional AP, or any AP with an external omni-directional antenna, and click the **Start the auto-plan** button. Sit back and relax as Hamina Network Planner paints your heatmap green! To learn more, check out the Access Points article, coming soon.\
+    In the Auto-plan APs pane, can customize your AP as usual including colors, naming conventions (with variables for names), height, and everything else that you're used to customizing. Then, you can choose any omni-directional AP, or any AP with an external omni-directional antenna, and click the **Start the auto-plan** button. Sit back and relax as Hamina Network Planner paints your heatmap green! To learn more, check out the [Auto-Plan APs](https://docs.hamina.com/planner/design/auto-plan-aps) article.\
 
 
     <figure><img src="../.gitbook/assets/auto-plan-aps.gif" alt=""><figcaption></figcaption></figure>
