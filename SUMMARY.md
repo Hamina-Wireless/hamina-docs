@@ -17,6 +17,7 @@
 ## ⚡ Design
 
 * [🖊️ Edit](design/edit.md)
+* [✨ Auto-Plan APs Tool](design/auto-plan-aps.md)
 * [📶 Access Points](design/access-points.md)
 * [📺 Channel Planning](design/channel-planning.md)
 * [🚚 Capacity Planning](design/capacity-planning.md)
