@@ -13,6 +13,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
     <figure><img src="../.gitbook/assets/auto-plan-aps-menu.png" alt=""><figcaption></figcaption></figure>
 
+    \
     In the Auto-plan APs pane, can customize your AP as usual including colors, naming conventions (with variables for names), height, and everything else that you're used to customizing. Then, you can choose any omni-directional AP, or any AP with an external omni-directional antenna, and click the **Start the auto-plan** button. Sit back and relax as Hamina Network Planner paints your heatmap green! To learn more, check out the [Auto-Plan APs](https://docs.hamina.com/planner/design/auto-plan-aps) article.\
 
 
@@ -56,7 +57,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
   * External Panel Antenna (for Swiss Army Knife)
   * U7 Outdoor external omni antenna mode
 * We updated the datasheet peak gain for the Nile NWA1000.
-* We added the datasheet peak gains for the Calix u6t and u6txg
+* We added the datasheet peak gains for the Calix u6t and u6txg.
 
 ### 2024/07/31
 
