@@ -18,7 +18,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 
     <figure><img src="../.gitbook/assets/auto-plan-aps.gif" alt=""><figcaption></figcaption></figure>
-*   **Layer controls** are now availabling in the Survey tab! You can toggle things on and off including access points, labels (including numbers and names), notes, and survey paths.\
+*   **Layer controls** are now available in the Survey tab! You can toggle things on and off including access points, labels (including numbers and names), notes, and survey paths.\
 
 
     <figure><img src="../.gitbook/assets/layers-menu-in-survey-tab.png" alt=""><figcaption></figcaption></figure>
