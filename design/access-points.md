@@ -163,9 +163,9 @@ A **Resolved Name** is the final name of the access point, after the text and va
 
 </div>
 
-### Display Patterns
+### Variables
 
-Display Patterns are variables that you can use to automatically populate the names of access points, switches, and PoE clients. Hamina Network Planner will automatically replace Display Patterns with text and numbers when the name resolves. For example, the `${number}` field is populated with the access point number.
+You can use Variables to automatically populate the names of access points, switches, and PoE clients. Hamina Network Planner will automatically replace variables with text and numbers when the name resolves. For example, the `${number}` field is populated with the access point number.
 
 <div align="left">
 
@@ -173,7 +173,7 @@ Display Patterns are variables that you can use to automatically populate the na
 
 </div>
 
-Display patterns:
+Variables:
 
 * `${project}` - The name of the project.
 * `${make}` - The make/vendor of the access point.
@@ -182,7 +182,7 @@ Display patterns:
 * `${number}` - The unique number, as assigned by Hamina Network Planner.
 * `${switch}` - The switch that the AP is connected too.
 
-You can view all of the display patterns and modifiers directly in Hamina Network Planner by clicking the **?** button inside the **Access Point Name** field.
+You can view all of the variables and modifiers directly in Hamina Network Planner by clicking the **?** button inside the **Access Point Name** field.
 
 <figure><img src="../.gitbook/assets/display-patterns.png" alt=""><figcaption></figcaption></figure>
 
@@ -191,10 +191,10 @@ You can view all of the display patterns and modifiers directly in Hamina Networ
 Access points can be renamed one at a time, in a manual selection, or all at once (for all access points on the current map).
 
 {% hint style="success" %}
-While editing single access point names is possible, we recommend selecting all access points on the map, and editing them at the same time using display patterns.
+While editing single access point names is possible, we recommend selecting all access points on the map, and editing them at the same time using variables.
 {% endhint %}
 
 1. Use the Edit tool to select all of the access points on the current map (usually with `command` + `A` or `Ctrl` + `A`, and then clicking the Access points filter at the top).
 2. Locate the **Access Point Name** field in the **Edit Access Point** pane on the right.
-3. Enter a new name, including display patterns/variables.
+3. Enter a new name, including variables.
 4. All of the access points will now be renamed, according to the new naming convention that you have applied.
