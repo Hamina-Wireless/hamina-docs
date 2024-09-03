@@ -40,9 +40,9 @@ Some tools are grouped together. Press the **>** button to see the group, and se
 
 
 
-#### Tool Hotkeys (Keyboard Shortcuts)
+#### Tool Hotkeys
 
-Individual tools can be selected with a single keyboard hotkey press.&#x20;
+Individual tools can be selected with a single keyboard hotkey (shortcut) press.&#x20;
 
 {% content-ref url="keyboard-shortcuts-hotkeys.md" %}
 [keyboard-shortcuts-hotkeys.md](keyboard-shortcuts-hotkeys.md)
