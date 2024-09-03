@@ -38,9 +38,9 @@ Some tools are grouped together. Press the **>** button to see the group, and se
 
 </div>
 
-#### Tool Hotkeys
+#### Tool Hotkeys (Keyboard Shortcuts)
 
-Individual tools can be selected with a single hotkey press.&#x20;
+Individual tools can be selected with a single keyboard hotkey press.&#x20;
 
 {% hint style="info" %}
 For tools in groups, toggle through all of them by repeatedly pressing the hotkey.
