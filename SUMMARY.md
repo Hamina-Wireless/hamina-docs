@@ -3,7 +3,8 @@
 ## 🖱️ Basics
 
 * [🚀 Getting Started](README.md)
-* [🌍 Overview](basics/overview.md)
+* [🌍 Overview](basics/overview/README.md)
+  * [Keyboard Shortcuts (Hotkeys)](basics/overview/keyboard-shortcuts-hotkeys.md)
 * [📂 Creating and Managing Projects](basics/creating-and-managing-projects.md)
 * [🗺️ Panning and Zooming Maps](basics/panning-zooming.md)
 * [🏭 Managing Maps and Floors](basics/maps-floors.md)
