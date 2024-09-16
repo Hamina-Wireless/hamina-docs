@@ -4,6 +4,21 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 # 🗒️ Release Notes
 
+### 2024/09/10
+
+**New Features and Improvements ✨**
+
+* We _did_ improve some things, but it's all behind-the-scenes preparation for upcoming features, so there's really nothing to see here.\
+  \
+  ![](../.gitbook/assets/please-disperse.webp)
+
+**Access Points and Antennas**
+
+* EnGenius ECW526
+* LANCOM OW-602
+* Meraki MR32
+* Added dual 5 GHz modes for the Cisco 9120AXE 2x Trout and 2x Patch antennas
+
 ### 2024/08/20
 
 **New Features and Improvements ✨**
