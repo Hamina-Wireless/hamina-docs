@@ -10,7 +10,14 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 * We _did_ improve some things, but it's all behind-the-scenes preparation for upcoming features, so there's really nothing to see here.\
   \
-  ![](../.gitbook/assets/please-disperse.webp)
+  ![](../.gitbook/assets/please-disperse.webp)\
+
+* No wait, hang on, there was one thing. We renamed "Display Patterns" to "Variables".
+
+**Bugfixes**
+
+* In some cases, the mouseover inspector for the interference heatmap in survey mode wouldn't list all of the APs. That's fixed.
+* In the survey tab, selecting an AP and switching to a different floor was broken; Planner would show all access points as if nothing was selected.
 
 **Access Points and Antennas**
 
