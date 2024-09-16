@@ -12,7 +12,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
   \
   ![](../.gitbook/assets/please-disperse.webp)\
 
-* No wait, hang on, there was one thing. We renamed "Display Patterns" to "Variables".
+* No wait, hang on, there was one thing. We renamed "Display Patterns" to "Variables", which is a system for dynamically renaming access points, switches, and wired clients. [It's worth checking out](https://docs.hamina.com/planner/design/access-points#renaming-access-points), if you aren't familiar with it already.
 
 **Bugfixes**
 
