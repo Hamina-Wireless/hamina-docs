@@ -4,6 +4,28 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 # 🗒️ Release Notes
 
+### 2024/09/19
+
+**New Features and Improvements ✨**
+
+* Zigbee and EnOcean now get their own sections in reports! Previously, reports could only include sections for Wi-Fi, Bluetooth, and 4G/5G private cellular networks, but now everything is available.
+* Additionally, we only include sections if that particular technology is included in the project. For example, if you create an EnOcean-only project, it will only have an EnOcean section. If you want to add another technology to the report, just add some Wi-Fi gear to the project.
+* The iPhone client type now includes Wi-Fi 7.
+
+**Bugfixes**
+
+* If an information element in a beacon contained an invalid channel number, it could cause Hamina Onsite to crash. We fixed it over here on the Hamina Network Planner side of things.
+
+**Access Points and Antennas**
+
+* DCN WL8200-X2
+* DCN WL8200-X4
+* DCN WL8200-X10
+* Meraki MR34
+* We added a dual 5-GHz option to the Extreme AP510i.
+* Aruba worked with us to improve the antenna patterns for the Aruba AP-365, AP-565, and AP-567.&#x20;
+* There was a mistake in the Aruba AP-515 and AP-567 "datasheet gain", so we fixed that too.
+
 ### 2024/09/10
 
 **New Features and Improvements ✨**
@@ -24,7 +46,10 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 * EnGenius ECW526
 * LANCOM OW-602
 * Meraki MR32
-* Added dual 5 GHz modes for the Cisco 9120AXE 2x Trout and 2x Patch antennas
+* Nomadix AP-6RA
+* Nomadix AP-6SA
+* Nomad AP-6WA
+* We also added dual 5 GHz modes for the Cisco 9120AXE 2x Trout and 2x Patch antennas.
 
 ### 2024/08/20
 
