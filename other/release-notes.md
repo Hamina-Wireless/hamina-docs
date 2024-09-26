@@ -4,6 +4,20 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 # 🗒️ Release Notes
 
+### 2024/09/26
+
+**New Features and Improvements**
+
+* There's just one for this round! In the case of dual 5 GHz APs, we added some QBSS Load IE imitation to the capacity planner to help clients more realistically distribute between two radios on the same AP in the simulation.
+
+**Bugfixes**
+
+*   Previously in Hamina Network Planner, there was an indicator of how many APs were on the current map. At some point while working on styling updates and fixes, we accidentally removed it. It's back now!\
+
+
+    <figure><img src="../.gitbook/assets/Screenshot 2024-09-26 at 3.51.39 PM.png" alt=""><figcaption></figcaption></figure>
+* When generating PDF reports, there was a bug that would cause everything after the first image on the Notes page to be missing from the PDF. That's fixed now, your note pages should include all notes and images.
+
 ### 2024/09/19
 
 **New Features and Improvements ✨**
