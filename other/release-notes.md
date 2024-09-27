@@ -57,13 +57,23 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 **Access Points and Antennas**
 
+* Alcatel AP1511
+* Baicells Nova227
+* Baicells Nova430e
+* Baicells Nova430i
+* Baicells Nova442i
+* CyberTAN RAP630C-311G
 * EnGenius ECW526
+* Huawei 5573-23H
 * LANCOM OW-602
 * Meraki MR32
 * Nomadix AP-6RA
 * Nomadix AP-6SA
 * Nomad AP-6WA
 * We also added dual 5 GHz modes for the Cisco 9120AXE 2x Trout and 2x Patch antennas.
+* We corrected the datasheet gain for the Huawei 5762-10.
+* We had the Ubiquiti UAP-AC-Mesh-UMA-D listed as an access point, when it is actually an external antenna. We removed it from the AP list, and added it to the external antenna list as "Directional Antenna (for AC Mesh)".
+* We renamed the CyberTAN EWW631-B1 to RAP630W-311G to match CyberTAN's new model number scheme.
 
 ### 2024/08/20
 
