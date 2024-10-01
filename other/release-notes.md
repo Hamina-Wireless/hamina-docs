@@ -4,6 +4,17 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 # 🗒️ Release Notes
 
+### 2024/09/30
+
+**Bugfixes**
+
+* Oof, we broke the Interference heatmap selector. There was an issue where the checkboxes would be ignored, so we showed everything all of the time. Fixed now!
+
+**Access Points and Antennas**
+
+* Calix 7u10t GigaSpire
+* Calix 7u10txg GigaSpire
+
 ### 2024/09/26
 
 **New Features and Improvements**
