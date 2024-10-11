@@ -4,6 +4,37 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 # 🗒️ Release Notes
 
+### 2024/10/09
+
+**New Features and Improvements**
+
+* We added multi-threading support for calculating heatmaps in Hamina Network Planner, in the report editor, and online report viewer. In our testing on an Apple Silicon MacBook Pro, one of our "torture test" heatmaps went from taking 20 minutes to calculate all stages down to just 4 minutes, a 5x improvement! You should see some improvements too, especially if you have lots of processor cores. How we calculate heatmaps is in stages is a pretty important part of Hamina Network Planner, so we recommend [checking out our article about heatmap calculations](https://docs.hamina.com/planner/basics/heatmaps#heatmap-calculations).
+*   There was a bit of confusion about how the floors stack up in the Multi-floor tool, so we added a little "lowest floor" indicator.\
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/lowest-floor.png" alt="" width="375"><figcaption></figcaption></figure>
+
+    </div>
+
+**Bugfixes**
+
+* Remember the measurement fetching improvements that we made in the last production push? Well... it created a bug where clicking on an AP in an online report would cause the page to refresh. Oops. That's fixed now!
+* Awhile back, we accidentally broke the easter egg inside of the easter egg. The egg in the egg is now fixed. Speaking of which, where _is_ Westcott, anyway?
+* The Calix 7u10t and 7u10txg snuck into an earlier production push with names that didn't quite match the naming convention in Hamina Network Planner, so we corrected them. Everything is all matchy-matchy now.
+
+### 2024/10/03
+
+**New Features and Improvements**
+
+* Ruckus One is now available in the Live View! Remember that the Live View is currently offered as a **Feature Preview**, so it is still a work-in-progress. If you find bugs or have feedback and questions, hit us up at <mark style="color:blue;">**support@hamina.com**</mark>.
+* We tweaked and improved the styling on the Subscriptions page.
+
+**Bugfixes**
+
+* We made some big improvements to how we fetch measurements for survey heatmaps! This fixed a timeout issue for a specific customer, but also improved fetching speeds for everyone else.
+
 ### 2024/09/30
 
 **Bugfixes**
