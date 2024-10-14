@@ -4,6 +4,51 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 # 🗒️ Release Notes
 
+### 2024/10/14
+
+**New Features and Improvements**
+
+* Hamina Network Planner Plus now supports **importing site surveys from NetAlly Link-Live**! You can create site surveys with AirMapper on the AirCheck G2, AirCheck G3, EtherScope, or CyberScope, and import them to Hamina for deep analysis. Note that this functionality (along with the rest of our Import, Export, and Live functions) are still marked as "Beta" for now. If you run into any snags, let us know.&#x20;
+*   This release also adds PDF reporting for site surveys! Just like before, you can choose which SSIDs to include in the **Report settings** (gear icon) in the upper right, pick which survey paths to include on the **Survey Paths** page, and then click **Generate PDF Report**. Part of what enabled this was the multi-threading support for heatmap generation in the last production push.\
+
+
+    <div align="left">
+
+    <figure><img src="../.gitbook/assets/pdf-reports.png" alt="" width="359"><figcaption></figcaption></figure>
+
+    </div>
+* Previously when you had a map in Hamina Network Planner, and a map in your infrastructure vendor's cloud, it was only possible to connect them if the width and height matched. Now, we can match them if the map names are the same.
+
+**Access Points and Antennas**
+
+* AccelTex ATS-OO-2456-466-6
+* AccelTex ATS-OP-2456-13-6
+* AccelTex ATS-OP-2456-7-6
+* AccelTex ATS-OP-2456-8-4
+* AccelTex ATS-OP-2456-8-6
+* AccelTex ATS-OP-2456-81010-6
+* Cisco IW9165E
+* Edgecore SP-W2-AC1200
+* Extreme ML-2452-PTA4M4-036
+* Fortinet 241K
+* Fortinet 243K
+* Intelbras AP3620H
+* LANCOM Airlancer ON-Q30
+* Meraki MR12
+* Meraki MR16
+* Meraki MR66
+* MP Antenna 08-ANT-0937
+* Rajant KMA-2400-5
+* Rajant KMA-5800-6
+* Ventev M3030050O10006CB
+* Ventev M3030050O10049CB
+* Ventev M3030050O20006LP
+* Ventev M7060060D4D3620AP
+* Ventev VI-U2OM-NF
+* Ventev VT-HUHM6-IONF
+* Ventev VY1-VLHM6-ODNF
+* We also added datasheet gains for the Linksys Velop Pro7 and Velop WRT Pro 7.
+
 ### 2024/10/09
 
 **New Features and Improvements**
