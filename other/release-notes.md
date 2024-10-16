@@ -53,7 +53,7 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 **New Features and Improvements**
 
-* We added multi-threading support for calculating heatmaps in Hamina Network Planner, in the report editor, and online report viewer. In our testing on an Apple Silicon MacBook Pro, one of our "torture test" heatmaps went from taking 20 minutes to calculate all stages down to just 4 minutes, a 5x improvement! You should see some improvements too, especially if you have lots of processor cores. How we calculate heatmaps is in stages is a pretty important part of Hamina Network Planner, so we recommend [checking out our article about heatmap calculations](https://docs.hamina.com/planner/basics/heatmaps#heatmap-calculations).
+* We added multi-threading support for calculating heatmaps in Hamina Network Planner, in the report editor, and online report viewer. In our testing on an Apple Silicon MacBook Pro, one of our "torture test" heatmaps went from taking 20 minutes to calculate all stages down to just 4 minutes, a 5x improvement! You should see some improvements too, especially if you have lots of processor cores. How we calculate heatmaps in stages is a pretty important part of Hamina Network Planner, so we recommend [checking out our article about heatmap calculations](https://docs.hamina.com/planner/basics/heatmaps#heatmap-calculations).
 *   There was a bit of confusion about how the floors stack up in the Multi-floor tool, so we added a little "lowest floor" indicator.\
 
 
