@@ -4,6 +4,14 @@ description: Learn about new features, changes, and bug fixes in Hamina Network 
 
 # 🗒️ Release Notes
 
+### 2024/10/18
+
+**New Features and Improvements**
+
+* We implemented a new heatmap progress bar! The light blue line shows overall progress, from the far left to the far right of the browser window. The dark blue line now shows heatmap calculation progress for the the current stage, of which there are several. On smaller designs with a very fast machine, you might not be able to spot the changes at all, but on a larger design or on a slower machine, you can now keep an eye on the dark blue line to see when the calculation for the current stage will complete.
+* To help speed things up more, we dropped the last calculation stage. It was so high resolution that it took more time to calculate than all of the other stages combined, and it was pretty tough to spot the difference between the final stage, and the previous stage.
+* Remember that multi-thread/multi-core support that we added? We found that while Hamina performed amazingly well like this, it seemed to steal a lot of system resources from other applications, like Zoom and Microsoft Teams during video calls. With this release, we now leave one or more cores idle for other applications to use.
+
 ### 2024/10/14
 
 **New Features and Improvements**
